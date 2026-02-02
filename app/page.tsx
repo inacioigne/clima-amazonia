@@ -1,65 +1,89 @@
+import { Card, CardContent } from "@mui/material";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="space-y-12">
+      <section className="bg-line-to-br from-green-50 to-blue-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-3 gap-8 ">
+            <div className="col-span-1 space-y-6">
+              <div className="space-y-2 ">
+                <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">Boletim de monitoramento climático de grandes bacias hidrográficas
+                </h1>
+                <p className="text-xl text-green-700 font-semibold">Bacia Amazônica</p>
+              </div>
+              <div className="space-y-3">
+                <div className="flex flex-wrap gap-3">
+                  <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 inset-ring inset-ring-gray-500/10">
+                    Volume 1 - Número 1
+                  </span>
+                </div>
+                <div className="text-sm text-gray-600 space-y-1">
+                  <p><span className="font-medium">Data de publicação:</span> 29 de janeiro de 2026</p>
+                  <p><span className="font-medium">Periodicidade:</span> Semanal</p>
+                  <p className="font-mono text-xs">ISSN 2764-8273 • DOI 10.51189/bcmgh/2026.3.5</p>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col gap-4 col-span-2">
+              <div className="flex gap-4 justify-between">
+                <div className="w-1/2 h-auto">
+                  <Image
+                    src="/anomalia.png"
+                    alt="Anomalia de precipitação na Bacia Amazônica"
+                    width={500}
+                    height={400}
+                  />
+                </div>
+                <div className="w-1/2 h-auto flex flex-col gap-4">
+                  <Image
+                    src="/acumulado.png"
+                    alt="Anomalia de precipitação na Bacia Amazônica"
+                    width={300}
+                    height={150}
+                  />
+                  <Image
+                    src="/mediana.png"
+                    alt="Anomalia de precipitação na Bacia Amazônica"
+                    width={300}
+                    height={150}
+                  />
+                </div>
+              </div>
+              <div className="w-full">
+                <Image
+                  src="/legendas.png"
+                  alt="legendas"
+                  width={800}
+                  height={300}
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+      <section className="max-w-7xl mx-auto">
+        <div className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900">
+            Condições atuais
+          </h2>
+
+          <Card>
+            <CardContent>
+              <p className="text-gray-700 leading-relaxed text-wrap">
+                Mapas das condições observadas de precipitação e gráficos individuais por bacias são produzidos a partir dos dados MERGE/GPM gerados pelo INPE/CPTEC, considerando como climatologia para período de 2000 a 2025. Entre os dias 30 de dezembro e 28 dejaneiro de 2026, chuvas abaixo da climatologia caracterizaram com déficit de precipitação o curso principal do Rio Amazonas em territórios brasileiro e peruano, bacias hidrográficas dos rios Abacaxis, Aripuanã, Branco, Coari, Curuá Una, Guaporé, Içá, Iriri, Javari, Juruena, Jutaí, Mamoré, bacias da margem esquerda do Rio Amazonas no nordeste e no noroeste do Estado do Pará, Tapajós, Tefé, Teles Pires, Xingu e o curso principal do Rio Solimões; chuvas acima da climatologia registradas sobre as bacias dos rios Marañon, Negro e Ucayali; chuvas próximas da normalidade registradas sobre as bacias hidrográficas dos Beni, Japurá, Ji-Paraná, Juruá, Madeira, bacias da margem esquerda do Rio Amazonas no nordeste do Estado do Amazonas, Napo e Purus. O multimodelo indica para as próximas semanas previsão de chuvas abaixo da climatologia no leste, sudeste e sul da região monitorada, sobre o curso principal do Rio Amazonas em território brasileiro, bacias dos rios Abacaxis, Aripuanã, Beni, Curuá Una, Guaporé, Iriri, Ji-Paraná, Juruena, Mamoré, bacias da margem esquerda do Rio Amazonas no nordeste do Estado do Amazonas e no nordeste e no noroeste do Estado do Pará, Tapajós, Teles Pires e Xingu; previsão de chuvas acima da climatologia no noroeste da região monitorada, sobre o curso principal do Rio Amazonas em território peruano, bacias dos rios Içá, Japurá, Marañon, Napo e Negro.
+              </p>
+
+            </CardContent>
+
+          </Card>
+
+
         </div>
-      </main>
+
+      </section>
+
     </div>
   );
 }
