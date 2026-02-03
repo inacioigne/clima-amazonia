@@ -1,10 +1,46 @@
 import { Card, CardContent } from "@mui/material";
 import Image from "next/image";
+import { ChartBarSquareIcon } from '@heroicons/react/24/outline'
+import Link from "next/link";
+
+const bacias = [
+  'Bacia do Rio Branco',
+  'Bacia do Rio Negro',
+  'Bacia do Rio Ucayali',
+  'Bacia do Rio Napo',
+  'Curso principal do Rio Amazonas (Peru)',
+  'Bacia do Rio Javari',
+  'Bacia do Rio Içá',
+  'Bacia do Rio Jutaí',
+  'Bacia do Rio Juruá',
+  'Bacia do Rio Japurá',
+  'Bacia do Rio Tefé',
+  'Bacia do Rio Coari',
+  'Bacia do Rio Purus',
+  'Curso principal do Rio Solimões',
+  'Bacia do Rio Beni',
+  'Bacia do Rio Mamoré',
+  'Bacia do Rio Guaporé',
+  'Bacia do Rio Ji-Paraná',
+  'Bacia do Rio Aripuanã',
+  'Bacia do Rio Madeira',
+  'Bacias da margem esquerda do Rio Amazonas (Amazonas)',
+  'Bacia do Rio Abacaxis',
+  'Bacia do Rio Juruena',
+  'Bacia do Rio Teles Pires',
+  'Bacia do Rio Tapajós',
+  'Bacias da margem esquerda do Rio Amazonas (noroeste do Pará)',
+  'Bacia do Rio Curuá Una',
+  'Bacias da margem esquerda do Rio Amazonas (nordeste do Pará)',
+  'Bacia do Rio Iriri',
+  'Bacia do Rio Xingu',
+  'Curso principal do Rio Amazonas (Brasil)'
+]
 
 export default function Home() {
   return (
     <div className="space-y-12">
-      <section className="bg-line-to-br from-green-50 to-blue-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+      <section className="bg-linear-to-br from-green-50 to-blue-50 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-3 gap-8 ">
             <div className="col-span-1 space-y-6">
@@ -68,22 +104,44 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-gray-900">
             Condições atuais
           </h2>
-
           <Card>
             <CardContent>
               <p className="text-gray-700 leading-relaxed text-wrap">
                 Mapas das condições observadas de precipitação e gráficos individuais por bacias são produzidos a partir dos dados MERGE/GPM gerados pelo INPE/CPTEC, considerando como climatologia para período de 2000 a 2025. Entre os dias 30 de dezembro e 28 dejaneiro de 2026, chuvas abaixo da climatologia caracterizaram com déficit de precipitação o curso principal do Rio Amazonas em territórios brasileiro e peruano, bacias hidrográficas dos rios Abacaxis, Aripuanã, Branco, Coari, Curuá Una, Guaporé, Içá, Iriri, Javari, Juruena, Jutaí, Mamoré, bacias da margem esquerda do Rio Amazonas no nordeste e no noroeste do Estado do Pará, Tapajós, Tefé, Teles Pires, Xingu e o curso principal do Rio Solimões; chuvas acima da climatologia registradas sobre as bacias dos rios Marañon, Negro e Ucayali; chuvas próximas da normalidade registradas sobre as bacias hidrográficas dos Beni, Japurá, Ji-Paraná, Juruá, Madeira, bacias da margem esquerda do Rio Amazonas no nordeste do Estado do Amazonas, Napo e Purus. O multimodelo indica para as próximas semanas previsão de chuvas abaixo da climatologia no leste, sudeste e sul da região monitorada, sobre o curso principal do Rio Amazonas em território brasileiro, bacias dos rios Abacaxis, Aripuanã, Beni, Curuá Una, Guaporé, Iriri, Ji-Paraná, Juruena, Mamoré, bacias da margem esquerda do Rio Amazonas no nordeste do Estado do Amazonas e no nordeste e no noroeste do Estado do Pará, Tapajós, Teles Pires e Xingu; previsão de chuvas acima da climatologia no noroeste da região monitorada, sobre o curso principal do Rio Amazonas em território peruano, bacias dos rios Içá, Japurá, Marañon, Napo e Negro.
               </p>
-
             </CardContent>
-
           </Card>
+        </div>
+      </section>
+      <section className="max-w-7xl mx-auto">
+        <div className="space-y-6">
+          <h2 className="text-2xl font-bold text-gray-900">
+            Análise individual por bacia hidrográfica
+          </h2>
+          <div className="grid grid-cols-3 gap-4">
+            {
+              bacias.map((bacia, index) =>
+              (
+                <Link key={index} href={`/bacia/${index}`}>
+                  < div  className="cursor-pointer border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl flex gap-3 items-center p-4" >
+                    <div className="p-1 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
+                      <ChartBarSquareIcon aria-hidden="true" className="size-8 text-blue-600" />
+                    </div>
+
+                    <h3 className="text-base">{bacia}</h3>
+                  </div>
+                </Link>
+
+              )
+              )
+            }
+
+          </div>
 
 
         </div>
+      </section >
 
-      </section>
-
-    </div>
+    </div >
   );
 }
