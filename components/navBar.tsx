@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function NavBar() {
     const navigation = [
-        { name: 'Início', href: '#', current: true },
+        { name: 'Início', href: '/', current: true },
         { name: 'Edições Anteriores', href: '#', current: false },
         { name: 'Sobre', href: '#', current: false },
         { name: 'Equipe', href: '#', current: false },
@@ -27,6 +27,7 @@ export default function NavBar() {
 
                     </div>
                     <div className='flex flex-1 items-center justify-center sm:items-stretch sm:justify-start '>
+                        <Link href={'/'}>
                         <div className='flex shrink-0 items-center'>
                             <Image
                                 className="h-8 w-auto rounded-full"
@@ -37,6 +38,8 @@ export default function NavBar() {
                             />
                             <h3 className="ml-2 text-base font-semibold text-gray-900">Clima Amazonia</h3>
                         </div>
+                        </Link>
+                        
                         <div className='hidden sm:ml-auto sm:block '>
                             <div className='flex space-x-4'>
                                 {/* Desktop menu items */}

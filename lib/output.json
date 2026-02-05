@@ -1,0 +1,15 @@
+{
+  "doi": "10.61818/02910604",
+  "issn": " 2965-0291",
+  "title": "Boletim de monitoramento climático de grandes bacias hidrográficas: Bacia Amazônica",
+  "volume": "6,",
+  "numero": "04",
+  "date": "28 de janeiro de 2026",
+  "condicoes_atuais": "Mapas das condições observadas de precipitação e gráficos individuais por bacias são produzidos a partir dos dados MERGE/GPM gerados pelo INPE/CPTEC, considerando como climatologia para período de 2000 a 2025. Entre os dias 30 de dezembro e 28 de janeiro de 2026, chuvas abaixo da climatologia caracterizaram com déficit de precipitação o curso principal do Rio Amazonas em territórios brasileiro e peruano, bacias hidrográficas dos rios Abacaxis, Aripuanã, Branco, Coari, Curuá Una, Guaporé, Içá, Iriri, Javari, Juruena, Jutaí, Mamoré, bacias da margem esquerda do Rio Amazonas no nordeste e no noroeste do Estado do Pará, Tapajós, Tefé, Teles Pires, Xingu e o curso principal do Rio Solimões; chuvas acima da climatologia registradas sobre as bacias dos rios Marañon, Negro e Ucayali; chuvas próximas da normalidade registradas sobre as bacias hidrográficas dos Beni, Japurá, Ji-Paraná, Juruá, Madeira, bacias da margem esquerda do Rio Amazonas no nordeste do Estado do Amazonas, Napo e Purus. O multimodelo indica para as próximas semanas previsão de chuvas abaixo da climatologia no leste, sudeste e sul da região monitorada, sobre o curso principal do Rio Amazonas em território brasileiro, bacias dos rios Abacaxis, Aripuanã, Beni, Curuá Una, Guaporé, Iriri, Ji-Paraná, Juruena, Mamoré, bacias da margem esquerda do Rio Amazonas no nordeste do Estado do Amazonas e no nordeste e no noroeste do Estado do Pará, Tapajós, Teles Pires e Xingu; previsão de chuvas acima da climatologia no noroeste da região monitorada, sobre o curso principal do Rio Amazonas em território peruano, bacias dos rios Içá, Japurá, Marañon, Napo e Negro.",
+  "analise_individual": [
+    {
+      "bacia": "Rio Branco",
+      "content": "<p>A climatologia do período em análise indica chuvas com\nregistros variando entre <em><strong>39 e 51 mm</strong></em> sendo considerados\nnormais (referência quantis 42.5% e 57.5%). Em <em><strong>28 de</strong></em>\n<em><strong>janeiro de 2026,</strong></em> foram observados <em><strong>29 mm</strong></em> de\nprecipitação média acumulada sobre a bacia em 30 dias, na área da bacia o valor de <em><strong>-0.9,</strong></em> classifica a bacia em\ncondição de <em><strong>tendência a seco.</strong></em> Nas próximas semanas o\ncomportamento climático indica <em><strong>manutenção</strong></em> dos\nvolumes de chuva, o modelo de prognóstico subsazonal\nsugere um comportamento <em><strong>próximo da normalidade ou</strong></em>\n<em><strong>tendência a chuvoso.</strong></em></p>\n"
+    }
+  ]
+}
