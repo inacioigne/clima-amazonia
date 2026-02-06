@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="space-y-12">
       <section className="bg-linear-to-br from-green-50 to-blue-50 py-12">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-3 gap-8 ">
             <div className="col-span-1 space-y-6">
               <div className="space-y-2 ">
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="max-w-7xl mx-auto">
+      <section className="max-w-7xl mx-auto px-4">
         <div className="space-y-6">
           <h2 className="text-2xl font-bold text-gray-900">
             Condições atuais
@@ -62,12 +62,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="max-w-7xl mx-auto">
+      <section className="max-w-7xl mx-auto px-4">
         <div className="space-y-6">
-          <h2 className="text-2xl font-bold text-gray-900">
+          <h2 className="text-2xl font-bold text-gray-900 ">
             Análise individual por bacia hidrográfica
           </h2>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {
               boletim.analysis.map((bacia, index) =>
               (
