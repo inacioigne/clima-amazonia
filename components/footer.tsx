@@ -3,14 +3,21 @@ import Link from "next/link";
 import { CiMail } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 
-const navigation = [
-    { name: "Inicio", href: "/" },
-    { name: "Edicoes Anteriores", href: "#" },
-    { name: "Sobre", href: "#" },
-    { name: "Equipe", href: "#" },
-];
+type FooterMessages = {
+    basin: string;
+    aboutText: string;
+    contact: string;
+    links: string;
+    license: string;
+    copyright: string;
+    openInNewTab: string;
+};
 
-export default function Footer() {
+export default function Footer({
+    messages,
+}: {
+    messages: FooterMessages;
+}) {
     const year = new Date().getFullYear();
 
     return (
@@ -38,18 +45,18 @@ export default function Footer() {
                                     Clima Amazônia
                                 </div>
                                 <div className="text-xs text-gray-400">
-                                    Bacia Amazônica
+                                    {messages.basin}
                                 </div>
                             </div>
                         </div>
                         <p className="text-sm text-gray-400">
-                            Monitoramento climático semanal da Bacia Amazônica com dados científicos atualizados e análises especializadas. </p>
+                            {messages.aboutText} </p>
                     </div>
 
                     {/* Contact */}
                     <div className="space-y-4">
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider">
-                            Contato
+                            {messages.contact}
                         </h3>
                         <div className="space-y-3">
                             <a href="mailto:climaamazonia@inpa.gov.br" className="flex items-center gap-2 text-sm hover:text-white transition-colors">
@@ -66,7 +73,7 @@ export default function Footer() {
                     {/* Links */}
                     <div className="space-y-4">
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider">
-                            Links Úteis
+                            {messages.links}
                         </h3>
                         <div className="space-y-2">
                             <a
@@ -74,6 +81,7 @@ export default function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 text-sm hover:text-white transition-colors"
+                                aria-label={messages.openInNewTab}
                             >
                                 INPA
                             </a>
@@ -82,6 +90,7 @@ export default function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex  gap-2 text-sm hover:text-white transition-colors"
+                                aria-label={messages.openInNewTab}
                             >
                                 Programa LBA
                             </a>
@@ -97,11 +106,11 @@ export default function Footer() {
                 <div className="mt-8 pt-8 border-t border-gray-800">
                     <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400">
                         <p>
-                            © 2026 INPA Todos os direitos reservados.
+                            {messages.copyright.replace("2026", String(year))}
                         </p>
                         <div className="flex items-center gap-2">
                             <span className="text-xs">
-                               Licença
+                               {messages.license}
                             </span>
                             <span className="px-2 py-1 bg-gray-800 rounded text-xs font-mono">CC BY-NC-SA 4.0</span>
                         </div>

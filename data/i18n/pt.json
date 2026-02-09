@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Início",
+    "previous": "Edições Anteriores",
+    "about": "Sobre",
+    "team": "Equipe",
+    "openMenu": "Abrir menu principal",
+    "brand": "Clima Amazônia"
+  },
+  "home": {
+    "basin": "Bacia Amazônica",
+    "volume": "Volume",
+    "number": "Número",
+    "pubDate": "Data de publicação",
+    "periodicity": "Periodicidade",
+    "weekly": "Semanal",
+    "currentConditions": "Condições atuais",
+    "analysisByBasin": "Análise individual por bacia hidrográfica",
+    "altMapCurrent": "Anomalia de precipitação na Bacia Amazônica",
+    "altLegend": "Legendas"
+  },
+  "bacia": {
+    "analysisLabel": "Análise individual por bacia hidrográfica",
+    "updatedAt": "Atualizado em",
+    "accVsClimatology": "Precipitação acumulada x climatologia",
+    "days30": "30 dias",
+    "accSummary": "Comparativo entre quantis climatológicos e acumulado observado.",
+    "anomalyTrend": "Anomalia e tendência",
+    "days14to28": "14 a 28 dias",
+    "anomalySummary": "Indicadores de anomalia, previsão e observado.",
+    "highlights": "Destaques da bacia",
+    "climatology": "Climatologia",
+    "observed30": "Observado 30 dias",
+    "anomalyIndex": "Índice anomalia",
+    "classification": "Classificação da Bacia",
+    "forecast": "Prognóstico"
+  },
+  "footer": {
+    "basin": "Bacia Amazônica",
+    "aboutText": "Monitoramento climático semanal da Bacia Amazônica com dados científicos atualizados e análises especializadas.",
+    "contact": "Contato",
+    "links": "Links Úteis",
+    "license": "Licença",
+    "copyright": "© 2026 INPA Todos os direitos reservados.",
+    "openInNewTab": "Abrir em nova guia"
+  }
+}

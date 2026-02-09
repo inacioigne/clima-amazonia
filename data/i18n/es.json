@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "previous": "Ediciones anteriores",
+    "about": "Sobre",
+    "team": "Equipo",
+    "openMenu": "Abrir menú principal",
+    "brand": "Clima Amazonia"
+  },
+  "home": {
+    "basin": "Cuenca Amazónica",
+    "volume": "Volumen",
+    "number": "Número",
+    "pubDate": "Fecha de publicación",
+    "periodicity": "Periodicidad",
+    "weekly": "Semanal",
+    "currentConditions": "Condiciones actuales",
+    "analysisByBasin": "Análisis individual por cuenca hidrográfica",
+    "altMapCurrent": "Anomalía de precipitación en la Cuenca Amazónica",
+    "altLegend": "Leyendas"
+  },
+  "bacia": {
+    "analysisLabel": "Análisis individual por cuenca hidrográfica",
+    "updatedAt": "Actualizado el",
+    "accVsClimatology": "Precipitación acumulada vs climatología",
+    "days30": "30 días",
+    "accSummary": "Comparación entre cuantiles climatológicos y acumulado observado.",
+    "anomalyTrend": "Anomalía y tendencia",
+    "days14to28": "14 a 28 días",
+    "anomalySummary": "Indicadores de anomalía, pronóstico y observado.",
+    "highlights": "Aspectos destacados de la cuenca",
+    "climatology": "Climatología",
+    "observed30": "Observado 30 días",
+    "anomalyIndex": "Índice de anomalía",
+    "classification": "Clasificación de la cuenca",
+    "forecast": "Pronóstico"
+  },
+  "footer": {
+    "basin": "Cuenca Amazónica",
+    "aboutText": "Monitoreo climático semanal de la Cuenca Amazónica con datos científicos actualizados y análisis especializados.",
+    "contact": "Contacto",
+    "links": "Enlaces útiles",
+    "license": "Licencia",
+    "copyright": "© 2026 INPA Todos los derechos reservados.",
+    "openInNewTab": "Abrir en nueva pestaña"
+  }
+}

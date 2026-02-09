@@ -7,8 +7,8 @@
    "title": "Boletim  de monitoramento climático de grandes bacias hidrográficas: Bacia Amazônica",
    "current_conditions": {
       "text": "Mapas das condições observadas de precipitação e gráficos individuais por bacias são produzidos a partir dos dados MERGE/GPM gerados pelo INPE/CPTEC, considerando como climatologia para  período de 2000 a 2025. _**Entre os dias 30 de dezembro e 28 de janeiro  de  2026,  chuvas  abaixo  da  climatologia  caracterizaram  com  déficit de precipitação o curso principal do Rio Amazonas em territórios brasileiro e peruano, bacias hidrográficas dos rios Abacaxis, Aripuanã, Branco, Coari, Curuá Una, Guaporé, Içá, Iriri,  Javari,  Juruena,  Jutaí,  Mamoré,  bacias  da  margem  esquerda  do  Rio Amazonas no nordeste e no noroeste do Estado do Pará, Tapajós, Tefé, Teles Pires, Xingu e o curso principal do Rio Solimões; chuvas acima da climatologia registradas sobre as bacias dos rios Marañon, Negro e Ucayali; chuvas próximas da normalidade registradas sobre as bacias hidrográficas dos Beni, Japurá, Ji-Paraná, Juruá, Madeira, bacias da margem esquerda do Rio Amazonas no nordeste do Estado do Amazonas, Napo e Purus. O multimodelo indica para as próximas semanas previsão de chuvas abaixo da climatologia no leste, sudeste e sul da região monitorada, sobre o curso principal  do  Rio  Amazonas  em  território  brasileiro,  bacias  dos  rios  Abacaxis, Aripuanã, Beni, Curuá Una, Guaporé, Iriri, Ji-Paraná, Juruena, Mamoré, bacias da margem  esquerda  do  Rio  Amazonas  no  nordeste  do  Estado  do  Amazonas  e  no nordeste e no noroeste do Estado do Pará, Tapajós, Teles Pires e Xingu; previsão de chuvas  acima  da  climatologia  no  noroeste  da  região  monitorada,  sobre  o  curso principal  do  Rio  Amazonas  em  território  peruano,  bacias  dos  rios  Içá,  Japurá, Marañon, Napo e Negro.",
-      "map_current_conditions": "current_files/map_current_conditions.png",
-      "table_current_conditions": "current_files/table_current_conditions.png"
+      "map_current_conditions": "map_current_conditions.png",
+      "table_current_conditions": "table_current_conditions.png"
    },
    "analysis": [
       {

@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "previous": "Previous Editions",
+    "about": "About",
+    "team": "Team",
+    "openMenu": "Open main menu",
+    "brand": "Clima Amazonia"
+  },
+  "home": {
+    "basin": "Amazon Basin",
+    "volume": "Volume",
+    "number": "Number",
+    "pubDate": "Publication date",
+    "periodicity": "Periodicity",
+    "weekly": "Weekly",
+    "currentConditions": "Current conditions",
+    "analysisByBasin": "Individual analysis by river basin",
+    "altMapCurrent": "Precipitation anomaly in the Amazon Basin",
+    "altLegend": "Legends"
+  },
+  "bacia": {
+    "analysisLabel": "Individual analysis by river basin",
+    "updatedAt": "Updated on",
+    "accVsClimatology": "Accumulated precipitation vs climatology",
+    "days30": "30 days",
+    "accSummary": "Comparison between climatological quantiles and observed accumulation.",
+    "anomalyTrend": "Anomaly and trend",
+    "days14to28": "14 to 28 days",
+    "anomalySummary": "Anomaly, forecast and observed indicators.",
+    "highlights": "Basin highlights",
+    "climatology": "Climatology",
+    "observed30": "Observed 30 days",
+    "anomalyIndex": "Anomaly index",
+    "classification": "Basin classification",
+    "forecast": "Forecast"
+  },
+  "footer": {
+    "basin": "Amazon Basin",
+    "aboutText": "Weekly climate monitoring of the Amazon Basin with updated scientific data and specialized analyses.",
+    "contact": "Contact",
+    "links": "Useful links",
+    "license": "License",
+    "copyright": "© 2026 INPA All rights reserved.",
+    "openInNewTab": "Open in new tab"
+  }
+}
