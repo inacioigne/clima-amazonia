@@ -43,5 +43,17 @@
     "license": "Licença",
     "copyright": "© 2026 INPA Todos os direitos reservados.",
     "openInNewTab": "Abrir em nova guia"
+  },
+  "about": {
+    "kicker": "Sobre o boletim",
+    "title": "Boletim Clima Amazônia",
+    "description": "O boletim Clima Amazônia apresenta semanalmente um panorama das condições de precipitação na Bacia Amazônica, reunindo dados observados, anomalias e apoio à análise climática regional. Esta pesquisa foi apoiada como parte do Programa de Grande Escala da BiosferaAtmosfera na Amazônia (LBA), coordenado pelo Instituto Nacional de Pesquisas da Amazônia (INPA), financiado pelo Ministério da Ciência, Tecnologia e Inovação (MCTI) entidade da administração direta do Governo Federal Brasileiro.",
+    "socialTitle": "Acompanhe o boletim nas redes e canais oficiais",
+    "socialLabel": "Acesso rápido",
+    "socials": {
+      "instagram": "Instagram @clima.amazonia",
+      "website": "Portal INPA",
+      "email": "Contato por e-mail"
+    }
   }
 }

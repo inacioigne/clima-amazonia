@@ -43,5 +43,17 @@
     "license": "License",
     "copyright": "© 2026 INPA All rights reserved.",
     "openInNewTab": "Open in new tab"
+  },
+  "about": {
+    "kicker": "About the bulletin",
+    "title": "Clima Amazonia Bulletin",
+    "description": "The Clima Amazonia bulletin provides a weekly overview of precipitation conditions in the Amazon Basin, combining observed data, anomalies, and support for regional climate analysis.",
+    "socialTitle": "Follow the bulletin on social and official channels",
+    "socialLabel": "Quick access",
+    "socials": {
+      "instagram": "Instagram @clima.amazonia",
+      "website": "INPA website",
+      "email": "Contact by e-mail"
+    }
   }
 }

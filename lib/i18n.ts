@@ -1,4 +1,4 @@
-import type ptBoletim from "@/data/boletim/pt.json";
+import type ptBoletim from "@/data/boletim/current/pt.json";
 
 export const locales = ["pt", "en", "es"] as const;
 export type Locale = (typeof locales)[number];
@@ -27,13 +27,13 @@ export function isLocale(value: string): value is Locale {
 export async function getBoletim(locale: Locale): Promise<Boletim> {
   switch (locale) {
     case "pt":
-      return (await import("@/data/boletim/pt.json")).default;
+      return (await import("@/data/boletim/current/pt.json")).default;
     case "en":
-      return (await import("@/data/boletim/en.json")).default;
+      return (await import("@/data/boletim/current/en.json")).default;
     case "es":
-      return (await import("@/data/boletim/es.json")).default;
+      return (await import("@/data/boletim/current/es.json")).default;
     default:
-      return (await import("@/data/boletim/pt.json")).default;
+      return (await import("@/data/boletim/current/pt.json")).default;
   }
 }
 

@@ -23,8 +23,8 @@ export default function NavBar({
     const navigation = [
         { name: messages.home, href: `/${lang}`, current: true },
         { name: messages.previous, href: '#', current: false },
-        { name: messages.about, href: '#', current: false },
-        { name: messages.team, href: '#', current: false },
+        { name: messages.about, href:  `/${lang}/about`, current: false },
+        { name: messages.team, href: `/${lang}/team`, current: false },
     ]
     return (
         <Disclosure

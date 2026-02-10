@@ -43,5 +43,16 @@
     "license": "Licencia",
     "copyright": "© 2026 INPA Todos los derechos reservados.",
     "openInNewTab": "Abrir en nueva pestaña"
-  }
+  },
+  "about": {
+    "kicker": "Sobre el boletín",
+    "title": "Boletín Clima Amazonia",
+    "description": "El boletín Clima Amazonia presenta semanalmente un panorama de las condiciones de precipitación en la Cuenca Amazónica, integrando datos observados, anomalías y apoyo al análisis climático regional.",
+    "socialTitle": "Sigue el boletín en redes y canales oficiales",
+    "socialLabel": "Acceso rápido",
+    "socials": {
+      "instagram": "Instagram @clima.amazonia",
+      "website": "Portal INPA",
+      "email": "Contacto por correo electrónico"
+    }}
 }
