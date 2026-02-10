@@ -31,7 +31,7 @@ const badges: Badge[] = [
 
   { id: "marg-esq-am", label: "Marg Esq AM", href: "/rios/marg-esq-am", x: 720, y: 60, w: 170, h: 44, transform: "rotate(-90 820 88)" },
   { id: "marg-esq-pa-nw", label: "Marg Esq PA NW", href: "/rios/marg-esq-pa-nw", x: 720, y: 230, w: 190, h: 44, transform: "rotate(-90 820 88)" },
-  { id: "marg-esq-pa-ne", label: "Marg Esq PA NE", href: "/rios/marg-esq-pa-ne", x: 1160, y: 52, w: 190, h: 44, variant: "soft" },
+  { id: "marg-esq-pa-ne", label: "Marg Esq PA NE", href: "/rios/marg-esq-pa-ne", x: 720, y: 380, w: 190, h: 44, transform: "rotate(-90 820 88)" },
 
   { id: "javari", label: "Javari", href: "/rios/javari", x: 80, y: 420, w: 120, h: 44, transform: "rotate(-90 92 290)"  },
   { id: "jutai", label: "Jutaí", href: "/rios/jutai", x: 80, y: 480, w: 110, h: 44, transform: "rotate(-90 92 290)" },
@@ -55,8 +55,8 @@ const badges: Badge[] = [
 
   { id: "curua-una", label: "Curuá Una", href: "/rios/curua-una", x: 85, y: 1265, w: 160, h: 44, transform: "rotate(-90 92 290)" },
 
-  { id: "xingu", label: "Xingu", href: "/rios/xingu", x: 1220, y: 310, w: 110, h: 44, variant: "soft" },
-  { id: "iriri", label: "Iriri", href: "/rios/iriri", x: 1160, y: 292, w: 90, h: 44, variant: "soft" },
+  { id: "xingu", label: "Xingu", href: "/rios/xingu", x: 120, y: 1400, w: 110, h: 44, transform: "rotate(-90 92 290)" },
+  { id: "iriri", label: "Iriri", href: "/rios/iriri", x: 1170, y: 275, w: 90, h: 44 },
 ];
 
 function BadgeLink({ b }: { b: Badge }) {
@@ -96,8 +96,8 @@ export default async function Home({
         Diagrama unifilar das bacias representadas
       </p>
       <div className="w-full overflow-x-auto bg-white p-4">
-        <div className="min-w-275 border-2">
-          <svg viewBox="0 0 1400 520" //className="h-full w-full"
+        <div className="min-w-275">
+          <svg viewBox="0 0 1400 520" 
           >
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 120 200 H 1280" />
             {/* Ucayali / Marañon */}
@@ -114,7 +114,7 @@ export default async function Home({
             {/* Margens acima */}
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 830 200 V 90" />
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 1000 200 V 70" />
-            <path className="stroke-blue-700 stroke-6 fill-none" d="M 1180 200 V 70" />
+            <path className="stroke-blue-700 stroke-6 fill-none" d="M 1150 200 V 70" /> 
             {/* Ramos abaixo (esquerda) */}
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 260 200 V 300" />
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 320 200 V 300" />
