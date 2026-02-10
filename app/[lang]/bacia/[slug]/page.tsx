@@ -34,7 +34,7 @@ export default async function Page({
   }
 
   return (
-    <div className="lg:px-36 py-4">
+    <div className="max-w-7xl py-4 mx-auto px-4">
       <div className="flex flex-col gap-2">
         <p className="text-xs font-semibold uppercase tracking-wide text-green-700">
           {messages.bacia.analysisLabel}

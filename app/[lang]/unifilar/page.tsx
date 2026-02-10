@@ -14,50 +14,7 @@ type Badge = {
   transform?: string;
 };
 
-const badges: Badge[] = [
-  { id: "amazonas-br", label: "Amazonas (BR)", href: "/rios/amazonas", x: 630, y: 160, w: 170, h: 44 },
-  { id: "amazonas-pe", label: "Amazonas (PE)", href: "/rios/amazonas-pe", x: 130, y: 210, w: 170, h: 44 },
-  { id: "solimoes", label: "Solimões", href: "/rios/solimoes", x: 300, y: 160, w: 140, h: 44},
 
-  { id: "ucayali", label: "Ucayali", href: "/rios/ucayali", x: 92, y: 280, w: 120, h: 44, transform: "rotate(-90 92 290)" },
-  { id: "maranon", label: "Marañon", href: "/rios/maranon", x: 10, y: 90, w: 140, h: 44, transform: "rotate(-90 92 100)" },
-
-  { id: "napo", label: "Napo", href: "/rios/napo", x: 120, y: 92, w: 110, h: 44, transform: "rotate(-90 185 112)" },
-  { id: "ica", label: "Içá", href: "/rios/ica", x: 190, y: 92, w: 90, h: 44, transform: "rotate(-90 255 112)" },
-  { id: "japura", label: "Japurá", href: "/rios/japura", x: 190, y: 290, w: 90, h: 44, transform: "rotate(-90 255 112)"},
-
-  { id: "negro", label: "Negro", href: "/rios/negro", x: 230, y: 420, w: 105, h: 44, transform: "rotate(-90 255 112)" },
-  { id: "branco", label: "Branco", href: "/rios/branco", x: 610, y: 100, w: 120, h: 44, },
-
-  { id: "marg-esq-am", label: "Marg Esq AM", href: "/rios/marg-esq-am", x: 720, y: 60, w: 170, h: 44, transform: "rotate(-90 820 88)" },
-  { id: "marg-esq-pa-nw", label: "Marg Esq PA NW", href: "/rios/marg-esq-pa-nw", x: 720, y: 230, w: 190, h: 44, transform: "rotate(-90 820 88)" },
-  { id: "marg-esq-pa-ne", label: "Marg Esq PA NE", href: "/rios/marg-esq-pa-ne", x: 720, y: 380, w: 190, h: 44, transform: "rotate(-90 820 88)" },
-
-  { id: "javari", label: "Javari", href: "/rios/javari", x: 80, y: 420, w: 120, h: 44, transform: "rotate(-90 92 290)"  },
-  { id: "jutai", label: "Jutaí", href: "/rios/jutai", x: 80, y: 480, w: 110, h: 44, transform: "rotate(-90 92 290)" },
-  { id: "jurua", label: "Juruá", href: "/rios/jurua", x: 80, y: 540, w: 120, h: 44, transform: "rotate(-90 92 290)"},
-  { id: "tefe", label: "Tefé", href: "/rios/tefe", x: 80, y: 600, w: 95, h: 44, transform: "rotate(-90 92 290)" },
-  { id: "coari", label: "Coari", href: "/rios/coari", x: 80, y: 660, w: 110, h: 44, transform: "rotate(-90 92 290)" },
-  { id: "purus", label: "Purus", href: "/rios/purus", x: 80, y: 710, w: 110, h: 44, transform: "rotate(-90 92 290)"},
-
-  { id: "madeira", label: "Madeira", href: "/rios/madeira", x: 80, y: 800, w: 135, h: 44, transform: "rotate(-90 92 290)" },
-  { id: "aripuana", label: "Aripuanã", href: "/rios/aripuana", x: 650, y: 218, w: 140, h: 44 },
-  { id: "ji-parana", label: "Ji-Paraná", href: "/rios/ji-parana", x: 650, y: 265, w: 150, h: 44 },
-  { id: "guapore", label: "Guaporé", href: "/rios/guapore", x: 650, y: 310, w: 150, h: 44 },
-  { id: "mamore", label: "Mamoré", href: "/rios/mamore", x: 650, y: 360, w: 145, h: 44,  },
-  { id: "beni", label: "Beni", href: "/rios/beni", x: 650, y: 410, w: 95, h: 44},
-
-  { id: "abacaxis", label: "Abacaxis", href: "/rios/abacaxis", x: 80, y: 1030, w: 140, h: 44, transform: "rotate(-90 92 290)" },
-
-  { id: "tapajos", label: "Tapajós", href: "/rios/tapajos", x: 100, y: 1130, w: 140, h: 50,  transform: "rotate(-90 92 290)"  },
-  { id: "juruena", label: "Juruena", href: "/rios/juruena", x: 890, y: 295, w: 130, h: 44},
-  { id: "teles-pires", label: "Teles Pires", href: "/rios/teles-pires", x: 980, y: 295, w: 150, h: 44 },
-
-  { id: "curua-una", label: "Curuá Una", href: "/rios/curua-una", x: 85, y: 1265, w: 160, h: 44, transform: "rotate(-90 92 290)" },
-
-  { id: "xingu", label: "Xingu", href: "/rios/xingu", x: 120, y: 1400, w: 110, h: 44, transform: "rotate(-90 92 290)" },
-  { id: "iriri", label: "Iriri", href: "/rios/iriri", x: 1170, y: 275, w: 90, h: 44 },
-];
 
 function BadgeLink({ b }: { b: Badge }) {
 
@@ -85,6 +42,49 @@ export default async function Home({
     notFound();
   }
 
+  const badges: Badge[] = [
+  { id: "amazonas-br", label: "Amazonas (BR)", href: `/${lang}/bacia/curso-principal-do-rio-amazonas-brasil`, x: 630, y: 160, w: 170, h: 44 },
+  { id: "amazonas-pe", label: "Amazonas (PE)", href: `/${lang}/bacia/curso-principal-do-rio-amazonas-peru`, x: 130, y: 210, w: 170, h: 44 },
+  { id: "solimoes", label: "Solimões", href: `/${lang}/bacia/curso-principal-do-rio-solimoes`, x: 300, y: 160, w: 140, h: 44},
+
+  { id: "ucayali", label: "Ucayali", href:  `/${lang}/bacia/bacia-do-rio-ucayali`, x: 92, y: 280, w: 120, h: 44, transform: "rotate(-90 92 290)" },
+  { id: "maranon", label: "Marañon", href: `/${lang}/bacia/bacia-do-rio-maranon`, x: 10, y: 90, w: 140, h: 44, transform: "rotate(-90 92 100)" },
+
+  { id: "napo", label: "Napo", href: `/${lang}/bacia/bacia-do-rio-napo`, x: 120, y: 92, w: 110, h: 44, transform: "rotate(-90 185 112)" },
+  { id: "ica", label: "Içá", href: `/${lang}/bacia/bacia-do-rio-ica`, x: 190, y: 92, w: 90, h: 44, transform: "rotate(-90 255 112)" },
+  { id: "japura", label: "Japurá", href: `/${lang}/bacia/bacia-do-rio-japura`, x: 190, y: 290, w: 90, h: 44, transform: "rotate(-90 255 112)"},
+
+  { id: "negro", label: "Negro", href: `/${lang}/bacia/bacia-do-rio-negro`, x: 230, y: 420, w: 105, h: 44, transform: "rotate(-90 255 112)" },
+  { id: "branco", label: "Branco", href: `/${lang}/bacia/bacia-do-rio-branco`, x: 610, y: 100, w: 120, h: 44, },
+
+  { id: "marg-esq-am", label: "Marg Esq AM", href: `/${lang}/bacia/bacias-da-margem-esquerda-do-rio-amazonas-amazonas`, x: 720, y: 60, w: 170, h: 44, transform: "rotate(-90 820 88)" },
+  { id: "marg-esq-pa-nw", label: "Marg Esq PA NW", href: `/${lang}/bacia/bacias-da-margem-esquerda-do-rio-amazonas-nordeste-do-pa`, x: 720, y: 230, w: 190, h: 44, transform: "rotate(-90 820 88)" },
+  { id: "marg-esq-pa-ne", label: "Marg Esq PA NE", href:`/${lang}/bacia/bacias-da-margem-esquerda-do-rio-amazonas-nordeste-do-pa`, x: 720, y: 380, w: 190, h: 44, transform: "rotate(-90 820 88)" },
+
+  { id: "javari", label: "Javari", href: `/${lang}/bacia/bacia-do-rio-javari`, x: 80, y: 420, w: 120, h: 44, transform: "rotate(-90 92 290)"  },
+  { id: "jutai", label: "Jutaí", href: `/${lang}/bacia/bacia-do-rio-jutai`, x: 80, y: 480, w: 110, h: 44, transform: "rotate(-90 92 290)" },
+  { id: "jurua", label: "Juruá", href: `/${lang}/bacia/bacia-do-rio-jurua`, x: 80, y: 540, w: 120, h: 44, transform: "rotate(-90 92 290)"},
+  { id: "tefe", label: "Tefé", href:`/${lang}/bacia/bacia-do-rio-tefe`, x: 80, y: 600, w: 95, h: 44, transform: "rotate(-90 92 290)" },
+  { id: "coari", label: "Coari", href:`/${lang}/bacia/bacia-do-rio-coari`, x: 80, y: 660, w: 110, h: 44, transform:"rotate(-90 92 290)" },
+  { id:"purus", label:"Purus", href:`/${lang}/bacia/bacia-do-rio-purus`, x :80 ,y :715 ,w :115 ,h :45 ,transform:"rotate(-90 -35 -35)"},
+
+
+  { id: "ji-parana", label: "Ji-Paraná", href: `/${lang}/bacia/bacia-do-rio-jiparana`, x: 650, y: 265, w: 150, h: 44 },
+  { id: "guapore", label: "Guaporé", href: `/${lang}/bacia/bacia-do-rio-guapore`, x: 650, y: 310, w: 150, h: 44 },
+  { id: "mamore", label: "Mamoré", href: `/${lang}/bacia/bacia-do-rio-mamore`, x: 650, y: 360, w: 145, h: 44,  },
+  { id: "beni", label: "Beni", href:`/${lang}/bacia/bacia-dos-rios-beni-e-madre-de-dios`, x: 650, y: 410, w: 95, h: 44},
+
+  { id: "abacaxis", label: "Abacaxis", href:`/${lang}/bacia/bacia-do-rio-abacaxis`, x: 80, y: 1030, w: 140, h: 44, transform:"rotate(-90 -35 -35)" },
+
+  { id:"tapajos", label:"Tapajós", href:`/${lang}/bacia/bacia-do-rio-tapajos`, x :100 ,y :1130 ,w :140 ,h :50 ,transform:"rotate(-90 -35 -35)" },
+
+
+  { id: "curua-una", label: "Curuá Una", href: `/${lang}/bacia/bacia-do-rio-curua-una`, x: 85, y: 1265, w: 160, h: 44, transform: "rotate(-90 92 290)" },
+
+  { id: "xingu", label: "Xingu", href: `/${lang}/bacia/bacia-do-rio-xingu`, x: 120, y: 1400, w: 110, h: 44, transform: "rotate(-90 92 290)" },
+  { id: "iriri", label: "Iriri", href:`/${lang}/bacia/bacia-do-rio-iriri`, x: 1170, y: 275, w: 90, h: 44 },
+];
+
   const [boletim, messages] = await Promise.all([
     getBoletim(lang),
     getMessages(lang),
@@ -107,7 +107,6 @@ export default async function Home({
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 270 200 V 120" />
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 470 200 V 120" />
 
-            {/* <path className="stroke-blue-700 stroke-6 fill-none" d="M 560 200 V 120 H 620" /> */}
             {/* Negro/Branco */}
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 600 200 V 80" />
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 600 140 H 700" />
@@ -140,7 +139,6 @@ export default async function Home({
             {/* Tapajós + Juruena + Teles Pires */}
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 970 200 V 330" />
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 890 330 H 1070" />
-            {/* <path className="stroke-blue-700 stroke-6 fill-none" d="M 900 330 H 1085" /> */}
 
             {/* Curuá Una */}
             <path className="stroke-blue-700 stroke-6 fill-none" d="M 1105 200 V 320" />
