@@ -40,6 +40,14 @@ const teamMembers: TeamMember[] = [
     education: "Doutor em Ecologia e Conservação (UFMS)",
     lattes: "http://lattes.cnpq.br/1808906364554368",
     orcid: "https://orcid.org/0000-0002-9509-3283"
+  },
+   {
+    photo: "/team/inacio.jpg",
+    name: "Inácio Oliveira",
+    role: "Desenvolvedor",
+    education: "Graduação em Biblioteconomia (UFAM)",
+    lattes: "http://lattes.cnpq.br/1808906364554368",
+    orcid: "https://orcid.org/0000-0002-9509-3283"
   }
 ];
 

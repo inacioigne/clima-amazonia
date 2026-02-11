@@ -24,6 +24,27 @@ export function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);
 }
 
+export function detectLocaleFromHeader(acceptLanguage?: string | null): Locale {
+  if (!acceptLanguage) {
+    return defaultLocale;
+  }
+
+  const preferredLanguages = acceptLanguage
+    .split(",")
+    .map((item) => item.split(";")[0]?.trim().toLowerCase())
+    .filter(Boolean) as string[];
+
+  for (const preferredLanguage of preferredLanguages) {
+    const baseLanguage = preferredLanguage.split("-")[0];
+
+    if (baseLanguage && isLocale(baseLanguage)) {
+      return baseLanguage;
+    }
+  }
+
+  return defaultLocale;
+}
+
 export async function getBoletim(locale: Locale): Promise<Boletim> {
   switch (locale) {
     case "pt":
