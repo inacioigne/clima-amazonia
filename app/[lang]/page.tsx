@@ -136,6 +136,28 @@ export default async function Home({
           ))}
         </div>
       </section>
+       <section className="max-w-7xl mx-auto px-4">
+        <h2 className="text-2xl font-bold text-gray-900 ">
+          Edições Anteriores
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-3">
+           <div className="cursor-pointer border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl flex flex-col gap-3 items-center p-4">
+            <h3 className="text-base font-bold">Volume 3, Número 4</h3>
+            <span>22 de janeiro de 2026</span>
+            
+           </div>
+          {/* {sections.map(({ title, href, icon: Icon }) => (
+            <Link key={href} href={`/${lang}${href}`}>
+              <div className="cursor-pointer border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl flex gap-3 items-center p-4">
+                <div className="p-1 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
+                  <Icon aria-hidden="true" className="size-8 text-blue-600" />
+                </div>
+                <h3 className="text-base">{title}</h3>
+              </div>
+            </Link>
+          ))} */}
+        </div>
+      </section>
     </div>
   );
 }
