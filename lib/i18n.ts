@@ -44,6 +44,18 @@ export async function getBoletim(locale: Locale): Promise<Boletim> {
   }
 }
 
+export async function getPreviousBoletim(locale: Locale, v: string, n: string): Promise<Boletim> {
+  switch (locale) {
+    case "pt":
+      return (await import(`@/data/boletim/previous/${v}/${n}/pt.json`)).default;
+    case "en":
+      return (await import(`@/data/boletim/previous/${v}/${n}/en.json`)).default;
+    case "es":
+      return (await import(`@/data/boletim/previous/${v}/${n}/es.json`)).default;
+    default:
+      return (await import(`@/data/boletim/previous/${v}/${n}/es.json`)).default;
+  }
+}
 export async function getMessages(locale: Locale) {
   switch (locale) {
     case "pt":

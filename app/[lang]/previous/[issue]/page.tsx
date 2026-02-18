@@ -97,7 +97,7 @@ export default async function Page({
                             key={month}
                             href={`#`}
                         >
-                            <span className="inline-flex items-center rounded-md bg-green-400/10 px-2 py-1 text-xs font-medium text-green-400 inset-ring inset-ring-green-500/20">{month}</span>
+                            <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 inset-ring inset-ring-blue-700/10">{month}</span>
                         </Link>
                     ))}
 
