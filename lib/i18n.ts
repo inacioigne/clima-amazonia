@@ -5,20 +5,6 @@ export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "pt";
 type Boletim = typeof ptBoletim;
 
-// export type BoletimAnalysisItem = Omit<BoletimPt["analysis"][number], "text"> & {
-//   text?: string;
-//   content?: string;
-//   climatologia?: string;
-//   observados?: string;
-//   anomalia?: string;
-//   classification?: string;
-//   prognostico?: string;
-// };
-
-// export type Boletim = Omit<BoletimPt, "analysis" | "multimodel"> & {
-//   analysis: BoletimAnalysisItem[];
-//   multimodel?: BoletimPt["multimodel"];
-// };
 
 export function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);

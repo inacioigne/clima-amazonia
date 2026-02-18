@@ -1,0 +1,86 @@
+[
+    {
+        "volume": 6,
+        "year": 2026,
+        "img": "/issues/year26.png",
+        "numbers": {
+            "fevereiro": [
+                {
+                    "number": 4,
+                    "date": "28 de fevereiro de 2026",
+                    "url": "/issues/volume6/number4.pdf",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 3,
+                    "date": "28 de fevereiro de 2026",
+                    "url": "/issues/volume6/number3.pdf",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 2,
+                    "date": "28 de fevereiro de 2026",
+                    "url": "/issues/volume6/number2.pdf",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 1,
+                    "date": "28 de fevereiro de 2026",
+                    "url": "/issues/volume6/number1.pdf",
+                    "img": "/issues/year26.png"
+                }
+            ],
+            "janeiro": [
+                {
+                    "number": 4,
+                    "date": "28 de janeiro de 2026",
+                    "url": "/issues/volume6/number4.pdf",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 3,
+                    "date": "28 de março de 2026",
+                    "url": "/issues/volume6/number3.pdf",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 2,
+                    "date": "28 de janeiro de 2026",
+                    "url": "/issues/volume6/number2.pdf",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 1,
+                    "date": "28 de dezembro de 2025",
+                    "url": "/issues/volume6/number1.pdf",
+                    "img": "/issues/year26.png"
+                }
+            ]
+        }
+    },
+    {
+        "volume": 5,
+        "year": 2025,
+        "img": "/issues/year25.png"
+    },
+    {
+        "volume": 4,
+        "year": 2024,
+        "img": "/issues/year24.png"
+    },
+    {
+        "volume": 3,
+        "year": 2023,
+        "img": "/issues/year24.png"
+    },
+    {
+        "volume": 2,
+        "year": 2022,
+        "img": "/issues/year24.png"
+    },
+    {
+        "volume": 1,
+        "year": 2021,
+        "img": "/issues/year24.png"
+    }
+]
