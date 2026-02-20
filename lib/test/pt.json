@@ -1,0 +1,440 @@
+{
+  "doi": "10.61818/02910607",
+  "issn": "2965-0291",
+  "volume": "6",
+  "number": "07",
+  "date": "18 de fevereiro de 2026",
+  "title": "Boletim de monitoramento clim\u00e1tico de grandes bacias hidrogr\u00e1ficas: Bacia Amaz\u00f4nica",
+  "current_conditions": {
+    "text": "Mapas das condi\u00e7\u00f5es observadas de precipita\u00e7\u00e3o e gr\u00e1ficos individuais por bacias s\u00e3o \nproduzidos a partir dos dados MERGE/GPM gerados pelo INPE/CPTEC, considerando \ncomo climatologia para per\u00edodo de 2000 a 2025. Entre os dias 20 de janeiro e 18 de\nfevereiro de 2026, chuvas abaixo da climatologia caracterizaram com d\u00e9ficit de \nprecipita\u00e7\u00e3o o curso principal do Rio Amazonas em territ\u00f3rio brasileiro, bacias \nhidrogr\u00e1ficas dos rios Abacaxis, Branco, Coari, Curu\u00e1 Una, Guapor\u00e9, Iriri, Juta\u00ed, \nMamor\u00e9, bacias da margem esquerda do Rio Amazonas no nordeste e no noroeste do \nEstado do Par\u00e1, Purus, Tapaj\u00f3s, Xingu e o curso principal do Rio Solim\u00f5es; chuvas \nacima da climatologia registradas sobre o curso principal do Rio Amazonas em \nterrit\u00f3rio peruano, bacias dos rios I\u00e7\u00e1, Javari, Mara\u00f1on, Napo e Ucayali; chuvas \npr\u00f3ximas da normalidade registradas sobre as bacias hidrogr\u00e1ficas dos rios \nAripuan\u00e3, Beni, Japur\u00e1, Ji-Paran\u00e1, Juru\u00e1, Juruena, Madeira, bacias da margem \nesquerda do Rio Amazonas no nordeste do Estado do Amazonas, Negro, Tef\u00e9 e Teles \nPires. O multimodelo indica para as pr\u00f3ximas semanas previs\u00e3o de chuvas abaixo da \nclimatologia sobre o curso principal do Rio Amazonas em territ\u00f3rio brasileiro, bacias \ndos rios Abacaxis, Aripuan\u00e3, Beni, Branco, Coari, Curu\u00e1 Una, Guapor\u00e9, Iriri, Ji-Paran\u00e1, \nJuruena, Madeira, Mamor\u00e9, bacias da margem esquerda do Rio Amazonas no \nnordeste e no noroeste do Estado do Par\u00e1, Purus, Tapaj\u00f3s, Ucayali e Xingu; previs\u00e3o \nde chuvas acima da climatologia sobre as bacias dos rios Japur\u00e1 e Negro na primeira \nsemana.",
+    "map_current_conditions": null,
+    "table_current_conditions": null
+  },
+  "analysis": [
+    {
+      "id": "bacia-do-rio-branco",
+      "name": "Bacia do Rio Branco",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 36 e 48 mm sendo considerados  normais (refer\u00eancia quantis 42.5% e 57.5%). Em 18 de fevereiro de 2026, foram observados 30 mm de  precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia em 30 dias,  o c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia categorizada  na \u00e1rea da bacia o valor de -0.9, classifica a bacia em  condi\u00e7\u00e3o de tend\u00eancia a seco. Nas pr\u00f3ximas semanas o  comportamento clim\u00e1tico indica eleva\u00e7\u00e3o dos volumes de  chuva, o modelo de progn\u00f3stico subsazonal sugere um  comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "36 e 48 mm",
+      "observados": "30 mm",
+      "anomalia": "-0.9",
+      "classification": "tend\u00eancia a seco",
+      "prognostico": "pr\u00f3ximo da normalidade ou tend\u00eancia\na seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-negro",
+      "name": "Bacia do Rio Negro",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 171 e 198 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados 186 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 0.0, classifica a  bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "171 e 198 mm",
+      "observados": "186 mm",
+      "anomalia": "0.0",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da\nnormalidade ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-maranon",
+      "name": "Bacia do Rio Mara\u00f1on",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 158 e 180 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados 257 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 1.9, classifica a  bacia em condi\u00e7\u00e3o de tend\u00eancia a muito chuvoso. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  eleva\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento muito chuvoso ou tend\u00eancia a muito chuvoso.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 3</p>\n",
+      "climatologia": "158 e 180 mm",
+      "observados": "257 mm",
+      "anomalia": "1.9",
+      "classification": "tend\u00eancia a muito chuvoso",
+      "prognostico": "muito\nchuvoso ou tend\u00eancia a muito chuvoso",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-ucayali",
+      "name": "Bacia do Rio Ucayali",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 181 e 203 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em   18 de fevereiro de 2026, foram  observados 271 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada  sobre a bacia em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice  de anomalia categorizada na \u00e1rea da bacia o valor de  1.7, classifica a bacia em condi\u00e7\u00e3o de tend\u00eancia a muito chuvoso.  Nas pr\u00f3ximas semanas o  comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o  dos  volumes de chuva, o modelo de progn\u00f3stico subsazonal  sugere um comportamento chuvoso ou tend\u00eancia a chuvoso.</p>\n",
+      "climatologia": "181 e 203 mm",
+      "observados": "271 mm",
+      "anomalia": "1.7",
+      "classification": "tend\u00eancia a\nmuito chuvoso",
+      "prognostico": "chuvoso ou tend\u00eancia a\nchuvoso",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-napo",
+      "name": "Bacia do Rio Napo",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 185 e 212 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  241 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 0.8, classifica a  bacia em condi\u00e7\u00e3o de tend\u00eancia a chuvoso. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  eleva\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento  chuvoso ou tend\u00eancia a chuvoso.</p>\n",
+      "climatologia": "185 e 212 mm",
+      "observados": "241 mm",
+      "anomalia": "0.8",
+      "classification": "tend\u00eancia a chuvoso",
+      "prognostico": "chuvoso ou tend\u00eancia a chuvoso",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "curso-principal-do-rio-amazonas-peru",
+      "name": "Curso principal do Rio Amazonas (Peru)",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 282 e 310 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  396 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 1.9,  classifica a bacia em condi\u00e7\u00e3o de tend\u00eancia a muito chuvoso. Nas pr\u00f3ximas semanas o comportamento  clim\u00e1tico indica manuten\u00e7\u00e3o dos volumes de chuva, o  modelo de progn\u00f3stico subsazonal sugere um  comportamento muito chuvoso ou tend\u00eancia a muito  chuvoso.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 4</p>\n",
+      "climatologia": "282 e 310 mm",
+      "observados": "396 mm",
+      "anomalia": "1.9",
+      "classification": "tend\u00eancia a muito\nchuvoso",
+      "prognostico": "muito chuvoso ou tend\u00eancia a muito\n chuvoso",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-javari",
+      "name": "Bacia do Rio Javari",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 258 e 284 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  338 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 1.1, classifica a  bacia em condi\u00e7\u00e3o de chuvoso. Nas pr\u00f3ximas semanas  o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o dos  volumes de chuva, o modelo de progn\u00f3stico subsazonal  sugere um comportamento chuvoso ou tend\u00eancia a chuvoso.</p>\n",
+      "climatologia": "258 e 284 mm",
+      "observados": "338 mm",
+      "anomalia": "1.1",
+      "classification": "chuvoso",
+      "prognostico": "chuvoso ou tend\u00eancia a\nchuvoso",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-ica-putumayo",
+      "name": "Bacia do Rio I\u00e7\u00e1 (Putumayo)",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 228 e 254 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  278 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 0.8,  classifica a bacia em condi\u00e7\u00e3o de tend\u00eancia a chuvoso.  Nas pr\u00f3ximas semanas o comportamento clim\u00e1tico  indica manuten\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento  chuvoso ou tend\u00eancia a chuvoso.</p>\n",
+      "climatologia": "228 e 254 mm",
+      "observados": "278 mm",
+      "anomalia": "0.8",
+      "classification": "tend\u00eancia a chuvoso",
+      "prognostico": "chuvoso ou tend\u00eancia a chuvoso",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-jutai",
+      "name": "Bacia do Rio Juta\u00ed",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 305 e 337 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  245 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.5, classifica  a bacia em condi\u00e7\u00e3o de tend\u00eancia a muito seco. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento  seco ou tend\u00eancia a seco.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 5</p>\n",
+      "climatologia": "305 e 337 mm",
+      "observados": "245 mm",
+      "anomalia": "-1.5",
+      "classification": "tend\u00eancia a muito seco",
+      "prognostico": "seco ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-jurua",
+      "name": "Bacia do Rio Juru\u00e1",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 254 e 282 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  246 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.4,  classifica a bacia em condi\u00e7\u00e3o de normalidade. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento  pr\u00f3ximo da normalidade.</p>\n",
+      "climatologia": "254 e 282 mm",
+      "observados": "246 mm",
+      "anomalia": "-0.4",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da normalidade",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-japura-caqueta",
+      "name": "Bacia do Rio Japur\u00e1 (Caquet\u00e1)",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 180 e 202 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  198 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 0.1, classifica a  bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica eleva\u00e7\u00e3o dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a chuvoso.</p>\n",
+      "climatologia": "180 e 202 mm",
+      "observados": "198 mm",
+      "anomalia": "0.1",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da\nnormalidade ou tend\u00eancia a chuvoso",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-tefe",
+      "name": "Bacia do Rio Tef\u00e9",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 252 e 286 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  290 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 0.4, classifica a  bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 6</p>\n",
+      "climatologia": "252 e 286 mm",
+      "observados": "290 mm",
+      "anomalia": "0.4",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da\nnormalidade",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-coari",
+      "name": "Bacia do Rio Coari",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 253 e 278 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  236 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.7, classifica  a bacia em condi\u00e7\u00e3o de tend\u00eancia a seco. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento  pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "253 e 278 mm",
+      "observados": "236 mm",
+      "anomalia": "-0.7",
+      "classification": "tend\u00eancia a seco",
+      "prognostico": "pr\u00f3ximo da normalidade ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-purus",
+      "name": "Bacia do Rio Purus",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 274 e 302 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  244 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.0,  classifica a bacia em condi\u00e7\u00e3o de seco. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o  dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento  seco ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "274 e 302 mm",
+      "observados": "244 mm",
+      "anomalia": "-1.0",
+      "classification": "seco",
+      "prognostico": "seco ou\ntend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "curso-principal-do-rio-solim-es",
+      "name": "Curso principal do Rio Solim\u00f5es",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 251 e 283 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  242 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.6,  classifica a bacia em condi\u00e7\u00e3o de tend\u00eancia a seco.  Nas pr\u00f3ximas semanas o comportamento clim\u00e1tico  indica manuten\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento  pr\u00f3ximo da normalidade ou tend\u00eancia a seco.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 7</p>\n",
+      "climatologia": "251 e 283 mm",
+      "observados": "242 mm",
+      "anomalia": "-0.6",
+      "classification": "tend\u00eancia a seco",
+      "prognostico": "pr\u00f3ximo da normalidade ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-dos-rios-beni-e-madre-de-dios",
+      "name": "Bacia dos rios Beni e Madre de Dios",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 250 e 277 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  267 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.1, classifica  a bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o  dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento  seco ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "250 e 277 mm",
+      "observados": "267 mm",
+      "anomalia": "-0.1",
+      "classification": "normalidade",
+      "prognostico": "seco ou\ntend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-mamore",
+      "name": "Bacia do Rio Mamor\u00e9",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 219 e 248 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  146 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -2.0, classifica  a bacia em condi\u00e7\u00e3o de muito seco. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o  dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento muito seco ou tend\u00eancia a muito seco.</p>\n",
+      "climatologia": "219 e 248 mm",
+      "observados": "146 mm",
+      "anomalia": "-2.0",
+      "classification": "muito seco",
+      "prognostico": "muito seco ou\ntend\u00eancia a muito seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-guapore-itenez",
+      "name": "Bacia do Rio Guapor\u00e9 (It\u00e9nez)",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 193 e 217 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  144 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.5, classifica  a bacia em condi\u00e7\u00e3o de tend\u00eancia a muito seco. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento seco ou tend\u00eancia a seco.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 8</p>\n",
+      "climatologia": "193 e 217 mm",
+      "observados": "144 mm",
+      "anomalia": "-1.5",
+      "classification": "tend\u00eancia a muito seco",
+      "prognostico": "seco\nou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-ji-parana",
+      "name": "Bacia do Rio Ji-Paran\u00e1",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 244 e 273 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  245 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia, o valor de -0.2, classifica  a bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "244 e 273 mm",
+      "observados": "245 mm",
+      "anomalia": "-0.2",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da\nnormalidade ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-aripuana",
+      "name": "Bacia do Rio Aripuan\u00e3",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 266 e 296 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  301 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de 0.3, classifica a  bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade.</p>\n",
+      "climatologia": "266 e 296 mm",
+      "observados": "301 mm",
+      "anomalia": "0.3",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da\nnormalidade",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-madeira",
+      "name": "Bacia do Rio Madeira",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 251 e 280 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  253 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.2, classifica  a bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 9 Bacias da margem esquerda do Rio Amazonas (Amazonas)  A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 200 e 224 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  209 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.1, classifica  a bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica eleva\u00e7\u00e3o dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "251 e 280 mm",
+      "observados": "253 mm",
+      "anomalia": "-0.2",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da\nnormalidade",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-abacaxis",
+      "name": "Bacia do Rio Abacaxis",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 253 e 277 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  232 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.8, classifica  a bacia em condi\u00e7\u00e3o de   tend\u00eancia a seco. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento  pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "253 e 277 mm",
+      "observados": "232 mm",
+      "anomalia": "-0.8",
+      "classification": "tend\u00eancia a seco",
+      "prognostico": "pr\u00f3ximo da normalidade ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-juruena",
+      "name": "Bacia do Rio Juruena",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 262 e 289 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  270 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.1, classifica  a bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o  dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a seco.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 10</p>\n",
+      "climatologia": "262 e 289 mm",
+      "observados": "270 mm",
+      "anomalia": "-0.1",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da\nnormalidade ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-teles-pires",
+      "name": "Bacia do Rio Teles Pires",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 273 e 300 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  267 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.4, classifica  a bacia em condi\u00e7\u00e3o de normalidade. Nas pr\u00f3ximas  semanas o comportamento clim\u00e1tico indica manuten\u00e7\u00e3o dos volumes de chuva, o modelo de progn\u00f3stico  subsazonal sugere um comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "273 e 300 mm",
+      "observados": "267 mm",
+      "anomalia": "-0.4",
+      "classification": "normalidade",
+      "prognostico": "pr\u00f3ximo da\nnormalidade ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-tapajos",
+      "name": "Bacia do Rio Tapaj\u00f3s",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 268 e 294 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  233 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.1, classifica  a bacia em condi\u00e7\u00e3o de seco. Nas pr\u00f3ximas semanas o  comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o  dos  volumes de chuva, o modelo de progn\u00f3stico subsazonal  sugere um comportamento seco ou tend\u00eancia a seco. Bacias da margem esquerda do Rio Amazonas (noroeste do Par\u00e1)  A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 169 e 191 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  132 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.5, classifica  a bacia em condi\u00e7\u00e3o de tend\u00eancia a muito seco. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  eleva\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento seco ou tend\u00eancia a seco.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 11</p>\n",
+      "climatologia": "268 e 294 mm",
+      "observados": "233 mm",
+      "anomalia": "-1.1",
+      "classification": "seco",
+      "prognostico": "seco ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-curua-una",
+      "name": "Bacia do Rio Curu\u00e1 Una",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 206 e 227 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  195 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -0.6, classifica  a bacia em condi\u00e7\u00e3o de tend\u00eancia a seco. Nas  pr\u00f3ximas semanas o comportamento clim\u00e1tico indica  eleva\u00e7\u00e3o dos volumes de chuva, o modelo de  progn\u00f3stico subsazonal sugere um comportamento  pr\u00f3ximo da normalidade ou tend\u00eancia a seco. Bacias da margem esquerda do Rio Amazonas (nordeste do PA)  A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 196 e 218 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  167 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.2, classifica  a bacia em condi\u00e7\u00e3o de seco. Nas pr\u00f3ximas semanas o  comportamento clim\u00e1tico indica eleva\u00e7\u00e3o dos volumes  de chuva, o modelo de progn\u00f3stico subsazonal sugere  um comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "206 e 227 mm",
+      "observados": "195 mm",
+      "anomalia": "-0.6",
+      "classification": "tend\u00eancia a seco",
+      "prognostico": "pr\u00f3ximo da normalidade ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-iriri",
+      "name": "Bacia do Rio Iriri",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 269 e 295 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  229 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.1, classifica  a bacia em condi\u00e7\u00e3o de seco. Nas pr\u00f3ximas semanas o  comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o  dos  volumes de chuva, o modelo de progn\u00f3stico subsazonal  sugere um comportamento seco ou tend\u00eancia a muito seco.  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 12</p>\n",
+      "climatologia": "269 e 295 mm",
+      "observados": "229 mm",
+      "anomalia": "-1.1",
+      "classification": "seco",
+      "prognostico": "seco ou tend\u00eancia a muito\nseco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "bacia-do-rio-xingu",
+      "name": "Bacia do Rio Xingu",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 244 e 272 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  199 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.3, classifica  a bacia em condi\u00e7\u00e3o de seco. Nas pr\u00f3ximas semanas o  comportamento clim\u00e1tico indica  manuten\u00e7\u00e3o  dos  volumes de chuva, o modelo de progn\u00f3stico subsazonal  sugere um comportamento seco ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "244 e 272 mm",
+      "observados": "199 mm",
+      "anomalia": "-1.3",
+      "classification": "seco",
+      "prognostico": "seco ou tend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    },
+    {
+      "id": "curso-principal-do-rio-amazonas-brasil",
+      "name": "Curso principal do Rio Amazonas (Brasil)",
+      "text": "<p>A climatologia do per\u00edodo em an\u00e1lise indica chuvas com  registros variando entre 278 e 304 mm sendo  considerados normais (refer\u00eancia quantis 42.5% e  57.5%). Em 18 de fevereiro de 2026, foram observados  250 mm de precipita\u00e7\u00e3o m\u00e9dia acumulada sobre a bacia  em 30 dias, no c\u00e1lculo da m\u00e9dia do \u00edndice de anomalia  categorizada na \u00e1rea da bacia o valor de -1.0, classifica  a bacia em condi\u00e7\u00e3o de seco. Nas pr\u00f3ximas semanas o  comportamento clim\u00e1tico indica eleva\u00e7\u00e3o dos volumes  de chuva, o modelo de progn\u00f3stico subsazonal sugere  um comportamento pr\u00f3ximo da normalidade ou tend\u00eancia a seco.</p>\n",
+      "climatologia": "278 e 304 mm",
+      "observados": "250 mm",
+      "anomalia": "-1.0",
+      "classification": "seco",
+      "prognostico": "pr\u00f3ximo da normalidade ou\ntend\u00eancia a seco",
+      "charts": {
+        "acc": null,
+        "ano": null
+      }
+    }
+  ],
+  "multimodel": {
+    "title": "Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 13",
+    "text": "Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 13 Previs\u00e3o multimodelo subsazonal CPTEC/INPE-FUNCEME produzida em 17/02/2026 para os pr\u00f3ximos 7 e 14 dias. A previs\u00e3o multimodelo subsazonal calibrada CPTEC/INPE-FUNCEME \u00e9 gerada atrav\u00e9s de coopera\u00e7\u00e3o cient\u00edfica entre o CPTEC/INPE e a FUNCEME, sendo proveniente do conjunto de 4 modelos globais (um modelo brasileiro, o BAM-1.2/CPTEC, e tr\u00eas modelos dos EUA, CFSv2/NCEP, GEFSv12/NCEP e ESRL/NOAA, estes tr\u00eas \u00faltimos do projeto SubX). As anomalias de precipita\u00e7\u00e3o previstas s\u00e3o determinadas em rela\u00e7\u00e3o ao per\u00edodo climatol\u00f3gico de 1999 a 2016. A seguir s\u00e3o apresentadas as sa\u00eddas para o intervalo de previs\u00e3o de 07 e 14 dias detalhando o comportamento previsto sobre as bacias de interesse.",
+    "seven_days": "A Figura acima, apresenta o progn\u00f3stico para o intervalo de 7 dias entre 18/02/2026 e  24/02/2026, previs\u00e3o de predom\u00ednio de d\u00e9ficit de precipita\u00e7\u00e3o (laranja) no sul e no nordeste  da regi\u00e3o monitorada, sobre o curso principal do Rio Amazonas em territ\u00f3rio brasileiro,  bacias dos rios Abacaxis, Aripuan\u00e3, Beni, Branco, Coari, Curu\u00e1 Una, Guapor\u00e9, Iriri, Ji- Paran\u00e1, Juruena, Madeira, Mamor\u00e9, bacias da margem esquerda do Rio Amazonas no  nordeste e no noroeste do Estado do Par\u00e1, Purus, Tapaj\u00f3s, Teles Pires, Ucayali e Xingu.  Previs\u00e3o de anomalias positivas de precipita\u00e7\u00e3o (azul) sobre as bacias dos rios Japur\u00e1 e  Negro. Previs\u00e3o de chuvas pr\u00f3ximas a climatologia (branco) sobre as demais bacias  monitoradas. 1 Abacaxis 2 Amazonas (BR) 3 Amazonas (PE) 4 Aripuan\u00e3 5 Beni 6 Branco 7 Coari 8 Curu\u00e1 Una 9 Guapor\u00e9 10 I\u00e7\u00e1 11 Iriri 12 Japur\u00e1 13 Javari 14 Ji-Paran\u00e1 15 Juru\u00e1 16 Juruena 17 Juta\u00ed 18 Madeira 19 Mamor\u00e9 20 Mara\u00f1on 21 Marg Esq (AM) 22 Marg Esq (PA) NE 23 Marg Esq (PA) NW 24 Napo 25 Negro 26 Purus 27 Solim\u00f5es 28 Tapaj\u00f3s 29 Tef\u00e9 30 Teles Pires 31 Ucayali 32 Xingu  Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 14",
+    "img_seven_days": null,
+    "fourteen_days": "A Figura acima, apresenta o progn\u00f3stico para o intervalo de 14 dias entre 18/02/2026 e  03/03/2026, previs\u00e3o de predom\u00ednio de d\u00e9ficit de precipita\u00e7\u00e3o (laranja) em quase totalidade  da regi\u00e3o monitorada, sobre o curso principal do Rio Amazonas em territ\u00f3rio brasileiro,  bacias dos rios Abacaxis, Aripuan\u00e3, Beni, Branco, Coari, Curu\u00e1 Una, Guapor\u00e9, Iriri, Japur\u00e1,  Ji-Paran\u00e1, Juruena, Madeira, Mamor\u00e9, Mara\u00f1on, bacias da margem esquerda do Rio  Amazonas no nordeste do Estado do Amazonas e no nordeste e no noroeste do Estado do  Par\u00e1, Napo, Negro, Purus, Tapaj\u00f3s, Tef\u00e9, Ucayali, Xingu e o curso principal do Rio  Solim\u00f5es. N\u00e3o h\u00e1 previs\u00e3o de anomalias positivas de precipita\u00e7\u00e3o (azul) sobre a regi\u00e3o  monitorada. Previs\u00e3o de chuvas pr\u00f3ximas a climatologia (branco) sobre o curso principal do  Rio Amazonas em territ\u00f3rio peruano, bacias hidrogr\u00e1ficas dos rios Javari, Juru\u00e1, Juta\u00ed e  Teles Pires. 1 Abacaxis 2 Amazonas (BR) 3 Amazonas (PE) 4 Aripuan\u00e3 5 Beni 6 Branco 7 Coari 8 Curu\u00e1 Una 9 Guapor\u00e9 10 I\u00e7\u00e1 11 Iriri 12 Japur\u00e1 13 Javari 14 Ji-Paran\u00e1 15 Juru\u00e1 16 Juruena 17 Juta\u00ed 18 Madeira 19 Mamor\u00e9 20 Mara\u00f1on 21 Marg Esq (AM) 22 Marg Esq (PA) NE 23 Marg Esq (PA) NW 24 Napo 25 Negro 26 Purus 27 Solim\u00f5es 28 Tapaj\u00f3s 29 Tef\u00e9 30 Teles Pires 31 Ucayali 32 Xingu",
+    "img_fourteen_days": null
+  },
+  "reference": {
+    "text": "Bacia Amaz\u00f4nica \u2013 CODAM P\u00e1gina 15\nValores de Refer\u00eancia para a precipita\u00e7\u00e3o acumulada em 30 dias na data da an\u00e1lise.\nA Tabela 1, mostra os valores de precipita\u00e7\u00e3o m\u00e9dia acumulada (mm de chuva) por bacia, \ntomando como base as estimativas de precipita\u00e7\u00e3o por meio de imagens de sat\u00e9lite, produto \ndenominado MERGE/GPM, disponibilizado pelo Instituto Nacional de Pesquisas Espaciais, \nno per\u00edodo 2000 \u2013 2025, levando-se em conta o limite geogr\u00e1fico das bacias hidrol\u00f3gicas da \nAmaz\u00f4nia, para tando foi utilizada a t\u00e9cnica de quantis, por se mostrar uma ferramenta \nadequada e precisa para categorizar precipita\u00e7\u00e3o e anomalias de vari\u00e1veis discretas, foram \nadotados os seguintes limiares 5%, 12.5%, 20%, 27.5%, 35%, 42.5%, 57.5%, 65%, 72.5%, \n80%, 87.5% e 95% buscando estratificar a t\u00e9cnica e permitir uma categoriza\u00e7\u00e3o mais \ndetalhada das condi\u00e7\u00f5es em cada bacia monitorada.\nTabela 1. Quantis de precipita\u00e7\u00e3o acumulada (mm) em 30 dias (20 de janeiro a 18 de fevereiro),\nClimatologia do per\u00edodo (2000 - 2025) dados MERGE/GPM \u2013 INPE/CPTEC.\n18/02/2026\nQuantis para categoriza\u00e7\u00e3o de anomalias de precipita\u00e7\u00e3o\n5.0%\n12.5%\n20.0%\n27.5%\n35.0%\n42.5%\n57.5%\n65.0%\n72.5%\n80.0%\n87.5%\n95.0%\nAbacaxis\n117\n159\n192\n216\n235\n253\n277\n295\n314\n335\n365\n419\nAmazonas (BR)\n167\n200\n221\n240\n259\n278\n304\n323\n344\n366\n395\n455\nAmazonas (PE)\n151\n190\n217\n240\n260\n282\n310\n331\n356\n384\n420\n478\nAripuan\u00e3\n135\n177\n206\n229\n248\n266\n296\n319\n345\n373\n404\n456\nBeni\n147\n178\n198\n216\n233\n250\n277\n297\n319\n349\n389\n454\nBranco\n6\n12\n17\n23\n29\n36\n48\n59\n74\n94\n117\n150\nCoari\n153\n175\n196\n216\n235\n253\n278\n296\n314\n339\n371\n420\nCuru\u00e1 Una\n120\n145\n163\n179\n192\n206\n227\n244\n264\n289\n319\n360\nGuapor\u00e9\n101\n131\n148\n163\n178\n193\n217\n234\n253\n277\n308\n360\nI\u00e7\u00e1\n112\n142\n170\n192\n212\n228\n254\n274\n295\n321\n360\n418\nIriri\n136\n180\n207\n230\n250\n269\n295\n314\n335\n362\n395\n457\nJapur\u00e1\n84\n113\n135\n151\n165\n180\n202\n217\n235\n256\n285\n342\nJavari\n151\n184\n207\n226\n242\n258\n284\n304\n326\n353\n386\n440\nJi-Paran\u00e1\n110\n166\n189\n208\n226\n244\n273\n294\n317\n341\n372\n420\nJuru\u00e1\n136\n161\n191\n212\n233\n254\n282\n301\n323\n349\n383\n435\nJuruena\n143\n179\n203\n224\n243\n262\n289\n308\n330\n355\n390\n448\nJuta\u00ed\n169\n202\n231\n259\n284\n305\n337\n359\n380\n403\n430\n478\nMadeira\n126\n164\n189\n212\n232\n251\n280\n300\n320\n342\n370\n414\nMamor\u00e9\n120\n148\n167\n185\n201\n219\n248\n269\n295\n326\n368\n444\nMara\u00f1on\n73\n96\n113\n129\n144\n158\n180\n195\n212\n231\n257\n297\nMarg Esq (AM)\n63\n97\n132\n161\n183\n200\n224\n239\n257\n279\n304\n344\nMarg Esq (PA) NE\n100\n137\n155\n170\n184\n196\n218\n233\n251\n273\n299\n339\nMarg Esq (PA) NW\n77\n105\n124\n141\n156\n169\n191\n208\n227\n248\n278\n342\nNapo\n74\n107\n127\n146\n166\n185\n212\n233\n255\n284\n325\n388\nNegro\n68\n95\n115\n134\n153\n171\n198\n218\n243\n270\n303\n354\nPurus\n155\n189\n213\n235\n255\n274\n302\n321\n342\n365\n394\n438\nSolim\u00f5es\n130\n165\n191\n212\n233\n251\n283\n306\n332\n360\n389\n431\nTapaj\u00f3s\n130\n175\n208\n232\n252\n268\n294\n311\n332\n356\n386\n443\nTef\u00e9\n152\n183\n199\n215\n232\n252\n286\n312\n337\n362\n392\n443\nTeles Pires\n154\n187\n215\n237\n256\n273\n300\n319\n339\n363\n395\n456\nUcayali\n104\n123\n138\n153\n167\n181\n203\n219\n236\n257\n285\n334\nXingu\n131\n163\n186\n207\n225\n244\n272\n293\n315\n343\n377\n433",
+    "legend_table": "Tabela 1. Quantis de precipita\u00e7\u00e3o acumulada (mm) em 30 dias (20 de janeiro a 18 de fevereiro),",
+    "legend_climatology": "Climatologia do per\u00edodo (2000 - 2025) dados MERGE/GPM \u2013 INPE/CPTEC.",
+    "img_reference": null
+  },
+  "anomaly_category": {
+    "text": "Utilizando os valores constantes na tabela anterior \u00e9 poss\u00edvel categorizar a precipita\u00e7\u00e3o \nobservada no ano corrente em rela\u00e7\u00e3o aos valores observados nos registros anteriores \ndesde o in\u00edcio da s\u00e9rie dispon\u00edvel, assim os valores observados inferiores ao quantil de 5% \ncaracterizam a bacia em condi\u00e7\u00e3o de extremamente seco, entre 5 e 12.5% em condi\u00e7\u00e3o de \ntend\u00eancia a extremamente seco, entre 12.5 e 20% condi\u00e7\u00e3o de muito seco, entre 20 e \n27.5% tend\u00eancia a muito seco, entre 27.5 e 35% condi\u00e7\u00e3o de seco, entre 35 e 42.5 condi\u00e7\u00e3o \nde tend\u00eancia a seco, valores entre 42.5 e 57.5 definem a condi\u00e7\u00e3o de normalidade, valores \nentre 57.5 e 65% condi\u00e7\u00e3o de tend\u00eancia a chuvoso, entre 65 e 72.5% condi\u00e7\u00e3o de chuvoso, \nentre 72.5 e 80% tend\u00eancia a muito chuvoso, entre 80 e 87.5 condi\u00e7\u00e3o de muito chuvoso, \nentre 87.5 e 95% indicam tend\u00eancia a extremamente chuvoso e finalmente valores \nsuperiores a 95% definem a bacia em condi\u00e7\u00e3o de extremamente chuvoso, conforme \nlegenda abaixo.\nAs tabelas a seguir apresentam (Tabela 2A) a precipita\u00e7\u00e3o m\u00e9dia observada (mm) em cada \nbacia tomando como refer\u00eancia as estimativas de precipita\u00e7\u00e3o por sat\u00e9lite utilizando a \nt\u00e9cnica MERGE, acumuladas em 30 dias nas datas indicadas, disponibilizadas em \nhttp://ftp.cptec.inpe.br/modelos/tempo/MERGE/GPM/DAILY/ os valores m\u00e9dios das \nanomalias categorizadas (Tabela 2B) foram estimados com base no valor de anomalia de \ncada pixel na \u00e1rea da bacia monitorada, calculados conforme metodologia descrita no item \nanterior, nas mesmas datas do monitoramento da precipita\u00e7\u00e3o, a escala de cores das \nanomalias segue a legenda descrita.\n \n Tabela 2A. Precipita\u00e7\u00e3o acumulada em 30 dias (mm), Tabela 2B. Anomalia Categorizada\nde dados MERGE/GPM \u2013 INPE/CPTEC.\n Precipita\u00e7\u00e3o por quantis.\nQUANTIL\n5.0%\n12.5%\n20.0%\n27.5%\n35.0%\n42.5%\n57.5%\n65.0%\n72.5%\n80.0%\n87.5%\n95.0%\nINDICE\n-3.0\n-2.5\n-2.0\n-1.5\n-1.0\n-0.5\n0.0\n0.5\n1.0\n1.5\n2.0\n2.5\n3.0\nCATEGORIA\nSECO\nNORMAL\nCHUVOSO\nEXTREMEMENTE\nSECO\nTEND\u00caNCIA A\nEXTREMAMENTE\nSECO \nMUITO\nSECO\nTEND\u00caNCIA A\nMUITO\nSECO \nTEND\u00caNCIA A\nSECO \nTEND\u00caNCIA A\nCHUVOSO \nTEND\u00caNCIA A\nMUITO\nCHUVOSO\nMUITO\nCHUVOSO\nTEND\u00caNCIA A\nEXTREMAMENTE\nCHUVOSO\nEXTREMAMENTE\nCHUVOSO\nPrecipita\u00e7\u00e3o acumulada m\u00e9dia na bacia (mm)\nAnomalia categorizada m\u00e9dia na bacia\n21/01/2026 28/01/2026 04/02/2026 11/02/2026 18/02/2026\n21/01/2026 28/01/2026 04/02/2026 11/02/2026 18/02/2026\nAbacaxis\n189\n217\n205\n223\n232\n-1.0\n-0.5\n-0.9\n-0.8\n-0.8\nAmazonas (BR)\n103\n130\n144\n209\n250\n-2.3\n-2.1\n-2.2\n-1.3\n-1.0\nAmazonas (PE)\n214\n260\n320\n311\n396\n-1.7\n-0.7\n0.7\n0.5\n1.9\nAripuan\u00e3\n232\n247\n226\n264\n301\n-0.7\n-0.5\n-1.0\n-0.3\n0.3\nBeni\n309\n290\n300\n274\n267\n0.9\n0.5\n0.4\n0.0\n-0.1\nBranco\n27\n30\n40\n32\n30\n-1.3\n-0.9\n-0.1\n-0.8\n-0.9\nCoari\n188\n226\n236\n236\n236\n-2.0\n-0.9\n-1.0\n-1.0\n-0.7\nCuru\u00e1 Una\n113\n108\n98\n119\n195\n-1.2\n-1.8\n-2.3\n-2.2\n-0.6\nGuapor\u00e9\n143\n120\n129\n123\n144\n-1.6\n-2.2\n-1.6\n-1.8\n-1.5\nI\u00e7\u00e1\n217\n223\n264\n256\n278\n-0.6\n-0.4\n0.6\n0.5\n0.8\nIriri\n202\n225\n201\n192\n229\n-0.9\n-0.7\n-1.4\n-1.6\n-1.1\nJapur\u00e1\n166\n169\n198\n174\n198\n-0.8\n-0.3\n0.3\n-0.5\n0.1\nJavari\n184\n248\n288\n274\n338\n-1.9\n-0.6\n0.3\n0.1\n1.1\nJi-Paran\u00e1\n201\n254\n249\n233\n245\n-1.1\n0.1\n-0.1\n-0.4\n-0.2\nJuru\u00e1\n252\n256\n255\n239\n246\n-0.2\n0.1\n-0.1\n-0.4\n-0.4\nJuruena\n242\n236\n206\n236\n270\n-0.5\n-0.7\n-1.3\n-0.7\n-0.1\nJuta\u00ed\n258\n222\n241\n243\n245\n-1.1\n-1.3\n-1.3\n-1.5\n-1.5\nMadeira\n255\n266\n273\n254\n253\n0.1\n0.4\n0.4\n0.0\n-0.2\nMamor\u00e9\n195\n159\n162\n130\n146\n-0.9\n-1.7\n-1.5\n-2.1\n-2.0\nMara\u00f1on\n172\n198\n238\n216\n257\n0.5\n1.1\n1.8\n1.3\n1.9\nMarg Esq (AM)\n169\n186\n176\n185\n209\n-0.3\n0.1\n-0.2\n-0.3\n-0.1\nMarg Esq (PA) NE\n80\n88\n93\n132\n167\n-2.2\n-2.2\n-2.4\n-1.8\n-1.2\nMarg Esq (PA) NW\n79\n95\n92\n126\n132\n-1.8\n-1.6\n-1.8\n-1.3\n-1.5\nNapo\n157\n208\n258\n231\n241\n-1.3\n0.2\n1.1\n0.6\n0.8\nNegro\n176\n206\n219\n185\n186\n-0.4\n0.6\n0.8\n-0.2\n0.0\nPurus\n277\n282\n287\n244\n244\n0.0\n0.1\n0.1\n-0.9\n-1.0\nSolim\u00f5es\n240\n233\n242\n235\n242\n-0.7\n-0.5\n-0.5\n-0.8\n-0.6\nTapaj\u00f3s\n179\n204\n189\n205\n233\n-1.4\n-1.1\n-1.6\n-1.5\n-1.1\nTef\u00e9\n254\n277\n306\n312\n290\n-0.9\n-0.2\n0.4\n0.3\n0.4\nTeles Pires\n191\n213\n222\n241\n267\n-1.8\n-1.3\n-1.1\n-0.7\n-0.4\nUcayali\n187\n215\n260\n249\n271\n0.0\n0.8\n1.7\n1.4\n1.7\nXingu\n165\n182\n174\n180\n199\n-1.6\n-1.4\n-1.7\n-1.7\n-1.3",
+    "tables": null
+  },
+  "anomaly_behavior": []
+}
