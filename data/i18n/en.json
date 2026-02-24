@@ -8,7 +8,8 @@
     "brand": "Clima Amazonia"
   },
   "home": {
-    "basin": "Amazon Basin",
+    "title": "Climate monitoring bulletin for the major river basins:",
+    "subtitle": "The Amazon Basin",
     "volume": "Volume",
     "number": "Number",
     "pubDate": "Publication date",

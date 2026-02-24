@@ -8,7 +8,8 @@
     "brand": "Clima Amazônia"
   },
   "home": {
-    "basin": "Bacia Amazônica",
+    "title": "Boletim de monitoramento climático de grandes bacias hidrográficas",
+    "subtitle": "Bacia Amazônica",
     "volume": "Volume",
     "number": "Número",
     "pubDate": "Data de publicação",

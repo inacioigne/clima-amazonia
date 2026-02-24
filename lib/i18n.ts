@@ -1,4 +1,5 @@
-import type ptBoletim from "@/data/boletim/current/pt.json";
+import type boletim from "@/data/boletim/2026/02/18/pt.json";
+import type messages from "@/data/i18n/pt.json"
 import { getCurrentBoletimDataDir } from "@/lib/env";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
@@ -6,7 +7,8 @@ import path from "node:path";
 export const locales = ["pt", "en", "es"] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "pt";
-type Boletim = typeof ptBoletim;
+type Boletim = typeof boletim;
+type Messages = typeof messages
 
 async function readBoletimFile(filePath: string): Promise<Boletim> {
   const fileContent = await readFile(filePath, "utf-8");
@@ -66,7 +68,22 @@ export async function getPreviousBoletim(locale: Locale, v: string, n: string): 
       return (await import(`@/data/boletim/previous/${v}/${n}/es.json`)).default;
   }
 }
-export async function getMessages(locale: Locale) {
+
+export async function getBulletin(locale: Locale, yyyy: string, mm: string, dd: string): Promise<Boletim> {
+  switch (locale) {
+    case "pt":
+      return (await import(`@/data/boletim/${yyyy}/${mm}/${dd}/pt.json`)).default;
+    case "en":
+      return (await import(`@/data/boletim/${yyyy}/${mm}/${dd}/en.json`)).default;
+    case "es":
+      return (await import(`@/data/boletim/${yyyy}/${mm}/${dd}/es.json`)).default;
+    default:
+      return (await import(`@/data/boletim/${yyyy}/${mm}/${dd}/es.json`)).default;
+  }
+}
+
+
+export async function getMessages(locale: Locale): Promise<Messages> {
   switch (locale) {
     case "pt":
       return (await import("@/data/i18n/pt.json")).default;
