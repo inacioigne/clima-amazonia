@@ -1,58 +1,76 @@
 {
   "nav": {
-    "home": "Inicio",
-    "previous": "Ediciones anteriores",
+    "home": "Início",
+    "previous": "Edições Anteriores",
     "about": "Sobre",
-    "team": "Equipo",
-    "openMenu": "Abrir menú principal",
-    "brand": "Clima Amazonia"
+    "team": "Equipe",
+    "openMenu": "Abrir menu principal",
+    "brand": "Clima Amazônia"
   },
   "home": {
-    "basin": "Cuenca Amazónica",
-    "volume": "Volumen",
+    "title": "Boletín de monitoreo climático de las principales cuencas hidrográficas",
+    "subtitle": "Cuenca Amazónica",
+    "volume": "Volume",
     "number": "Número",
-    "pubDate": "Fecha de publicación",
-    "periodicity": "Periodicidad",
+    "pubDate": "Data de publicação",
+    "periodicity": "Periodicidade",
     "weekly": "Semanal",
     "currentConditions": "Condiciones actuales",
-    "analysisByBasin": "Análisis individual por cuenca hidrográfica",
-    "altMapCurrent": "Anomalía de precipitación en la Cuenca Amazónica",
-    "altLegend": "Leyendas"
+    "analysisByBasin": "Análise individual por bacia hidrográfica",
+    "altMapCurrent": "Anomalia de precipitação na Bacia Amazônica",
+    "altLegend": "Legendas",
+    "sections": "Secciones",
+    "individual-analysis": "Análise individual por bacia hidrográfica",
+    "multi-model-sub-seasonal": "Pronóstico multimodelo subestacional",
+    "reference-values": "Valores de referencia",
+    "anomalies": "Comportamiento de las anomalías",
+    "unifilar": "Diagrama unifilar de las cuencas"
   },
   "bacia": {
     "analysisLabel": "Análisis individual por cuenca hidrográfica",
     "updatedAt": "Actualizado el",
-    "accVsClimatology": "Precipitación acumulada vs climatología",
+    "accVsClimatology": "Precipitación acumulada x climatología",
     "days30": "30 días",
-    "accSummary": "Comparación entre cuantiles climatológicos y acumulado observado.",
+    "accSummary": "Comparación entre cuantiles climatológicos y acumulación observada.",
     "anomalyTrend": "Anomalía y tendencia",
     "days14to28": "14 a 28 días",
-    "anomalySummary": "Indicadores de anomalía, pronóstico y observado.",
+    "anomalySummary": "Indicadores de anomalía, pronóstico y observados.",
     "highlights": "Aspectos destacados de la cuenca",
     "climatology": "Climatología",
-    "observed30": "Observado 30 días",
-    "anomalyIndex": "Índice de anomalía",
-    "classification": "Clasificación de la cuenca",
-    "forecast": "Pronóstico"
+    "observed30": "Observado durante 30 días",
+    "anomalyIndex": "Índice de anomalías",
+    "classification": "Clasificación de cuenca",
+    "forecast": "Pronóstico",
+    "text": {
+      "1": "La climatología del período analizado indica precipitaciones consideradas normales con registros que varían entre",
+      "2": "y",
+      "3": "(quantiles de referencia 42.5% y 57.5%). El",
+      "4": "se observaron",
+      "5": "de la precipitación media acumulada sobre la cuenca en 30 días, el cálculo de la media del índice de anomalía categorizada en el área de la cuenca el valor de",
+      "6": "o que clasifica la cuenca en condición de",
+      "7": "En las próximas semanas, el comportamiento climático indica",
+      "8": "en los volúmenes de lluvia, el modelo de pronóstico subestacional sugiere un comportamiento"
+    }
   },
   "footer": {
-    "basin": "Cuenca Amazónica",
-    "aboutText": "Monitoreo climático semanal de la Cuenca Amazónica con datos científicos actualizados y análisis especializados.",
-    "contact": "Contacto",
-    "links": "Enlaces útiles",
-    "license": "Licencia",
-    "copyright": "© 2026 INPA Todos los derechos reservados.",
-    "openInNewTab": "Abrir en nueva pestaña"
+    "basin": "Bacia Amazônica",
+    "aboutText": "Monitoramento climático semanal da Bacia Amazônica com dados científicos atualizados e análises especializadas.",
+    "contact": "Contato",
+    "links": "Links Úteis",
+    "license": "Licença",
+    "copyright": "© 2026 INPA Todos os direitos reservados.",
+    "openInNewTab": "Abrir em nova guia"
   },
   "about": {
-    "kicker": "Sobre el boletín",
-    "title": "Boletín Clima Amazonia",
-    "description": "El boletín Clima Amazonia presenta semanalmente un panorama de las condiciones de precipitación en la Cuenca Amazónica, integrando datos observados, anomalías y apoyo al análisis climático regional.",
-    "socialTitle": "Sigue el boletín en redes y canales oficiales",
-    "socialLabel": "Acceso rápido",
+    "kicker": "Sobre o boletim",
+    "title": "Boletim Clima Amazônia",
+    "description": "O boletim Clima Amazônia apresenta semanalmente um panorama das condições de precipitação na Bacia Amazônica, reunindo dados observados, anomalias e apoio à análise climática regional. Esta pesquisa foi apoiada como parte do Programa de Grande Escala da BiosferaAtmosfera na Amazônia (LBA), coordenado pelo Instituto Nacional de Pesquisas da Amazônia (INPA), financiado pelo Ministério da Ciência, Tecnologia e Inovação (MCTI) entidade da administração direta do Governo Federal Brasileiro.",
+    "socialTitle": "Acompanhe o boletim nas redes e canais oficiais",
+    "socialLabel": "Acesso rápido",
     "socials": {
       "instagram": "Instagram @clima.amazonia",
       "website": "Portal INPA",
-      "email": "Contacto por correo electrónico"
-    }}
+      "email": "Contato por e-mail"
+    }
+  }
 }

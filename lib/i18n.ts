@@ -1,4 +1,4 @@
-import type boletim from "@/data/boletim/2026/02/18/pt.json";
+import type boletim from "@/data/boletim/2026/0218.json";
 import type messages from "@/data/i18n/pt.json"
 import { getCurrentBoletimDataDir } from "@/lib/env";
 import { readFile } from "node:fs/promises";
@@ -40,20 +40,8 @@ export function detectLocaleFromHeader(acceptLanguage?: string | null): Locale {
   return defaultLocale;
 }
 
-export async function getBoletim(locale: Locale): Promise<Boletim> {
-  const currentBoletimDir = getCurrentBoletimDataDir();
-  const currentBoletimFile = path.join(process.cwd(), currentBoletimDir, `${locale}.json`);
-
-  try {
-    return await readBoletimFile(currentBoletimFile);
-  } catch {
-    if (currentBoletimDir === "data/boletim/current") {
-      throw new Error(`Boletim file not found: ${currentBoletimFile}`);
-    }
-
-    const fallbackFile = path.join(process.cwd(), "data/boletim/current", `${locale}.json`);
-    return readBoletimFile(fallbackFile);
-  }
+export async function getBoletim(yyyy: string, mmdd: string): Promise<Boletim> {
+ return (await import(`@/data/boletim/${yyyy}/${mmdd}.json`)).default;
 }
 
 export async function getPreviousBoletim(locale: Locale, v: string, n: string): Promise<Boletim> {

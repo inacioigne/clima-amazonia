@@ -8,7 +8,7 @@
     "brand": "Clima Amazonia"
   },
   "home": {
-    "title": "Climate monitoring bulletin for the major river basins:",
+    "title": "Climate monitoring bulletin for the major river basins",
     "subtitle": "The Amazon Basin",
     "volume": "Volume",
     "number": "Number",
@@ -18,7 +18,13 @@
     "currentConditions": "Current conditions",
     "analysisByBasin": "Individual analysis by river basin",
     "altMapCurrent": "Precipitation anomaly in the Amazon Basin",
-    "altLegend": "Legends"
+    "altLegend": "Legends",
+    "sections": "Sections",
+    "individual-analysis": "Individual analysis by river basin",
+    "multi-model-sub-seasonal": "A multi-model sub-seasonal forecast",
+    "reference-values": "Reference Values",
+    "anomalies": "Behavior anomalies",
+    "unifilar": "Single-line diagram of the basins"
   },
   "bacia": {
     "analysisLabel": "Individual analysis by river basin",
@@ -34,7 +40,17 @@
     "observed30": "Observed 30 days",
     "anomalyIndex": "Anomaly index",
     "classification": "Basin classification",
-    "forecast": "Forecast"
+    "forecast": "Forecast",
+    "text": {
+      "1": "The climatology of the period under analysis indicates rainfall with records varying between",
+      "2": "and",
+      "3": "being considered normal (reference quantiles 42.5% and 57.5%). On",
+      "4": "",
+      "5": "of average accumulated precipitation was observed over the basin in 30 days, the calculation of the average of the categorized anomaly index in the basin area the value of",
+      "6": "classifies the basin as",
+      "7": "In the coming weeks, climate behavior indicates a",
+      "8": "in rainfall volumes, the sub-seasonal forecast model suggests"
+    }
   },
   "footer": {
     "basin": "Amazon Basin",
