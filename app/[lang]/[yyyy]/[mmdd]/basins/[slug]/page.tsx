@@ -91,7 +91,10 @@ export default async function Page({
           </p>
           <div className="mt-4 text-base leading-relaxed">
             <p>
-              {messages.bacia.text['1']} <strong>{item.min}</strong> {messages.bacia.text['2']} <strong>{item.max} mm</strong> {messages.bacia.text['3']} <strong>{boletim.meta[`${lang}`].date}</strong>, {messages.bacia.text['4']} <strong>{item.observados}</strong> {messages.bacia.text['5']}  <strong>{item.anomalia}</strong>, {messages.bacia.text['6']}  <strong>{item.classification}</strong>. {messages.bacia.text['7']} <strong>{item.trend}</strong> {messages.bacia.text['8']} <strong>{item.prognostico}</strong>.
+              {messages.bacia.text['1']} <strong>{item.min}</strong> {messages.bacia.text['2']} <strong>{item.max} mm</strong> {messages.bacia.text['3']} <strong>{boletim.meta[`${lang}`].date}</strong>, 
+              {messages.bacia.text['4']} <strong>{item.observados}</strong> {messages.bacia.text['5']}  <strong>{item.anomalia}</strong>, {messages.bacia.text['6']} 
+              <strong>{item.i18n?.[lang]?.classification}</strong>. {messages.bacia.text['7']} <strong>{item.i18n?.[lang]?.trend}</strong> {messages.bacia.text['8']} 
+              <strong>{item.i18n?.[lang]?.forecast}</strong>.
             </p>
             {/* <p dangerouslySetInnerHTML={{ __html: item?.text || "" }} /> */}
           </div>
@@ -113,12 +116,12 @@ export default async function Page({
             <div className="rounded-lg border border-emerald-100 bg-emerald-50 px-4 py-3">
               <p className="text-xs text-emerald-700">{messages.bacia.classification}</p>
               <div className="h-full flex items-center justify-items-center">
-                <p className="text-sm font-semibold text-emerald-900">{item?.classification}</p>
+                <p className="text-sm font-semibold text-emerald-900">{item.i18n?.[lang]?.classification}</p>
               </div>
             </div>
             <div className="rounded-lg border border-amber-100 bg-amber-50 px-4 py-3">
               <p className="text-xs text-amber-700">{messages.bacia.forecast}</p>
-              <p className="text-sm font-semibold text-amber-900">{item?.prognostico}</p>
+              <p className="text-sm font-semibold text-amber-900">{item.i18n?.[lang]?.forecast}</p>
             </div>
           </div>
         </div>

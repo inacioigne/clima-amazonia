@@ -35,9 +35,23 @@
          "climatologia": "36 e 48 mm",
          "observados": "30 mm",
          "anomalia": "-0.9",
-         "classification": "tendência a seco",
-         "trend": "elevação",
-         "prognostico": "próximo da normalidade ou tendência a seco",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a seco",
+               "trend":  "elevação",
+               "forecast": "próximo da normalidade ou tendência a seco"
+            },
+            "es": {
+               "classification": "tendiendo a seco",
+               "trend":  "elevación",
+               "forecast": "muy seco o con tendencia a ser extremadamente seco"
+            },
+            "en": {
+               "classification": "dry condition",
+               "trend":  "increase",
+               "forecast": "very dry behavior or a tending to be extremely dry"
+            }
+         },
          "charts": {
             "acc": "bacia-do-rio-branco-acc.png",
             "ano": "bacia-do-rio-branco-ano.png"
