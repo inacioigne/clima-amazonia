@@ -24,8 +24,8 @@ export default async function Page({
     if (!isLocale(lang)) {
         notFound();
     }
-    const mm = mmdd.substring(0, 2)
-    const dd = mmdd.substring(2, 4)
+    // const mm = mmdd.substring(0, 2)
+    // const dd = mmdd.substring(2, 4)
 
     const [boletim, messages] = await Promise.all([
         getBoletim(yyyy, mmdd),
@@ -45,7 +45,7 @@ export default async function Page({
         },
         {
             title: messages.home["reference-values"],
-            href: "/reference",
+            href: `/${yyyy}/${mmdd}/reference`,
             icon: FcDataSheet,
         },
         {

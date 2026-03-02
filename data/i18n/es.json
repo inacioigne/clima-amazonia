@@ -61,6 +61,21 @@
     "sevenDays": "Pronóstico para los próximos 7 días",
      "fourteenDays": "Pronóstico para los próximos 14 días"
   },
+  "reference": {
+    "title": "Valores de referencia de las precipitaciones acumuladas durante 30 días en la fecha del análisis.",
+    "text_table": {
+      "part1": "La Tabla 1 muestra los valores medios de precipitación acumulada (mm de lluvia) por cuenca, basados en estimaciones de precipitación mediante imágenes de satélite, producto denominado MERGE/GPM, puesto a disposición por el Instituto Nacional de Investigaciones Espaciales, para el periodo 2000 -",
+      "parte2": ", teniendo en cuenta los límites geográficos de las cuencas hidrológicas de la Amazonia, se utilizó la técnica de cuantiles, por ser una herramienta adecuada y precisa para categorizar la precipitación y las anomalías de variables discretas. Se adoptaron los siguientes umbrales: 5%, 12,5%, 20%, 27,5%, 35%, 42,5%, 57,5%, 65%, 72,5%, 80%, 87,5% y 95%, con el fin de estratificar la técnica y permitir una categorización más detallada de las condiciones de cada cuenca monitoreada."
+    },
+     "legend_table": {
+      "part1": "Taba 1. Quantiles de precipitaciones acumuladas (mm) en 30 días",
+      "part2": "Climatología para el período (2000 - ",
+      "part3": ") datos MERGE/GPM – INPE/CPTEC."
+    }
+
+
+  },
+
   "footer": {
     "basin": "Bacia Amazônica",
     "aboutText": "Monitoramento climático semanal da Bacia Amazônica com dados científicos atualizados e análises especializadas.",

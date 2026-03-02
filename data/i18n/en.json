@@ -61,6 +61,18 @@
     "sevenDays": "Forecast for the next 7 days",
     "fourteenDays": "Forecast for the next 14 days"
   },
+  "reference": {
+    "title": "Reference Values for 30-day accumulated precipitation on the date of analysis.",
+    "text_table": {
+      "part1": "Table 1 shows the average accumulated precipitation values (mm of rain) per basin, based on precipitation estimates using satellite images, a product called MERGE/GPM, made available by the National Institute for Space Research, for the period 2000 -",
+      "part2": ", taking into account the geographical limits of the Amazon basin's watersheds. To this end, the quantile technique was used, as it is a suitable and accurate tool for categorizing precipitation and anomalies of discrete variables. The following thresholds were adopted: 5%, 12.5%, 20%, 27.5%, 35%, 42.5%, 57.5%, 65%, 72.5%, 80%, 87.5%, and 95% in order to stratify the technique and allow for a more detailed categorization of the conditions in each monitored basin."
+    },
+     "legend_table": {
+      "part1":"Table 1. Accumulated precipitation quantiles (mm) in 30 days",
+      "part2": "Climatology of the period (2000 -",
+      "part3": "2025) MERGE/GPM – INPE/CPTEC."
+    }
+  },
   "footer": {
     "basin": "Amazon Basin",
     "aboutText": "Weekly climate monitoring of the Amazon Basin with updated scientific data and specialized analyses.",

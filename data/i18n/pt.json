@@ -62,6 +62,18 @@
     "sevenDays": "Previsão para os próximos 7 dias",
     "fourteenDays": "Previsão para os próximos 14 dias"
   },
+  "reference": {
+    "title": "Valores de Referência para a precipitação acumulada em 30 dias na data da análise",
+    "text_table": {
+      "part1": "A Tabela 1, mostra os valores de precipitação média acumulada (mm de chuva) por bacia, tomando como base as estimativas de precipitação por meio de imagens de satélite, produto denominado MERGE/GPM, disponibilizado pelo Instituto Nacional de Pesquisas Espaciais, no período 2000 – ",
+      "part2": ", levando-se em conta o limite geográfico das bacias hidrológicas da Amazônia, para tando foi utilizada a técnica de quantis, por se mostrar uma ferramenta adequada e precisa para categorizar precipitação e anomalias de variáveis discretas, foram adotados os seguintes limiares 5%, 12.5%, 20%, 27.5%, 35%, 42.5%, 57.5%, 65%, 72.5%, 80%, 87.5% e 95% buscando estratificar a técnica e permitir uma categorização mais detalhada das condições em cada bacia monitorada."
+    },
+    "legend_table": {
+      "part1": "Tabela 1. Quantis de precipitação acumulada (mm) em 30 dias",
+      "part2": "Climatologia do período (2000 - ",
+      "part3": ") dados MERGE/GPM – INPE/CPTEC."
+    }
+  },
   "footer": {
     "basin": "Bacia Amazônica",
     "aboutText": "Monitoramento climático semanal da Bacia Amazônica com dados científicos atualizados e análises especializadas.",

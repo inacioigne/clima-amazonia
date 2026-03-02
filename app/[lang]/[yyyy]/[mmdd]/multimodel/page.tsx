@@ -1,7 +1,5 @@
 import { getBoletim, getMessages, isLocale, locales } from "@/lib/i18n";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import { FcAreaChart } from "react-icons/fc";
 import Image from "next/image";
 
 
@@ -14,7 +12,6 @@ export default async function Page({
 }: {
     params: Promise<{ lang: string, yyyy: string, mmdd: string }>;
 }) {
-
 
     const { lang, yyyy, mmdd } = await params;
 
@@ -48,7 +45,7 @@ export default async function Page({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                 <div className="md:col-span-2 w-full order-1 md:order-2">
                     <Image
-                        src={`/boletim/current/seven_days.png`}
+                        src={`/boletim/${yyyy}/${mmdd}/multimodel/seven_days.png`}
                         alt={"multimodel_calibrado_seven_days"}
                         width={700}
                         height={500}
@@ -70,7 +67,7 @@ export default async function Page({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                 <div className="md:col-span-2 w-full order-1 md:order-2">
                     <Image
-                        src={"/boletim/current/fourteen_days.png"}
+                        src={`/boletim/${yyyy}/${mmdd}/multimodel/fourteen_days.png`}
                         alt={"multimodel_calibrado"}
                         width={700}
                         height={500}
@@ -84,12 +81,7 @@ export default async function Page({
                         </p>
                     </div>
                 </div>
-
-
             </div>
-
-
-
         </div>
     )
 }
