@@ -1,4 +1,4 @@
-import type boletim from "@/data/boletim/2026/0218.json";
+import type boletim from "@/data/boletim/2026/0225.json";
 import type messages from "@/data/i18n/pt.json"
 import { getCurrentBoletimDataDir } from "@/lib/env";
 import { readFile } from "node:fs/promises";

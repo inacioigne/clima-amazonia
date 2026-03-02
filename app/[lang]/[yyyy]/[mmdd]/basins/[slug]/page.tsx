@@ -2,17 +2,6 @@ import Image from "next/image";
 import { getBoletim, getMessages, isLocale, locales } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
-// export async function generateStaticParams() {
-//   const params: Array<{ lang: string; slug: string }> = [];
-//   for (const lang of locales) {
-//     const boletim = await getBoletim(lang);
-//     for (const item of boletim.analysis) {
-//       params.push({ lang, slug: String(item.id) });
-//     }
-//   }
-//   return params;
-// }
-
 export default async function Page({
   params,
 }: {
@@ -59,7 +48,7 @@ export default async function Page({
             </div>
             <div className="mt-4 h-auto rounded-lg bg-linear-to-br from-emerald-50 via-white to-blue-50">
               <Image
-                src={`/boletim/current/${item?.charts.acc}`}
+                src={`/boletim/${yyyy}/${mmdd}/analysis/${item.id}-acc.png`}
                 alt="chart"
                 width={600}
                 height={300}
@@ -76,7 +65,7 @@ export default async function Page({
             </div>
             <div className="mt-4 h-auto rounded-lg bg-linear-to-br from-slate-50 via-white to-rose-50">
               <Image
-                src={`/boletim/current/${item?.charts.ano}`}
+                src={`/boletim/${yyyy}/${mmdd}/analysis/${item.id}-ano.png`}
                 alt="chart"
                 width={600}
                 height={300}
@@ -91,17 +80,16 @@ export default async function Page({
           </p>
           <div className="mt-4 text-base leading-relaxed">
             <p>
-              {messages.bacia.text['1']} <strong>{item.min}</strong> {messages.bacia.text['2']} <strong>{item.max} mm</strong> {messages.bacia.text['3']} <strong>{boletim.meta[`${lang}`].date}</strong>, 
-              {messages.bacia.text['4']} <strong>{item.observados}</strong> {messages.bacia.text['5']}  <strong>{item.anomalia}</strong>, {messages.bacia.text['6']} 
-              <strong>{item.i18n?.[lang]?.classification}</strong>. {messages.bacia.text['7']} <strong>{item.i18n?.[lang]?.trend}</strong> {messages.bacia.text['8']} 
-              <strong>{item.i18n?.[lang]?.forecast}</strong>.
+              {messages.bacia.text['1']} <strong>{item.min}</strong> {messages.bacia.text['2']} <strong>{item.max} mm</strong> {messages.bacia.text['3']} <strong>{boletim.meta[`${lang}`].date}</strong>,
+              {messages.bacia.text['4']} <strong>{item.observados}</strong> {messages.bacia.text['5']}  <strong>{item.anomalia}</strong>, {messages.bacia.text['6']}
+              <strong>{item.i18n?.[lang]?.classification}</strong>. {messages.bacia.text['7']} <strong>{item.i18n?.[lang]?.trend}</strong> {messages.bacia.text['8']}
+              <strong>{item.i18n?.[lang]?.prognostico}</strong>.
             </p>
-            {/* <p dangerouslySetInnerHTML={{ __html: item?.text || "" }} /> */}
           </div>
           <div className="mt-6 grid gap-4 sm:grid-cols-3">
             <div className="rounded-lg border border-emerald-100 bg-emerald-50 px-4 py-3">
               <p className="text-xs text-emerald-700">{messages.bacia.climatology}</p>
-              <p className="text-lg font-semibold text-emerald-900">{item?.climatologia}</p>
+              <p className="text-lg font-semibold text-emerald-900">{item?.min} mm - {item.max} mm</p>
             </div>
             <div className="rounded-lg border border-blue-100 bg-blue-50 px-4 py-3">
               <p className="text-xs text-blue-700">{messages.bacia.observed30}</p>
@@ -121,7 +109,7 @@ export default async function Page({
             </div>
             <div className="rounded-lg border border-amber-100 bg-amber-50 px-4 py-3">
               <p className="text-xs text-amber-700">{messages.bacia.forecast}</p>
-              <p className="text-sm font-semibold text-amber-900">{item.i18n?.[lang]?.forecast}</p>
+              <p className="text-sm font-semibold text-amber-900">{item.i18n?.[lang]?.prognostico}</p>
             </div>
           </div>
         </div>

@@ -47,10 +47,19 @@
       "3": "being considered normal (reference quantiles 42.5% and 57.5%). On",
       "4": "",
       "5": "of average accumulated precipitation was observed over the basin in 30 days, the calculation of the average of the categorized anomaly index in the basin area the value of",
-      "6": "classifies the basin as",
+      "6": "classifies the basin as ",
       "7": "In the coming weeks, climate behavior indicates a",
-      "8": "in rainfall volumes, the sub-seasonal forecast model suggests"
+      "8": "in rainfall volumes, the sub-seasonal forecast model suggests "
     }
+  },
+  "multimodel": {
+    "title": {
+      "part1": "A multi-model sub-seasonal forecast CPTEC/INPE-FUNCEME produced on ",
+      "part2": " for the next 7 and 14 days."
+    },
+    "text": "The calibrated sub-seasonal multi-model forecast CPTEC/INPE-FUNCEME is generated through scientific cooperation between CPTEC/INPE and FUNCEME, and comes from a set of 4 global models (a Brazilian model, BAM-1.2/CPTEC, and three US models, CFSv2/NCEP, GEFSv12/NCEP and ESRL/NOAA, the latter three from the SubX project). Brazilian model, BAM-1.2/CPTEC, and three US models, CFSv2/NCEP, GEFSv12/NCEP, and ESRL/NOAA, the latter three from the SubX project). The forecast precipitation anomalies are determined in relation to the climatological period from 1999 to 2016. The outputs for the 7 and 14-day forecast intervals are shown below, detailing the forecast behavior of the basins of interest.",
+    "sevenDays": "Forecast for the next 7 days",
+    "fourteenDays": "Forecast for the next 14 days"
   },
   "footer": {
     "basin": "Amazon Basin",

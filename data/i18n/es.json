@@ -47,10 +47,19 @@
       "3": "(quantiles de referencia 42.5% y 57.5%). El",
       "4": "se observaron",
       "5": "de la precipitación media acumulada sobre la cuenca en 30 días, el cálculo de la media del índice de anomalía categorizada en el área de la cuenca el valor de",
-      "6": "o que clasifica la cuenca en condición de",
+      "6": "o que clasifica la cuenca en condición de ",
       "7": "En las próximas semanas, el comportamiento climático indica",
-      "8": "en los volúmenes de lluvia, el modelo de pronóstico subestacional sugiere un comportamiento"
+      "8": "en los volúmenes de lluvia, el modelo de pronóstico subestacional sugiere un comportamiento "
     }
+  },
+  "multimodel": {
+    "title": {
+      "part1": "Pronóstico multimodelo subestacional CPTEC/INPE-FUNCEME elaborada el ",
+      "part2": " para los próximos 7 y 14 días."
+    },
+    "text": "El pronóstico multimodelo subestacional calibrado CPTEC/INPE-FUNCEME se genera a través de la cooperación científica entre CPTEC/INPE y FUNCEME, y proviene del conjunto de 4 modelos globales (un modelo brasileño, el BAM-1.2/CPTEC, y tres modelos del USA, CFSv2/NCEP, GEFSv12/NCEP y ESRL/NOAA, estos tres últimos del proyecto SubX). Las anomalías de precipitación previstas se determinan en relación al período climatológico de 1999 a 2016. A continuación se presentan los resultados para el intervalo de pronóstico de 07 y 14 días, detallando el comportamiento previsto sobre las cuencas de interés.",
+    "sevenDays": "Pronóstico para los próximos 7 días",
+     "fourteenDays": "Pronóstico para los próximos 14 días"
   },
   "footer": {
     "basin": "Bacia Amazônica",

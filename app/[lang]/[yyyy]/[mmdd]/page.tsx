@@ -33,31 +33,31 @@ export default async function Page({
     ]);
 
     const sections = [
-      {
-        title: messages.home["individual-analysis"],
-        href: `/${yyyy}/${mmdd}/basins`,
-        icon: GiRiver,
-      },
-      {
-        title: messages.home["multi-model-sub-seasonal"],
-        href: "/multimodel",
-        icon: MdOutlineAutoGraph,
-      },
-      {
-        title: messages.home["reference-values"],
-        href: "/reference",
-        icon: FcDataSheet,
-      },
-      {
-        title: messages.home["anomalies"],
-        href: "/anomaly",
-        icon: FcComboChart,
-      },
-      {
-        title: messages.home["unifilar"],
-        href: "/unifilar",
-        icon: FcTreeStructure,
-      },
+        {
+            title: messages.home["individual-analysis"],
+            href: `/${yyyy}/${mmdd}/basins`,
+            icon: GiRiver,
+        },
+        {
+            title: messages.home["multi-model-sub-seasonal"],
+            href: `/${yyyy}/${mmdd}/multimodel`,
+            icon: MdOutlineAutoGraph,
+        },
+        {
+            title: messages.home["reference-values"],
+            href: "/reference",
+            icon: FcDataSheet,
+        },
+        {
+            title: messages.home["anomalies"],
+            href: "/anomaly",
+            icon: FcComboChart,
+        },
+        {
+            title: messages.home["unifilar"],
+            href: "/unifilar",
+            icon: FcTreeStructure,
+        },
     ];
 
     return (
