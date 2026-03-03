@@ -10,58 +10,58 @@ export async function generateStaticParams() {
 function getData30days(yyyy: string, mmdd: string, lang: Locale) {
 
     const mesesPT = [
-  "janeiro",
-  "fevereiro",
-  "março",
-  "abril",
-  "maio",
-  "junho",
-  "julho",
-  "agosto",
-  "setembro",
-  "outubro",
-  "novembro",
-  "dezembro"
-];
-const mesesEN = [
-  "january",
-  "february",
-  "march",
-  "april",
-  "may",
-  "june",
-  "july",
-  "august",
-  "september",
-  "october",
-  "november",
-  "december"
-];
-const mesesES = [
-  "enero",
-  "febrero",
-  "marzo",
-  "abril",
-  "mayo",
-  "junio",
-  "julio",
-  "agosto",
-  "septiembre",
-  "octubre",
-  "noviembre",
-  "diciembre"
-];
+        "janeiro",
+        "fevereiro",
+        "março",
+        "abril",
+        "maio",
+        "junho",
+        "julho",
+        "agosto",
+        "setembro",
+        "outubro",
+        "novembro",
+        "dezembro"
+    ];
+    const mesesEN = [
+        "january",
+        "february",
+        "march",
+        "april",
+        "may",
+        "june",
+        "july",
+        "august",
+        "september",
+        "october",
+        "november",
+        "december"
+    ];
+    const mesesES = [
+        "enero",
+        "febrero",
+        "marzo",
+        "abril",
+        "mayo",
+        "junio",
+        "julio",
+        "agosto",
+        "septiembre",
+        "octubre",
+        "noviembre",
+        "diciembre"
+    ];
 
     const dd = parseInt(mmdd.substring(2))
-    const mm = parseInt(mmdd.substring(0, 2)) -1
-    const date = new Date(parseInt(yyyy), mm, dd); 
+    const mm = parseInt(mmdd.substring(0, 2)) - 1
+    const date = new Date(parseInt(yyyy), mm, dd);
     date.setDate(date.getDate() - 29);
     if (lang === 'es') {
         return `${date.getDate()} de ${mesesES[date.getMonth()]} al`
     } if (lang == 'en') {
         return `${mesesEN[date.getMonth()]} ${date.getDate()} to`
     } else {
-        return `${date.getDate()} de ${mesesPT[date.getMonth()]} a`   
+        return `${date.getDate()} de ${mesesPT[date.getMonth()]} a`
     }
 }
 
@@ -82,20 +82,20 @@ export default async function Page({
         getMessages(lang),
     ]);
     const period = parseInt(yyyy) - 1
-    
-    const days30 = getData30days(yyyy, mmdd, lang)  
+
+    const days30 = getData30days(yyyy, mmdd, lang)
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-5">
             <p className="text-lg font-semibold uppercase tracking-wide text-green-700">
                 {messages.reference.title}
-               
+
             </p>
             <div className="border border-gray-200 w-full my-4" />
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                 <div className="md:col-span-2 w-full order-1 md:order-2">
                     <Image
-                        src={`/boletim/current/reference.png`}
+                        src={`/boletim/${yyyy}/${mmdd}/reference/reference_table.png`}
                         alt={"multimodel_calibrado_seven_days"}
                         width={700}
                         height={500}
@@ -114,9 +114,7 @@ export default async function Page({
                         </p>
                     </div>
                 </div>
-
             </div>
-
         </div>
     )
 }

@@ -23,6 +23,7 @@
     "individual-analysis": "Análise individual por bacia hidrográfica",
     "multi-model-sub-seasonal": "Previsão multimodelo subsazonal",
     "reference-values": "Valores de Referência",
+    "categorization": "Categorização das anomalias",
     "anomalies": "Comportamento das anomalias",
     "unifilar": "Diagrama unifilar das bacias"
   },
@@ -72,6 +73,30 @@
       "part1": "Tabela 1. Quantis de precipitação acumulada (mm) em 30 dias",
       "part2": "Climatologia do período (2000 - ",
       "part3": ") dados MERGE/GPM – INPE/CPTEC."
+    }
+  },
+  "categorization": {
+    "title": "Categorização das anomalias de precipitação",
+    "text1": "Utilizando os valores constantes na tabela anterior é possível categorizar a precipitação observada no ano corrente em relação aos valores observados nos registros anteriores desde o início da série disponível, assim os valores observados inferiores ao quantil de 5% caracterizam a bacia em condição de extremamente seco, entre 5 e 12.5% em condição de tendência a extremamente seco, entre 12.5 e 20% condição de muito seco, entre 20 e 27.5% tendência a muito seco, entre 27.5 e 35% condição de seco, entre 35 e 42.5 condição de tendência a seco, valores entre 42.5 e 57.5 definem a condição de normalidade, valores entre 57.5 e 65% condição de tendência a chuvoso, entre 65 e 72.5% condição de chuvoso, entre 72.5 e 80% tendência a muito chuvoso, entre 80 e 87.5 condição de muito chuvoso, entre 87.5 e 95% indicam tendência a extremamente chuvoso e finalmente valores superiores a 95% definem a bacia em condição de extremamente chuvoso, conforme legenda abaixo.",
+    "text2": "As tabelas a seguir apresentam (Tabela 2A) a precipitação média observada (mm) em cada bacia tomando como referência as estimativas de precipitação por satélite utilizando a técnica MERGE, acumuladas em 30 dias nas datas indicadas, disponibilizadas em ",
+    "text3":  "os valores médios das anomalias categorizadas (Tabela 2B) foram estimados com base no valor de anomalia de cada pixel na área da bacia monitorada, calculados conforme metodologia descrita no item anterior, nas mesmas datas do monitoramento da precipitação, a escala de cores das anomalias segue a legenda descrita.",
+    "table": {
+      "quantile": "QUANTIL",
+      "index": "INDICE",
+      "category": "CATEGORIA",
+      "extremely-dry": "Extremamente seco",
+      "extremely-dry-tendency": "Tendência a extremamente seco",
+      "very-dry": "Muito Seco",
+      "very-dry-tendency":"Tendência a muito seco",
+      "dry": "Seco",
+      "dry-tendency": "Tendência a seco",
+      "normal": "Normal",
+      "rainy-tendency": "Tendência a chuvoso",
+      "rainy": "Chuvoso",
+      "very-rainy-tendency":"Tendência a muito chuvoso",
+      "very-rainy":"Muito chuvoso",
+      "extremely-rainy-tendency": "Tendência a extremamente chuvoso",
+      "extremely-rainy":"Extremamente chuvoso"
     }
   },
   "footer": {

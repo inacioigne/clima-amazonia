@@ -23,6 +23,7 @@
     "individual-analysis": "Análise individual por bacia hidrográfica",
     "multi-model-sub-seasonal": "Pronóstico multimodelo subestacional",
     "reference-values": "Valores de referencia",
+    "categorization": "Categorizacion das anomalias",
     "anomalies": "Comportamiento de las anomalías",
     "unifilar": "Diagrama unifilar de las cuencas"
   },
@@ -59,23 +60,44 @@
     },
     "text": "El pronóstico multimodelo subestacional calibrado CPTEC/INPE-FUNCEME se genera a través de la cooperación científica entre CPTEC/INPE y FUNCEME, y proviene del conjunto de 4 modelos globales (un modelo brasileño, el BAM-1.2/CPTEC, y tres modelos del USA, CFSv2/NCEP, GEFSv12/NCEP y ESRL/NOAA, estos tres últimos del proyecto SubX). Las anomalías de precipitación previstas se determinan en relación al período climatológico de 1999 a 2016. A continuación se presentan los resultados para el intervalo de pronóstico de 07 y 14 días, detallando el comportamiento previsto sobre las cuencas de interés.",
     "sevenDays": "Pronóstico para los próximos 7 días",
-     "fourteenDays": "Pronóstico para los próximos 14 días"
+    "fourteenDays": "Pronóstico para los próximos 14 días"
   },
   "reference": {
     "title": "Valores de referencia de las precipitaciones acumuladas durante 30 días en la fecha del análisis.",
     "text_table": {
       "part1": "La Tabla 1 muestra los valores medios de precipitación acumulada (mm de lluvia) por cuenca, basados en estimaciones de precipitación mediante imágenes de satélite, producto denominado MERGE/GPM, puesto a disposición por el Instituto Nacional de Investigaciones Espaciales, para el periodo 2000 -",
-      "parte2": ", teniendo en cuenta los límites geográficos de las cuencas hidrológicas de la Amazonia, se utilizó la técnica de cuantiles, por ser una herramienta adecuada y precisa para categorizar la precipitación y las anomalías de variables discretas. Se adoptaron los siguientes umbrales: 5%, 12,5%, 20%, 27,5%, 35%, 42,5%, 57,5%, 65%, 72,5%, 80%, 87,5% y 95%, con el fin de estratificar la técnica y permitir una categorización más detallada de las condiciones de cada cuenca monitoreada."
+      "part2": ", teniendo en cuenta los límites geográficos de las cuencas hidrológicas de la Amazonia, se utilizó la técnica de cuantiles, por ser una herramienta adecuada y precisa para categorizar la precipitación y las anomalías de variables discretas. Se adoptaron los siguientes umbrales: 5%, 12,5%, 20%, 27,5%, 35%, 42,5%, 57,5%, 65%, 72,5%, 80%, 87,5% y 95%, con el fin de estratificar la técnica y permitir una categorización más detallada de las condiciones de cada cuenca monitoreada."
     },
-     "legend_table": {
+    "legend_table": {
       "part1": "Taba 1. Quantiles de precipitaciones acumuladas (mm) en 30 días",
       "part2": "Climatología para el período (2000 - ",
       "part3": ") datos MERGE/GPM – INPE/CPTEC."
     }
-
-
   },
-
+  "categorization": {
+    "title": "Categorizacion das anomalias de precipitación",
+    "text1": "Utilizando los valores de la tabla anterior, es posible categorizar la precipitación observada en el año en curso en relación con los valores observados en registros anteriores desde el inicio de la serie disponible, de modo que los valores observados sean menores al cuantil 5.% caracteriza la cuenca en condición extremadamente seco, entre 5 y 12,5% en condición que tiende a ser extremadamente seco, entre 12,5 y 20% en condición muy seco, entre 20 y 27,5% en condición que tiende a ser muy seco, entre 27.5 y 35% en condición seco, entre 35 y 42.5 tiende a ser seco, valores entre 42.5 y 57.5 definen la condición normal, valores entre 57.5 y 65% tienden a ser lluvioso, entre un 65 y un 72,5% son lluvioso, entre un 72,5 y un 80% tienden a ser muy lluvioso, entre un 80 y un 87,5 son muy lluvioso, entre un 87,5 y un 95% indican tendencia a extremadamente lluvioso y finalmente, valores superiores al 95% definen la cuenca en condiciones extremadamente lluvioso, según el título a continuación.",
+    "text2": "Las tablas a continuación muestran (Tabla 2A) la precipitación promedio observada (mm) en cada cuenca, tomando como referencia las estimaciones de precipitación por satélite mediante la técnica MERGE, disponible en ",
+    "text3": "acumulado en 30 días en las fechas indicadas, se estimaron los valores promedio de las anomalías categorizadas (Tabla 2B) con base en el valor de anomalía de cada píxel en el área de la cuenca monitoreada, calculado según la metodología descrita en el ítem anterior, en las mismas fechas de monitoreo de precipitaciones, la escala de colores de las anomalías sigue la leyenda descrita.",
+     "table": {
+      "quantile": "CUANTIL",
+      "index": "INDICE",
+      "category": "CATEGORÍA",
+      "extremely-dry": "Extremadamente seco",
+      "extremely-dry-tendency": "Tendencia a extremadamente seco",
+      "very-dry": "Muy Seco",
+      "very-dry-tendency":"Tendencia a muy seco",
+      "dry": "Seco",
+      "dry-tendency": "Tendencia a seco",
+      "normal": "Normal",
+      "rainy-tendency": "Tendencia a lluvioso",
+      "rainy": "Lluvioso",
+      "very-rainy-tendency":"Tendencia a muy lluvioso",
+      "very-rainy":"Muy lluvioso",
+      "extremely-rainy-tendency": "Tendencia a extremadamente lluvioso",
+      "extremely-rainy":"Extremadamente lluvioso"
+    }
+  },
   "footer": {
     "basin": "Bacia Amazônica",
     "aboutText": "Monitoramento climático semanal da Bacia Amazônica com dados científicos atualizados e análises especializadas.",

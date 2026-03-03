@@ -23,6 +23,7 @@
     "individual-analysis": "Individual analysis by river basin",
     "multi-model-sub-seasonal": "A multi-model sub-seasonal forecast",
     "reference-values": "Reference Values",
+    "categorization": "Categorizing rainfall anomalies",
     "anomalies": "Behavior anomalies",
     "unifilar": "Single-line diagram of the basins"
   },
@@ -71,6 +72,30 @@
       "part1":"Table 1. Accumulated precipitation quantiles (mm) in 30 days",
       "part2": "Climatology of the period (2000 -",
       "part3": "2025) MERGE/GPM – INPE/CPTEC."
+    }
+  },
+  "categorization": {
+    "title": "Categorizing rainfall anomalies",
+    "text1": "Using the values in the table above, it is possible to categorize the rainfall observed in the current year in relation to the values observed in the previous records since the beginning of the available series, so the observed values below the 5% quantile characterize the basin in an extremely dry condition, between 5 and 12.5% in an extremely dry tendency condition, between 12.5 and 20% very dry condition, between 20 and 27.5% very dry tendency, between 27. 5 and 35% dry condition, between 35 and 42.5 dry tendency condition, values between 42.5 and 57.5 define normal condition, values between 57.5 and 65% rainy tendency condition, between 65 and 72.5% rainy condition, between 72.5 and 80% very rainy tendency, between 80 and 87.5 very rainy condition, between 87.5 and 95% indicate extremely rainy tendency and finally values above 95% define the basin in extremely rainy condition, as per the legend below.",
+    "text2": "The tables below show (Table 2A) the average precipitation observed (mm) in each basin, taking as reference the precipitation estimates by satellite using the MERGE technique, available at ",
+    "text3": "accumulated in 30 days on the indicated dates, the average values of the categorized anomalies (Table 2B) were estimated based on the anomaly value of each pixel in the monitored watershed area, calculated according to the methodology described in the previous item, on the same dates of precipitation monitoring, the color scale of the anomalies follows the legend described.",
+    "table": {
+      "quantile": "QUANTIL",
+      "index": "INDICE",
+      "category": "CATEGORIA",
+      "extremely-dry": "Extremely Dry",
+      "extremely-dry-tendency": "Extremely Dry Tendency",
+      "very-dry": "Very Dry",
+      "very-dry-tendency":"Very Dry Tendency",
+      "dry": "Dry",
+      "dry-tendency": "Dry Tendency",
+      "normal": "Normal",
+      "rainy-tendency": "Rainy Tendency",
+      "rainy": "Rainy",
+      "very-rainy-tendency":"Very Rainy Tendency",
+      "very-rainy":"Very Rainy",
+      "extremely-rainy-tendency": "Extremely Rainy Tendency",
+      "extremely-rainy":"Extremely Rainy"
     }
   },
   "footer": {

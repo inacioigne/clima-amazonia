@@ -3,9 +3,8 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { GiRiver } from "react-icons/gi";
 import { MdOutlineAutoGraph } from "react-icons/md";
-import { FcDataSheet } from "react-icons/fc";
-import { FcComboChart } from "react-icons/fc";
-import { FcTreeStructure } from "react-icons/fc";
+import { FcDataSheet, FcComboChart, FcTreeStructure } from "react-icons/fc";
+import { BiSolidCategoryAlt } from "react-icons/bi"
 import Link from "next/link";
 
 export async function generateStaticParams() {
@@ -18,14 +17,10 @@ export default async function Page({
     params: Promise<{ lang: string, yyyy: string, mmdd: string }>;
 }) {
 
-
     const { lang, yyyy, mmdd } = await params;
-
     if (!isLocale(lang)) {
         notFound();
     }
-    // const mm = mmdd.substring(0, 2)
-    // const dd = mmdd.substring(2, 4)
 
     const [boletim, messages] = await Promise.all([
         getBoletim(yyyy, mmdd),
@@ -47,6 +42,11 @@ export default async function Page({
             title: messages.home["reference-values"],
             href: `/${yyyy}/${mmdd}/reference`,
             icon: FcDataSheet,
+        },
+        {
+            title: messages.home["categorization"],
+            href: `/${yyyy}/${mmdd}/categorization`,
+            icon: BiSolidCategoryAlt,
         },
         {
             title: messages.home["anomalies"],
