@@ -1,14 +1,11 @@
-import { getBoletim, getMessages, isLocale, Locale, locales } from "@/lib/i18n";
+import { getBoletim, getMessages, isLocale, locales } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export async function generateStaticParams() {
     return locales.map((lang) => ({ lang }));
 }
-
-
 
 export default async function Page({
     params,
@@ -100,7 +97,7 @@ export default async function Page({
                     </tr>
                 </tbody>
             </table>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                 <div >
                     <div className="border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl p-6 h-auto">
                         <p className="text-gray-700 leading-relaxed text-wrap">
@@ -118,25 +115,22 @@ export default async function Page({
                 </div>
                 <div className="md:col-span-2 w-full">
                     <Image
-                        src={`/boletim/current/anomaly_table.png`}
+                        src={`/boletim/${yyyy}/${mmdd}/categorization/table.png`}
                         alt={"anomaly_table"}
                         width={700}
                         height={500}
                         className="w-full h-auto"
                     />
                     <div className="flex justify-between">
-                        <p className="mt-3 text-xs text-gray-500 text-center">
-                            Tabela 2A. Precipitação acumulada em 30 dias (mm), de dados MERGE/GPM – INPE/CPTEC.
+                        <p className="mt-3 text-sm text-gray-500 text-center">
+                            {messages.categorization.legend.part1} <br /> {messages.categorization.legend.part2}
                         </p>
-                        <p className="mt-3 text-xs text-gray-500 text-center">
-                            Tabela 2B. Anomalia Categorizada Precipitação por quantis.
+                        <p className="mt-3 text-sm text-gray-500 text-center">
+                            {messages.categorization.legend.part3} <br /> {messages.categorization.legend.part4}
                         </p>
                     </div>
                 </div>
-
             </div>
-
-
         </div>
     )
 }

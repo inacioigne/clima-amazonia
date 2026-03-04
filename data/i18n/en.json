@@ -96,7 +96,17 @@
       "very-rainy":"Very Rainy",
       "extremely-rainy-tendency": "Extremely Rainy Tendency",
       "extremely-rainy":"Extremely Rainy"
+    },
+    "legend": {
+      "part1": "Table 2A. Accumulated rainfall over 30 days (mm)",
+      "part2": "data MERGE/GPM – INPE/CPTEC.",
+      "part3": "Table 2B. Categorized precipitation",
+      "part4": "anomaly by quantiles"
     }
+  },
+   "anomaly": {
+    "title": "Behavior of the 07 and 30 days anomalies observed in previous weeks",
+    "text": "The following graphs illustrate the behavior of the precipitation anomaly index in recent weeks, red lines show the behavior for periods of 30 days and blue lines the behavior for periods of 7 days, updated weekly."
   },
   "footer": {
     "basin": "Amazon Basin",

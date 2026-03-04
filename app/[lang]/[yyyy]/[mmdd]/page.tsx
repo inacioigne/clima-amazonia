@@ -50,7 +50,7 @@ export default async function Page({
         },
         {
             title: messages.home["anomalies"],
-            href: "/anomaly",
+            href: `/${yyyy}/${mmdd}/anomaly`,
             icon: FcComboChart,
         },
         {

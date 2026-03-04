@@ -96,7 +96,17 @@
       "very-rainy":"Muy lluvioso",
       "extremely-rainy-tendency": "Tendencia a extremadamente lluvioso",
       "extremely-rainy":"Extremadamente lluvioso"
+    },
+    "legend": {
+      "part1": "Tabela 2A. Precipitacion acumulada en 30 dias (mm),",
+      "part2": "datos MERGE/GPM – INPE/CPTEC.",
+      "part3": "Tabela 2B. Anomalia Categorizada de",
+      "part4": "precipitacion por cuantiles."
     }
+  },
+  "anomaly": {
+    "title": "Comportamiento de las anomalías de 07 y 30 días observadas en semanas anteriores",
+    "text": "Los siguientes gráficos ilustran el comportamiento del índice de anomalía de precipitación en las últimas semanas, las líneas rojas muestran el comportamiento para periodos de 30 días y las líneas azules el comportamiento para periodos de 7 días, actualizados semanalmente."
   },
   "footer": {
     "basin": "Bacia Amazônica",
