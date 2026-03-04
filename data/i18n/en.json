@@ -51,6 +51,40 @@
       "6": "classifies the basin as ",
       "7": "In the coming weeks, climate behavior indicates a",
       "8": "in rainfall volumes, the sub-seasonal forecast model suggests "
+    },
+    "name": {
+      "bacia-do-rio-branco": "Branco River Basin",
+      "bacia-do-rio-negro": "Negro River Basin",
+      "bacia-do-rio-maranon": "Marañon River Basin",
+      "bacia-do-rio-ucayali": "Ucayali River Basin",
+      "bacia-do-rio-napo": "Napo River Basin",
+      "curso-principal-do-rio-amazonas-peru": "The main course of the Amazon River (Peru)",
+      "bacia-do-rio-javari": "Javari River Basin",
+      "bacia-do-rio-ica-putumayo": "Putumayo and Içá Rivers Basins",
+      "bacia-do-rio-jutai": "Jutaí River Basin",
+      "bacia-do-rio-jurua": "Juruá River Basin",
+      "bacia-do-rio-japura-caqueta": "Caquetá and Japurá Rivers Basins",
+      "bacia-do-rio-tefe": "Tefé River Basin",
+      "bacia-do-rio-coari": "Coari River Basin",
+      "bacia-do-rio-purus": "Purus River Basin",
+      "curso-principal-do-rio-solimoes": "The main course of the Solimões River",
+      "bacia-dos-rios-beni-e-madre-de-dios": "Madre de Dios and Beni Rivers Basins",
+      "bacia-do-rio-mamore": "Mamoré River Basin",
+      "bacia-do-rio-guapore-itenez": "Guaporé and Intenéz Rivers Basins",
+      "bacia-do-rio-ji-parana": "Ji-Paraná River Basin",
+      "bacia-do-rio-aripuana": "Aripuanã River Basin",
+      "bacia-do-rio-madeira": "Madeira River Basin",
+      "bacias-da-margem-esquerda-do-rio-amazonas-amazonas": "Basins on the left bank of the Amazon River (Amazonas State)",
+      "bacia-do-rio-abacaxis": "Abacaxis River Basin",
+      "bacia-do-rio-juruena": "Juruena River Basin",
+      "bacia-do-rio-teles-pires": "Teles Pires River Basin",
+      "bacia-do-rio-tapajos": "Tapajós River Basin",
+      "bacias-da-margem-esquerda-do-rio-amazonas-noroeste-do-para": "Basins on the left bank of the Amazon River (northwest of the Pará State)",
+      "bacia-do-rio-curua-una": "Curuá Una River Basin",
+      "bacias-da-margem-esquerda-do-rio-amazonas-nordeste-do-pa": "Basins on the left bank of the Amazon River (north-estern of the Pará State)",
+      "bacia-do-rio-iriri": "Iriri River Basin",
+      "bacia-do-rio-xingu": "Xingu River Basin",
+      "curso-principal-do-rio-amazonas-brasil": "The main course of the Amazon River (Brazil)"
     }
   },
   "multimodel": {
@@ -68,8 +102,8 @@
       "part1": "Table 1 shows the average accumulated precipitation values (mm of rain) per basin, based on precipitation estimates using satellite images, a product called MERGE/GPM, made available by the National Institute for Space Research, for the period 2000 -",
       "part2": ", taking into account the geographical limits of the Amazon basin's watersheds. To this end, the quantile technique was used, as it is a suitable and accurate tool for categorizing precipitation and anomalies of discrete variables. The following thresholds were adopted: 5%, 12.5%, 20%, 27.5%, 35%, 42.5%, 57.5%, 65%, 72.5%, 80%, 87.5%, and 95% in order to stratify the technique and allow for a more detailed categorization of the conditions in each monitored basin."
     },
-     "legend_table": {
-      "part1":"Table 1. Accumulated precipitation quantiles (mm) in 30 days",
+    "legend_table": {
+      "part1": "Table 1. Accumulated precipitation quantiles (mm) in 30 days",
       "part2": "Climatology of the period (2000 -",
       "part3": "2025) MERGE/GPM – INPE/CPTEC."
     }
@@ -86,16 +120,16 @@
       "extremely-dry": "Extremely Dry",
       "extremely-dry-tendency": "Extremely Dry Tendency",
       "very-dry": "Very Dry",
-      "very-dry-tendency":"Very Dry Tendency",
+      "very-dry-tendency": "Very Dry Tendency",
       "dry": "Dry",
       "dry-tendency": "Dry Tendency",
       "normal": "Normal",
       "rainy-tendency": "Rainy Tendency",
       "rainy": "Rainy",
-      "very-rainy-tendency":"Very Rainy Tendency",
-      "very-rainy":"Very Rainy",
+      "very-rainy-tendency": "Very Rainy Tendency",
+      "very-rainy": "Very Rainy",
       "extremely-rainy-tendency": "Extremely Rainy Tendency",
-      "extremely-rainy":"Extremely Rainy"
+      "extremely-rainy": "Extremely Rainy"
     },
     "legend": {
       "part1": "Table 2A. Accumulated rainfall over 30 days (mm)",
@@ -104,9 +138,12 @@
       "part4": "anomaly by quantiles"
     }
   },
-   "anomaly": {
+  "anomaly": {
     "title": "Behavior of the 07 and 30 days anomalies observed in previous weeks",
     "text": "The following graphs illustrate the behavior of the precipitation anomaly index in recent weeks, red lines show the behavior for periods of 30 days and blue lines the behavior for periods of 7 days, updated weekly."
+  },
+  "unifilar": {
+    "title": "Single-line diagram of the basins represented"
   },
   "footer": {
     "basin": "Amazon Basin",

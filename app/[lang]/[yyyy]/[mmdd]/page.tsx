@@ -55,7 +55,7 @@ export default async function Page({
         },
         {
             title: messages.home["unifilar"],
-            href: "/unifilar",
+            href: `/${yyyy}/${mmdd}/unifilar`,
             icon: FcTreeStructure,
         },
     ];

@@ -13,7 +13,6 @@ export default async function Page({
     params: Promise<{ lang: string, yyyy: string, mmdd: string }>;
 }) {
 
-
     const { lang, yyyy, mmdd } = await params;
 
     if (!isLocale(lang)) {

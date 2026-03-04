@@ -108,6 +108,9 @@
     "title": "Comportamiento de las anomalías de 07 y 30 días observadas en semanas anteriores",
     "text": "Los siguientes gráficos ilustran el comportamiento del índice de anomalía de precipitación en las últimas semanas, las líneas rojas muestran el comportamiento para periodos de 30 días y las líneas azules el comportamiento para periodos de 7 días, actualizados semanalmente."
   },
+  "unifilar": {
+    "title": "Diagrama unifilar de las cuencas representadas"
+  },
   "footer": {
     "basin": "Bacia Amazônica",
     "aboutText": "Monitoramento climático semanal da Bacia Amazônica com dados científicos atualizados e análises especializadas.",

@@ -87,9 +87,9 @@ export default async function Home({
   ];
 
   const [boletim, messages] = await Promise.all([
-    getBoletim(lang),
-    getMessages(lang),
-  ]);
+        getBoletim(yyyy, mmdd),
+        getMessages(lang),
+    ]);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-5">
