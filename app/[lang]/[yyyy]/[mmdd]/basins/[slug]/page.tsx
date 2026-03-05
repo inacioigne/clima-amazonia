@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getBoletim, getMessages, isLocale, locales } from "@/lib/i18n";
+import { getBoletim, getMessages, isLocale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
 export default async function Page({
@@ -33,7 +33,7 @@ export default async function Page({
         <div className="flex flex-col gap-1">
           <h3 className="text-xl font-semibold text-gray-900">
             {messages.bacia.name[item.id as keyof typeof messages.bacia.name]}
-            {item?.name}</h3>
+            </h3>
           <p className="text-sm text-gray-500">
             {messages.bacia.updatedAt} {boletim.meta[`${lang}`].date}
           </p>

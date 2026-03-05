@@ -1,6 +1,6 @@
-import { isLocale } from "@/lib/i18n";
+import { getMessages, isLocale } from '@/lib/i18n';
 import { notFound } from "next/navigation";
-import issues from "@/data/boletim/previous/issues.json";
+import issues from "@/data/issues.json";
 import Link from "next/link";
 import { FiCalendar, FiChevronDown, FiBookOpen, FiChevronRight } from "react-icons/fi";
 import Image from "next/image";
@@ -55,6 +55,7 @@ export default async function Page({
     if (!isLocale(lang)) {
         notFound();
     }
+    const messages = await getMessages(lang);
     const issueData: Issue | null = getNumbers(issue);
     if (!issueData) {
         notFound();
@@ -74,17 +75,15 @@ export default async function Page({
     );
     const currentMonthIndex = months.findIndex(([month]) => normalizeText(month) === currentMonth);
     const defaultOpenIndex = currentMonthIndex >= 0 ? currentMonthIndex : 0;
-    console.log({ currentMonth, defaultOpenIndex, months });
-
-
-
+    console.log("M: ", months)
+    
 
     return (
         <main className="mx-auto max-w-7xl px-4 py-6">
             <section className="mx-auto space-y-8">
                 <header className="space-y-3">
                     <p className="text-xs font-semibold uppercase tracking-wide text-green-700">
-                        Edições anteriores
+                        {messages.nav.previous}
                     </p>
                     <h1 className="text-3xl font-bold text-gray-900">
                         Ano {issueData.year} - Volume {issueData.volume}
@@ -92,7 +91,7 @@ export default async function Page({
 
                 </header>
                 <ul className="flex flex-wrap gap-2">
-                    {months.map(([month, monthIssues], index) => (
+                    {months.map(([month]) => (
                         <Link
                             key={month}
                             href={`#`}
@@ -132,13 +131,12 @@ export default async function Page({
                                 {monthIssues.map((item) => (
                                     <Link
                                         key={item.number}
-                                        href={`/${lang}/previous/${issue}/${item.number}`}
+                                        href={`/${lang}/${item.url}`}
                                         className="group rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                                     >
                                         <div className="flex items-start justify-between gap-4">
                                             <div>
                                                 <p className="text-sm font-medium text-blue-700">Volume {issue} - Número {item.number}</p>
-                                                {/* <h2 className="mt-1 text-xl font-semibold text-gray-900">Ano {item.year}</h2> */}
                                             </div>
                                             <span className="inline-flex rounded-xl bg-blue-50 p-2 text-blue-700">
                                                 <FiBookOpen className="size-5" aria-hidden="true" />

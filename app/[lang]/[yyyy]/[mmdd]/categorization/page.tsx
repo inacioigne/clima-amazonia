@@ -1,4 +1,4 @@
-import { getBoletim, getMessages, isLocale, locales } from "@/lib/i18n";
+import { getMessages, isLocale, locales } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,10 +19,7 @@ export default async function Page({
         notFound();
     }
 
-    const [boletim, messages] = await Promise.all([
-        getBoletim(yyyy, mmdd),
-        getMessages(lang),
-    ]);
+    const messages = await getMessages(lang)
 
     const cells = [
         { q: "5.0%", i: "-3.0", bg: "bg-red-900", text: "text-white", c: messages.categorization.table["extremely-dry"] },

@@ -1,4 +1,4 @@
-import { getBoletim, getBulletin, getMessages, isLocale, locales } from "@/lib/i18n";
+import { getBoletim, getMessages, isLocale, locales } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { GiRiver } from "react-icons/gi";

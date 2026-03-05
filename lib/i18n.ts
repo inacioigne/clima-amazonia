@@ -1,8 +1,5 @@
 import type boletim from "@/data/boletim/2026/0225.json";
 import type messages from "@/data/i18n/pt.json"
-import { getCurrentBoletimDataDir } from "@/lib/env";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
 
 export const locales = ["pt", "en", "es"] as const;
 export type Locale = (typeof locales)[number];
@@ -10,10 +7,7 @@ export const defaultLocale: Locale = "pt";
 type Boletim = typeof boletim;
 type Messages = typeof messages
 
-async function readBoletimFile(filePath: string): Promise<Boletim> {
-  const fileContent = await readFile(filePath, "utf-8");
-  return JSON.parse(fileContent) as Boletim;
-}
+
 
 export function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);

@@ -1,11 +1,8 @@
-import { previousEditions } from "@/data/boletim/previous/issues";
 import { getMessages, isLocale, locales } from '@/lib/i18n';
 import Link from "next/link";
-
 import { notFound } from 'next/navigation';
 import { FiBookOpen, FiChevronRight } from 'react-icons/fi';
-import  issues from "@/data/boletim/previous/issues.json";
-import  type Issues from "@/data/boletim/previous/issues.json";
+import  issues from "@/data/issues.json";
 
 export async function generateStaticParams() {
     return locales.map((lang) => ({ lang }));
@@ -28,7 +25,7 @@ export default async function Previous({
             <section className="mx-auto max-w-7xl px-4 space-y-8">
                 <header className="space-y-3">
                     <p className="text-xs font-semibold uppercase tracking-wide text-green-700">
-                        Edições anteriores
+                        {messages.nav.previous}
                     </p>
                     <h1 className="text-3xl font-bold text-gray-900">Volumes</h1>
                 </header>
@@ -49,11 +46,6 @@ export default async function Previous({
                                         <FiBookOpen className="size-5" aria-hidden="true" />
                                     </span>
                                 </div>
-                                {/* <Image
-                                    src={issue.img}
-                                    alt={`Capa do volume ${issue.volume}`}
-                                    width={200} height={200}
-                                    className="mt-4 h-auto w-full rounded-lg object-cover" /> */}
                                 <div className="mt-5 flex items-center justify-between border-t border-gray-100 pt-4">
                                     <span className="inline-flex items-center gap-1 text-sm font-semibold text-blue-700">
                                         Ver números
@@ -61,7 +53,6 @@ export default async function Previous({
                                     </span>
                                 </div>
                             </Link>
-
                         ))
                     }
                 </div>

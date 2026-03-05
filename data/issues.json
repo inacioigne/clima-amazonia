@@ -1,0 +1,23 @@
+[
+    {
+        "volume": 6,
+        "year": 2026,
+        "img": "/issues/year26.png",
+        "numbers": {
+            "fevereiro": [
+                {
+                    "number": 8,
+                    "date": "25 de fevereiro de 2026",
+                    "url": "2026/0225",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 7,
+                    "date": "18 de fevereiro de 2026",
+                    "url": "2026/0218",
+                    "img": "/issues/year26.png"
+                }
+            ]
+        }
+    }
+]

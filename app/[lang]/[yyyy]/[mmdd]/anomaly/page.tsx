@@ -1,7 +1,6 @@
-import { getBoletim, getMessages, isLocale, locales } from "@/lib/i18n";
+import { getMessages, isLocale, locales } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link";
 
 export async function generateStaticParams() {
     return locales.map((lang) => ({ lang }));
@@ -19,10 +18,7 @@ export default async function Page({
         notFound();
     }
 
-    const [boletim, messages] = await Promise.all([
-        getBoletim(yyyy, mmdd),
-        getMessages(lang),
-    ]);
+    const messages = await getMessages(lang)
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-5">

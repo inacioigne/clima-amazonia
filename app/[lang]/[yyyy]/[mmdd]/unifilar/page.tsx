@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getBoletim, getMessages, isLocale } from "@/lib/i18n";
+import { getMessages, isLocale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 
 type Badge = {
@@ -17,7 +17,7 @@ function BadgeLink({ b }: { b: Badge }) {
 
     return (
         <foreignObject x={b.x} y={b.y} width={b.w} height={b.h} transform={b.transform}>
-            <span {...({ xmlns: "http://www.w3.org/1999/xhtml" } as any)}
+            <span {...({ xmlns: "http://www.w3.org/1999/xhtml" } )}
                 className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-sm font-medium tracking-wider text-green-700 inset-ring inset-ring-green-600/20"
             >
                 <Link href={b.href}
@@ -41,10 +41,7 @@ export default async function Page({
         notFound();
     }
 
-    const [boletim, messages] = await Promise.all([
-        getBoletim(yyyy, mmdd),
-        getMessages(lang),
-    ]);
+    const messages = await getMessages(lang)
 
     const badges: Badge[] = [
         { id: "amazonas-br", label: "Amazonas (BR)", href: `/${lang}/${yyyy}/${mmdd}/basins/curso-principal-do-rio-amazonas-brasil`, x: 630, y: 160, w: 170, h: 44 },
