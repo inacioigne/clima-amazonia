@@ -18,7 +18,7 @@ export default async function LangLayout({
   const messages = await getMessages(lang);
 
   return (
-    <div lang={lang} //className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"
+    <div lang={lang} 
     >
       <NavBar lang={lang} messages={messages.nav} />
       {children}

@@ -74,9 +74,7 @@ export default async function Page({
         new Intl.DateTimeFormat(locale, { month: "long" }).format(new Date())
     );
     const currentMonthIndex = months.findIndex(([month]) => normalizeText(month) === currentMonth);
-    const defaultOpenIndex = currentMonthIndex >= 0 ? currentMonthIndex : 0;
-    console.log("M: ", months)
-    
+    const defaultOpenIndex = currentMonthIndex >= 0 ? currentMonthIndex : 0;    
 
     return (
         <main className="mx-auto max-w-7xl px-4 py-6">

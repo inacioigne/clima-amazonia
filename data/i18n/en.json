@@ -5,7 +5,8 @@
     "about": "About",
     "team": "Team",
     "openMenu": "Open main menu",
-    "brand": "Clima Amazonia"
+    "brand": "Clima Amazonia",
+     "switchLanguage": ""
   },
   "home": {
     "title": "Climate monitoring bulletin for the major river basins",
