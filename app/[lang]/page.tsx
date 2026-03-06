@@ -16,6 +16,7 @@ export default async function Page({
   }
   const date = process.env.CURRENT_BOLETIM_DATE?.split("-") ?? [];
   const [yyyy, mm, dd] = date;
+
   redirect(`/${lang}/${yyyy}/${mm}${dd}`);
 
 }

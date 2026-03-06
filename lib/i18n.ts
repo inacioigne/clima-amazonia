@@ -1,4 +1,4 @@
-import type boletim from "@/data/boletim/2026/0225.json";
+import type boletim from "@/data/boletim/2026/0304.json";
 import type messages from "@/data/i18n/pt.json"
 
 export const locales = ["pt", "en", "es"] as const;

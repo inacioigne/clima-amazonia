@@ -50,7 +50,8 @@ export default async function Page({
             </div>
             <div className="mt-4 h-auto rounded-lg bg-linear-to-br from-emerald-50 via-white to-blue-50">
               <Image
-                src={`/boletim/${yyyy}/${mmdd}/analysis/${item.id}-acc.png`}
+                // src={`/boletim/${yyyy}/${mmdd}/analysis/${item.id}-acc.png`}
+                src={boletim.images.analysis[`${item.id}-acc` as keyof typeof boletim.images.analysis]}
                 alt="chart"
                 width={600}
                 height={300}
@@ -67,7 +68,7 @@ export default async function Page({
             </div>
             <div className="mt-4 h-auto rounded-lg bg-linear-to-br from-slate-50 via-white to-rose-50">
               <Image
-                src={`/boletim/${yyyy}/${mmdd}/analysis/${item.id}-ano.png`}
+                src={boletim.images.analysis[`${item.id}-ano` as keyof typeof boletim.images.analysis]}
                 alt="chart"
                 width={600}
                 height={300}

@@ -1,4 +1,4 @@
-import { getMessages, isLocale, locales } from "@/lib/i18n";
+import { getMessages, isLocale, locales, getBoletim } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 
@@ -18,7 +18,12 @@ export default async function Page({
         notFound();
     }
 
-    const messages = await getMessages(lang)
+    const [boletim, messages] = await Promise.all([
+        getBoletim(yyyy, mmdd),
+        getMessages(lang),
+    ]);
+
+    const bacias = Object.entries(boletim.images.anomaly);
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-5">
@@ -32,16 +37,18 @@ export default async function Page({
                 </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-                {Array.from({ length: 32 }, (_, i) => i + 1).map((num) => (
-                    <div key={num} className="border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl p-3">
-                        <Image
-                            src={`/boletim/${yyyy}/${mmdd}/anomaly/bacia_${num}.png`}
-                            alt={`bacia_${num}`}
-                            width={600}
-                            height={300}
-                        />
-                    </div>
-                ))}
+                {
+                    bacias.map(([bacias, url]) => (
+                        <div key={bacias} className="border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl p-3">
+                            <Image
+                                src={url}
+                                alt={bacias}
+                                width={600}
+                                height={300}
+                            />
+                        </div>
+                    ))
+                }
             </div>
         </div>
     )

@@ -95,7 +95,7 @@ export default async function Page({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                 <div className="md:col-span-2 w-full order-1 md:order-2">
                     <Image
-                        src={`/boletim/${yyyy}/${mmdd}/reference/reference_table.png`}
+                        src={boletim.images.reference.reference_table}
                         alt={"multimodel_calibrado_seven_days"}
                         width={700}
                         height={500}

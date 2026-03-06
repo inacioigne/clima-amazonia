@@ -94,7 +94,8 @@ export default async function Page({
                         <div className="flex flex-col gap-4 col-span-2">
                             <div className="w-full">
                                 <Image
-                                    src={`/boletim/${yyyy}/${mmdd}/current_conditions/map_current_conditions.png`}
+                                    // src={`/boletim/${yyyy}/${mmdd}/current_conditions/map_current_conditions.png`}
+                                    src={boletim.images.current_conditions.map_current_conditions}
                                     alt={messages.home.altMapCurrent}
                                     width={800}
                                     height={400}
@@ -102,7 +103,8 @@ export default async function Page({
                             </div>
                             <div className="w-full">
                                 <Image
-                                    src={`/boletim/${yyyy}/${mmdd}/current_conditions/table_current_conditions.png`}
+                                    // src={`/boletim/${yyyy}/${mmdd}/current_conditions/table_current_conditions.png`}
+                                    src={boletim.images.current_conditions.table_current_conditions}
                                     alt={messages.home.altLegend}
                                     width={800}
                                     height={300}
