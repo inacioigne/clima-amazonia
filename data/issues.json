@@ -16,6 +16,103 @@
                     "date": "18 de fevereiro de 2026",
                     "url": "2026/0218",
                     "img": "/issues/year26.png"
+                },
+                {
+                    "number": 6,
+                    "date": "11 de fevereiro de 2026",
+                    "url": "2026/0211",
+                    "img": "/issues/2026/fev/0211.png"
+                },
+                {
+                    "number": 5,
+                    "date": "04 de fevereiro de 2026",
+                    "url": "2026/0204",
+                    "img": "/issues/2026/fev/0204.png"
+                }
+            ],
+             "janeiro": [
+                {
+                    "number": 4,
+                    "date": "28 de janeiro de 2026",
+                    "url": "2026/0128",
+                    "img": "/issues/2026/jan/0128.png"
+                },
+                 {
+                    "number": 3,
+                    "date": "21 de janeiro de 2026",
+                    "url": "2026/0121",
+                    "img": "/issues/2026/jan/0121.png"
+                },
+                {
+                    "number": 2,
+                    "date": "14 de janeiro de 2026",
+                    "url": "2026/0114",
+                    "img": "/issues/2026/jan/0114.png"
+                },
+                  {
+                    "number": 1,
+                    "date": "07 de janeiro de 2026",
+                    "url": "2026/0107",
+                    "img": "/issues/2026/jan/0107.png"
+                }
+            ]
+        }
+    },
+     {
+        "volume": 5,
+        "year": 2025,
+        "img": "/issues/year26.png",
+        "numbers": {
+            "fevereiro": [
+                {
+                    "number": 8,
+                    "date": "25 de fevereiro de 2026",
+                    "url": "2026/0225",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 7,
+                    "date": "18 de fevereiro de 2026",
+                    "url": "2026/0218",
+                    "img": "/issues/year26.png"
+                },
+                {
+                    "number": 6,
+                    "date": "11 de fevereiro de 2026",
+                    "url": "2026/0211",
+                    "img": "/issues/2026/fev/0211.png"
+                },
+                {
+                    "number": 5,
+                    "date": "04 de fevereiro de 2026",
+                    "url": "2026/0204",
+                    "img": "/issues/2026/fev/0204.png"
+                }
+            ],
+             "janeiro": [
+                {
+                    "number": 4,
+                    "date": "28 de janeiro de 2026",
+                    "url": "2026/0128",
+                    "img": "/issues/2026/jan/0128.png"
+                },
+                 {
+                    "number": 3,
+                    "date": "21 de janeiro de 2026",
+                    "url": "2026/0121",
+                    "img": "/issues/2026/jan/0121.png"
+                },
+                {
+                    "number": 2,
+                    "date": "14 de janeiro de 2026",
+                    "url": "2026/0114",
+                    "img": "/issues/2026/jan/0114.png"
+                },
+                  {
+                    "number": 1,
+                    "date": "07 de janeiro de 2026",
+                    "url": "2026/0107",
+                    "img": "/issues/2026/jan/0107.png"
                 }
             ]
         }
