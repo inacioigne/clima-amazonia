@@ -105,7 +105,7 @@ export default function NavBar({
           </div>
         </div>
 
-        <div>
+        <div >
           <LanguageSwitcher lang={lang} label={messages.switchLanguage} />
         </div>
       </div>

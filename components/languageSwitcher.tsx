@@ -36,9 +36,9 @@ export default function LanguageSwitcher({
   };
 
   return (
-    <Menu as="div" className="relative inline-block">
+    <Menu as="div" className="relative inline-block cursor-pointer">
       <MenuButton
-        className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs inset-ring-1 inset-ring-gray-300 hover:bg-gray-50"
+        className="cursor-pointer inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs inset-ring-1 inset-ring-gray-300 hover:bg-gray-50"
         aria-label={label}
       >
         <IoLanguage aria-hidden="true" className="-mr-1 size-5 text-gray-400" />
@@ -54,7 +54,7 @@ export default function LanguageSwitcher({
             <div className="py-1" key={localeOption}>
               <MenuItem as="button" onClick={() => handleSwitchLanguage(localeOption)}>
                 <span
-                  className={`block px-4 py-2 text-sm data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden ${
+                  className={`cursor-pointer block px-4 py-2 text-sm data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden ${
                     isCurrentLocale ? "font-semibold text-blue-700" : "text-gray-700"
                   }`}
                 >

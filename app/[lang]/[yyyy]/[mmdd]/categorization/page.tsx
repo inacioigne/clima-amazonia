@@ -20,24 +20,24 @@ export default async function Page({
     }
 
     const [boletim, messages] = await Promise.all([
-            getBoletim(yyyy, mmdd),
-            getMessages(lang),
-        ]);
+        getBoletim(yyyy, mmdd),
+        getMessages(lang),
+    ]);
 
     const cells = [
-        { q: "5.0%", i: "-3.0", bg: "bg-red-900", text: "text-white", c: messages.categorization.table["extremely-dry"] },
-        { q: "12.5%", i: "-2.5", bg: "bg-red-700", text: "text-white", c: messages.categorization.table["extremely-dry-tendency"] },
-        { q: "20.0%", i: "-2.0", bg: "bg-orange-500", text: "text-black", c: messages.categorization.table["very-dry"] },
-        { q: "27.5%", i: "-1.5", bg: "bg-amber-400", text: "text-black", c: messages.categorization.table["very-dry-tendency"] },
-        { q: "35.0%", i: "-1.0", bg: "bg-yellow-400", text: "text-black", c: messages.categorization.table["dry"] },
-        { q: "42.5%", i: "-0.5", bg: "bg-yellow-200", text: "text-black", c: messages.categorization.table["dry-tendency"] },
-        { q: "", i: "0.0", bg: "bg-white", text: "text-black", c: messages.categorization.table["normal"] },
-        { q: "57.5%", i: "0.5", bg: "bg-sky-100", text: "text-black", c: messages.categorization.table["rainy-tendency"] },
-        { q: "65.0%", i: "1.0", bg: "bg-sky-200", text: "text-black", c: messages.categorization.table["rainy"] },
-        { q: "72.5%", i: "1.5", bg: "bg-cyan-400", text: "text-black", c: messages.categorization.table["very-rainy-tendency"] },
-        { q: "80.0%", i: "2.0", bg: "bg-cyan-500", text: "text-black", c: messages.categorization.table["very-rainy"] },
-        { q: "87.5%", i: "2.5", bg: "bg-blue-500", text: "text-black", c: messages.categorization.table["extremely-rainy-tendency"] },
-        { q: "95.0%", i: "3.0", bg: "bg-blue-900", text: "text-white", c: messages.categorization.table["extremely-rainy"] },
+        { q: "5.0%", i: "-3.0", align: "text-right", bg: "bg-red-900", text: "text-white", c: messages.categorization.table["extremely-dry"] },
+        { q: "12.5%", i: "-2.5", align: "text-right", bg: "bg-red-700", text: "text-white", c: messages.categorization.table["extremely-dry-tendency"] },
+        { q: "20.0%", i: "-2.0", align: "text-right", bg: "bg-orange-500", text: "text-black", c: messages.categorization.table["very-dry"] },
+        { q: "27.5%", i: "-1.5", align: "text-right", bg: "bg-amber-500", text: "text-black", c: messages.categorization.table["very-dry-tendency"] },
+        { q: "35.0%", i: "-1.0", align: "text-right", bg: "bg-yellow-400", text: "text-black", c: messages.categorization.table["dry"] },
+        { q: "42.5%", i: "-0.5", align: "text-right", bg: "bg-yellow-200", text: "text-black", c: messages.categorization.table["dry-tendency"] },
+        { q: "", i: "0.0", align: "", bg: "bg-white", text: "text-black", c: messages.categorization.table["normal"] },
+        { q: "57.5%", i: "0.5", align: "text-left", bg: "bg-sky-100", text: "text-black", c: messages.categorization.table["rainy-tendency"] },
+        { q: "65.0%", i: "1.0", align: "text-left", bg: "bg-sky-200", text: "text-black", c: messages.categorization.table["rainy"] },
+        { q: "72.5%", i: "1.5", align: "text-left", bg: "bg-cyan-400", text: "text-black", c: messages.categorization.table["very-rainy-tendency"] },
+        { q: "80.0%", i: "2.0", align: "text-left", bg: "bg-cyan-500", text: "text-black", c: messages.categorization.table["very-rainy"] },
+        { q: "87.5%", i: "2.5", align: "text-left", bg: "bg-blue-500", text: "text-black", c: messages.categorization.table["extremely-rainy-tendency"] },
+        { q: "95.0%", i: "3.0", align: "text-left", bg: "bg-blue-900", text: "text-white", c: messages.categorization.table["extremely-rainy"] },
     ];
 
     return (
@@ -52,51 +52,61 @@ export default async function Page({
                     {messages.categorization.text1}
                 </p>
             </div>
-            <table className="w-full border-collapse border border-gray-500">
-                <tbody>
-                    <tr>
-                        <th className="w-27.5 border border-gray-500 bg-white px-2 py-2 text-left text-xs font-bold uppercase">
-                            {messages.categorization.table.quantile}
-                        </th>
-                        {cells.map((cell, idx) => (
-                            <th
-                                key={`q-${idx}`}
-                                className="border border-gray-500 bg-white px-2 py-2 text-center text-xs font-bold"
-                            >
-                                {cell.q || "\u00A0"}
-                            </th>
-                        ))}
-                    </tr>
-                    <tr>
-                        <th className="border border-gray-500 bg-white px-2 py-2 text-left text-xs font-bold uppercase">
-                            {messages.categorization.table.index}
-                        </th>
-                        {cells.map((cell, idx) => (
-                            <td
-                                key={`i-${idx}`}
-                                className={`border border-gray-500 px-2 py-2 text-center text-sm font-extrabold ${cell.bg} ${cell.text}`}
-                            >
-                                {cell.i}
-                            </td>
-                        ))}
-                    </tr>
-                    <tr>
-                        <th className="border border-gray-500 bg-white px-2 py-3 text-left text-xs font-bold uppercase">
-                            {messages.categorization.table.category}
-                        </th>
-                        {cells.map((cell, idx) => (
-                            <td
-                                key={`c-${idx}`}
-                                className="border border-gray-500 bg-white px-2 py-3 text-center text-[10px] uppercase leading-tight"
-                            >
-                                {cell.c.split("\n").map((line, i) => (
-                                    <div key={i}>{line}</div>
+            <div className="w-full overflow-hidden rounded-xl border border-gray-500">
+                <div className="w-full overflow-x-auto">
+                    <table className="min-w-225 w-full border-collapse">
+                        <tbody>
+                            <tr>
+                                <th className="w-27.5 border border-gray-500 bg-white px-2 py-2 text-left text-xs font-bold uppercase">
+                                    {messages.categorization.table.quantile}
+                                </th>
+                                {cells.map((cell, idx) => (
+                                    <th
+                                        key={`q-${idx}`}
+                                        className={`${cell.align} border border-gray-500 bg-white px-2 py-2 text-xs font-bold`}
+                                    >
+                                        {cell.q || "\u00A0"}
+                                    </th>
                                 ))}
-                            </td>
-                        ))}
-                    </tr>
-                </tbody>
-            </table>
+                            </tr>
+                            <tr>
+                                <th className="border border-gray-500 bg-white px-2 py-2 text-left text-xs font-bold uppercase">
+                                    {messages.categorization.table.index}
+                                </th>
+                                {cells.map((cell, idx) => (
+                                    <td
+                                        key={`i-${idx}`}
+                                        className={`border border-gray-500 px-2 py-2 text-center text-sm font-extrabold ${cell.bg} ${cell.text}`}
+                                    >
+                                        {cell.i}
+                                    </td>
+                                ))}
+                            </tr>
+                            <tr>
+                                <th className="border border-gray-500 bg-white px-2 py-3 text-left text-xs font-bold uppercase">
+                                    {messages.categorization.table.category}
+                                </th>
+                                {cells.map((cell, idx) => (
+                                    <td
+                                        key={`c-${idx}`}
+                                        className="border border-gray-500 bg-white px-2 py-3 text-center text-[10px] uppercase leading-tight"
+                                    >
+                                        {cell.c.split("\n").map((line, i) => (
+                                            <div key={i}>{line}</div>
+                                        ))}
+                                    </td>
+                                ))}
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+
+
+
+            </div>
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                 <div >
                     <div className="border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl p-6 h-auto">
