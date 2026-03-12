@@ -956,5 +956,10 @@
       "categorization": {
          "table": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773256034/clima-amazonia/2026/fev/0204/categorization/table.png"
       }
+   },
+   "pdf": {
+      "pt": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773323395/BHA_ES_20260204_b8xalg.pdf",
+      "en": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773323398/BHA_EN_20260204_rl6hbr.pdf",
+      "es": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773323396/BHA_PT_20260204_tozy2i.pdf"
    }
 }

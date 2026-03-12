@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { GiRiver } from "react-icons/gi";
 import { MdOutlineAutoGraph } from "react-icons/md";
-import { FcDataSheet, FcComboChart, FcTreeStructure } from "react-icons/fc";
+import { FcDataSheet, FcComboChart, FcTreeStructure, FcDownload } from "react-icons/fc";
 import { BiSolidCategoryAlt } from "react-icons/bi"
 import Link from "next/link";
 
@@ -90,11 +90,21 @@ export default async function Page({
                                     <p className="font-mono text-xs">ISSN {boletim.meta[`${lang}`].issn} • DOI {boletim.meta[`${lang}`].doi}</p>
                                 </div>
                             </div>
+
+                            <Link href={boletim.pdf[lang]} target="_blank">
+                                <button
+                                    type="button"
+                                    className="cursor-pointer inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm transition hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2"
+                                >
+                                    <FcDownload />
+                                    Baixar PDF
+                                </button>
+                            </Link>
+
                         </div>
                         <div className="flex flex-col gap-4 col-span-2">
                             <div className="w-full">
                                 <Image
-                                    // src={`/boletim/${yyyy}/${mmdd}/current_conditions/map_current_conditions.png`}
                                     src={boletim.images.current_conditions.map_current_conditions}
                                     alt={messages.home.altMapCurrent}
                                     width={800}
@@ -103,7 +113,6 @@ export default async function Page({
                             </div>
                             <div className="w-full">
                                 <Image
-                                    // src={`/boletim/${yyyy}/${mmdd}/current_conditions/table_current_conditions.png`}
                                     src={boletim.images.current_conditions.table_current_conditions}
                                     alt={messages.home.altLegend}
                                     width={800}
