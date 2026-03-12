@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Início",
-    "previous": "Edições Anteriores",
+    "previous": "Ediciones anteriores",
     "about": "Sobre",
     "team": "Equipe",
     "openMenu": "Abrir menu principal",
@@ -166,5 +166,16 @@
       "website": "Portal INPA",
       "email": "Contato por e-mail"
     }
+  },
+  "previous": {
+    "year": "Año",
+    "volume": "Volumen",
+    "edition": "Ver edición",
+    "number": "Número"
+  },
+  "months": {
+    "january": "Enero",
+    "february": "Febrero",
+    "march": "Marzo"
   }
 }

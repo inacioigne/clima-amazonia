@@ -36,7 +36,9 @@ export default async function Page({
                             <div className="p-1 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
                                 <FcAreaChart aria-hidden="true" className="size-8 text-blue-600" />
                             </div>
-                            <h3 className="text-base">{bacia.name}</h3>
+                            <h3 className="text-base">
+                                {messages.bacia.name[bacia.id as keyof typeof messages.bacia.name]}
+                            </h3>
                         </div>
                     </Link>
                 ))}

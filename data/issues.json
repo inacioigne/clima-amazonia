@@ -4,7 +4,15 @@
         "year": 2026,
         "img": "/issues/year26.png",
         "numbers": {
-            "fevereiro": [
+            "march": [
+                {
+                    "number": 9,
+                    "date": "04 de março de 2026",
+                    "url": "2026/0304",
+                    "img": "/issues/2026/mar/0304.png"
+                }
+            ],
+            "february": [
                 {
                     "number": 8,
                     "date": "25 de fevereiro de 2026",
@@ -30,14 +38,14 @@
                     "img": "/issues/2026/fev/0204.png"
                 }
             ],
-             "janeiro": [
+            "january": [
                 {
                     "number": 4,
                     "date": "28 de janeiro de 2026",
                     "url": "2026/0128",
                     "img": "/issues/2026/jan/0128.png"
                 },
-                 {
+                {
                     "number": 3,
                     "date": "21 de janeiro de 2026",
                     "url": "2026/0121",
@@ -49,7 +57,7 @@
                     "url": "2026/0114",
                     "img": "/issues/2026/jan/0114.png"
                 },
-                  {
+                {
                     "number": 1,
                     "date": "07 de janeiro de 2026",
                     "url": "2026/0107",
@@ -58,61 +66,67 @@
             ]
         }
     },
-     {
+    {
         "volume": 5,
         "year": 2025,
         "img": "/issues/year26.png",
         "numbers": {
-            "fevereiro": [
+             "february": [
                 {
+                    "number": 9,
+                    "date": "26 de fevereiro de 2025",
+                    "url": "2025/0226",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773348633/0226_dzjuah.png"
+                },
+                 {
                     "number": 8,
-                    "date": "25 de fevereiro de 2026",
-                    "url": "2026/0225",
-                    "img": "/issues/year26.png"
+                    "date": "19 de fevereiro de 2025",
+                    "url": "2025/0219",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773348385/0219_erv09g.png"
                 },
                 {
                     "number": 7,
-                    "date": "18 de fevereiro de 2026",
-                    "url": "2026/0218",
-                    "img": "/issues/year26.png"
+                    "date": "12 de fevereiro de 2025",
+                    "url": "2025/0212",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773347665/0212_caindo.png"
                 },
                 {
                     "number": 6,
-                    "date": "11 de fevereiro de 2026",
-                    "url": "2026/0211",
-                    "img": "/issues/2026/fev/0211.png"
-                },
-                {
-                    "number": 5,
-                    "date": "04 de fevereiro de 2026",
-                    "url": "2026/0204",
-                    "img": "/issues/2026/fev/0204.png"
+                    "date": "5 de fevereiro de 2025",
+                    "url": "2025/0205",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773346913/0205_kshkpg.png"
                 }
             ],
-             "janeiro": [
+            "january": [
+                 {
+                    "number": 5,
+                    "date": "29 de janeiro de 2025",
+                    "url": "2025/0129",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773344256/0129_sr5zuz.png"
+                },
                 {
                     "number": 4,
-                    "date": "28 de janeiro de 2026",
-                    "url": "2026/0128",
-                    "img": "/issues/2026/jan/0128.png"
+                    "date": "22 de janeiro de 2025",
+                    "url": "2025/0122",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773339872/0122_sdhnpp.png"
                 },
                  {
                     "number": 3,
-                    "date": "21 de janeiro de 2026",
-                    "url": "2026/0121",
-                    "img": "/issues/2026/jan/0121.png"
+                    "date": "15 de janeiro de 2025",
+                    "url": "2025/0115",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773339248/0115_w5syw9.png"
                 },
                 {
                     "number": 2,
-                    "date": "14 de janeiro de 2026",
-                    "url": "2026/0114",
-                    "img": "/issues/2026/jan/0114.png"
+                    "date": "8 de janeiro de 2025",
+                    "url": "2025/0108",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773337731/0108_pcopr3.png"
                 },
-                  {
+                {
                     "number": 1,
-                    "date": "07 de janeiro de 2026",
-                    "url": "2026/0107",
-                    "img": "/issues/2026/jan/0107.png"
+                    "date": "1 de janeiro de 2025",
+                    "url": "2025/0101",
+                    "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773337166/0101_xpgoqv.png"
                 }
             ]
         }

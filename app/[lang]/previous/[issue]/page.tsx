@@ -4,7 +4,7 @@ import issues from "@/data/issues.json";
 import Link from "next/link";
 import { FiCalendar, FiChevronDown, FiBookOpen, FiChevronRight } from "react-icons/fi";
 import Image from "next/image";
-
+import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 type Issue = (typeof issues)[number];
 function getNumbers(issue: string) {
@@ -18,9 +18,9 @@ function toDisplayLocale(lang: string) {
 }
 
 const MONTH_INDEX: Record<string, number> = {
-    janeiro: 0,
-    fevereiro: 1,
-    marco: 2,
+    january: 0,
+    february: 1,
+    march: 2,
     abril: 3,
     maio: 4,
     junho: 5,
@@ -43,8 +43,6 @@ function capitalize(value: string) {
     return value.charAt(0).toUpperCase() + value.slice(1);
 }
 
-
-
 export default async function Page({
     params,
 }: {
@@ -61,20 +59,20 @@ export default async function Page({
         notFound();
     }
 
-
     const months = Object.entries(issueData.numbers ?? {}).sort(([a], [b]) => {
         const monthA = MONTH_INDEX[normalizeText(a)];
         const monthB = MONTH_INDEX[normalizeText(b)];
         if (monthA === undefined || monthB === undefined) return a.localeCompare(b);
         return monthB - monthA;
     });
+    // console.log("M:", months)
 
     const locale = toDisplayLocale(lang);
     const currentMonth = normalizeText(
         new Intl.DateTimeFormat(locale, { month: "long" }).format(new Date())
     );
     const currentMonthIndex = months.findIndex(([month]) => normalizeText(month) === currentMonth);
-    const defaultOpenIndex = currentMonthIndex >= 0 ? currentMonthIndex : 0;    
+    const defaultOpenIndex = currentMonthIndex >= 0 ? currentMonthIndex : 0;
 
     return (
         <main className="mx-auto max-w-7xl px-4 py-6">
@@ -84,7 +82,7 @@ export default async function Page({
                         {messages.nav.previous}
                     </p>
                     <h1 className="text-3xl font-bold text-gray-900">
-                        Ano {issueData.year} - Volume {issueData.volume}
+                        {messages.previous.year} {issueData.year} - {messages.previous.volume}  {issueData.volume}
                     </h1>
 
                 </header>
@@ -94,7 +92,9 @@ export default async function Page({
                             key={month}
                             href={`#`}
                         >
-                            <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 inset-ring inset-ring-blue-700/10">{month}</span>
+                            <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 inset-ring inset-ring-blue-700/10">
+                                {messages.months[month as keyof typeof messages.months]}
+                            </span>
                         </Link>
                     ))}
 
@@ -113,11 +113,8 @@ export default async function Page({
                                     </span>
                                     <div>
                                         <h2 className="text-lg font-semibold text-gray-900">
-                                            {capitalize(month)}
+                                            {messages.months[month as keyof typeof messages.months]}
                                         </h2>
-                                        <p className="text-sm text-gray-500">
-                                            {monthIssues.length} edições
-                                        </p>
                                     </div>
                                 </div>
                                 <FiChevronDown
@@ -126,7 +123,11 @@ export default async function Page({
                                 />
                             </summary>
                             <div className="grid grid-cols-1 gap-5 md:grid-cols-3 xl:grid-cols-4 p-5">
-                                {monthIssues.map((item) => (
+                                {monthIssues.map((
+                                    item: {
+                                        number: number; url: any; img: string | StaticImport;
+                                    }
+                                ) => (
                                     <Link
                                         key={item.number}
                                         href={`/${lang}/${item.url}`}
@@ -134,7 +135,7 @@ export default async function Page({
                                     >
                                         <div className="flex items-start justify-between gap-4">
                                             <div>
-                                                <p className="text-sm font-medium text-blue-700">Volume {issue} - Número {item.number}</p>
+                                                <p className="text-sm font-medium text-blue-700">{messages.previous.volume}  {issue} - {messages.previous.number} {item.number}</p>
                                             </div>
                                             <span className="inline-flex rounded-xl bg-blue-50 p-2 text-blue-700">
                                                 <FiBookOpen className="size-5" aria-hidden="true" />
@@ -143,11 +144,11 @@ export default async function Page({
                                         <Image
                                             src={item.img}
                                             alt={`Capa do volume ${item.number}`}
-                                            width={200} height={200}
+                                            width={200} height={300}
                                             className="mt-4 h-auto w-full rounded-lg object-cover" />
                                         <div className="mt-5 flex items-center justify-between border-t border-gray-100 pt-4">
                                             <span className="inline-flex items-center gap-1 text-sm font-semibold text-blue-700">
-                                                Ver edição
+                                                {messages.previous.edition}
                                                 <FiChevronRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
                                             </span>
                                         </div>
@@ -158,10 +159,6 @@ export default async function Page({
                         </details>
                     ))}
                 </div>
-
-
-
-
             </section>
         </main>
     );

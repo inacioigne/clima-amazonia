@@ -166,5 +166,16 @@
       "website": "Portal INPA",
       "email": "Contato por e-mail"
     }
+  },
+  "previous": {
+    "year": "Ano",
+    "volume": "Volume",
+    "edition": "Ver edição",
+    "number": "Número"
+  },
+  "months": {
+    "january": "Janeiro",
+    "february": "Fevereiro",
+    "march": "Março"
   }
 }
