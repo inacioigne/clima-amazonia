@@ -39,9 +39,9 @@ function normalizeText(value: string) {
         .replace(/[\u0300-\u036f]/g, "");
 }
 
-function capitalize(value: string) {
-    return value.charAt(0).toUpperCase() + value.slice(1);
-}
+// function capitalize(value: string) {
+//     return value.charAt(0).toUpperCase() + value.slice(1);
+// }
 
 export default async function Page({
     params,
@@ -65,7 +65,6 @@ export default async function Page({
         if (monthA === undefined || monthB === undefined) return a.localeCompare(b);
         return monthB - monthA;
     });
-    // console.log("M:", months)
 
     const locale = toDisplayLocale(lang);
     const currentMonth = normalizeText(
@@ -73,6 +72,7 @@ export default async function Page({
     );
     const currentMonthIndex = months.findIndex(([month]) => normalizeText(month) === currentMonth);
     const defaultOpenIndex = currentMonthIndex >= 0 ? currentMonthIndex : 0;
+    // console.log("DM:", defaultOpenIndex,  )
 
     return (
         <main className="mx-auto max-w-7xl px-4 py-6">

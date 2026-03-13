@@ -92,7 +92,7 @@
     "title": {
       "part1": "Previsão multimodelo subsazonal CPTEC/INPE-FUNCEME produzida em ",
       "part2": " para os próximos 7 e 14 dias."
-    }, 
+    },
     "text": "A previsão multimodelo subsazonal calibrada CPTEC/INPE-FUNCEME é gerada através de cooperação científica entre o CPTEC/INPE e a FUNCEME, sendo proveniente do conjunto de 4 modelos globais (um modelo brasileiro, o BAM-1.2/CPTEC, e três modelos dos EUA, CFSv2/NCEP, GEFSv12/NCEP e ESRL/NOAA, estes três últimos do projeto SubX). As anomalias de precipitação previstas são determinadas em relação ao período climatológico de 1999 a 2016. A seguir são apresentadas as saídas para o intervalo de previsão de 07 e 14 dias detalhando o comportamento previsto sobre as bacias de interesse.",
     "sevenDays": "Previsão para os próximos 7 dias",
     "fourteenDays": "Previsão para os próximos 14 dias"
@@ -113,7 +113,7 @@
     "title": "Categorização das anomalias de precipitação",
     "text1": "Utilizando os valores constantes na tabela anterior é possível categorizar a precipitação observada no ano corrente em relação aos valores observados nos registros anteriores desde o início da série disponível, assim os valores observados inferiores ao quantil de 5% caracterizam a bacia em condição de extremamente seco, entre 5 e 12.5% em condição de tendência a extremamente seco, entre 12.5 e 20% condição de muito seco, entre 20 e 27.5% tendência a muito seco, entre 27.5 e 35% condição de seco, entre 35 e 42.5 condição de tendência a seco, valores entre 42.5 e 57.5 definem a condição de normalidade, valores entre 57.5 e 65% condição de tendência a chuvoso, entre 65 e 72.5% condição de chuvoso, entre 72.5 e 80% tendência a muito chuvoso, entre 80 e 87.5 condição de muito chuvoso, entre 87.5 e 95% indicam tendência a extremamente chuvoso e finalmente valores superiores a 95% definem a bacia em condição de extremamente chuvoso, conforme legenda abaixo.",
     "text2": "As tabelas a seguir apresentam (Tabela 2A) a precipitação média observada (mm) em cada bacia tomando como referência as estimativas de precipitação por satélite utilizando a técnica MERGE, acumuladas em 30 dias nas datas indicadas, disponibilizadas em ",
-    "text3":  "os valores médios das anomalias categorizadas (Tabela 2B) foram estimados com base no valor de anomalia de cada pixel na área da bacia monitorada, calculados conforme metodologia descrita no item anterior, nas mesmas datas do monitoramento da precipitação, a escala de cores das anomalias segue a legenda descrita.",
+    "text3": "os valores médios das anomalias categorizadas (Tabela 2B) foram estimados com base no valor de anomalia de cada pixel na área da bacia monitorada, calculados conforme metodologia descrita no item anterior, nas mesmas datas do monitoramento da precipitação, a escala de cores das anomalias segue a legenda descrita.",
     "table": {
       "quantile": "QUANTIL",
       "index": "INDICE",
@@ -121,16 +121,16 @@
       "extremely-dry": "Extremamente seco",
       "extremely-dry-tendency": "Tendência a extremamente seco",
       "very-dry": "Muito Seco",
-      "very-dry-tendency":"Tendência a muito seco",
+      "very-dry-tendency": "Tendência a muito seco",
       "dry": "Seco",
       "dry-tendency": "Tendência a seco",
       "normal": "Normal",
       "rainy-tendency": "Tendência a chuvoso",
       "rainy": "Chuvoso",
-      "very-rainy-tendency":"Tendência a muito chuvoso",
-      "very-rainy":"Muito chuvoso",
+      "very-rainy-tendency": "Tendência a muito chuvoso",
+      "very-rainy": "Muito chuvoso",
       "extremely-rainy-tendency": "Tendência a extremamente chuvoso",
-      "extremely-rainy":"Extremamente chuvoso"
+      "extremely-rainy": "Extremamente chuvoso"
     },
     "legend": {
       "part1": "Tabela 2A. Precipitação acumulada em 30 dias (mm),",
@@ -176,6 +176,11 @@
   "months": {
     "january": "Janeiro",
     "february": "Fevereiro",
-    "march": "Março"
+    "march": "Março",
+    "april": "Abril",
+    "may": "Maio",
+    "june": "Junho",
+    "july": "Julho",
+    "august": "Agosto"
   }
 }

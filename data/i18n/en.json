@@ -6,7 +6,7 @@
     "team": "Team",
     "openMenu": "Open main menu",
     "brand": "Clima Amazonia",
-     "switchLanguage": ""
+    "switchLanguage": ""
   },
   "home": {
     "title": "Climate monitoring bulletin for the major river basins",
@@ -176,6 +176,11 @@
   "months": {
     "january": "January",
     "february": "February",
-    "march": "March"
+    "march": "March",
+    "april": "Abril",
+    "may": "Maio",
+    "june": "Junho",
+    "july": "Julho",
+    "august": "Agosto"
   }
 }
