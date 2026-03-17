@@ -4,44 +4,11 @@ import issues from "@/data/issues.json";
 import Link from "next/link";
 import { FiCalendar, FiChevronDown, FiBookOpen, FiChevronRight } from "react-icons/fi";
 import Image from "next/image";
-import { StaticImport } from 'next/dist/shared/lib/get-img-props';
 
 // type Issue = (typeof issues)[number];
 function getNumbers(issue: string) {
     return issues.find((item) => item.volume === parseInt(issue, 10)) || null;
 }
-
-function toDisplayLocale(lang: string) {
-    if (lang === "en") return "en-US";
-    if (lang === "es") return "es-ES";
-    return "pt-BR";
-}
-
-const MONTH_INDEX: Record<string, number> = {
-    january: 0,
-    february: 1,
-    march: 2,
-    abril: 3,
-    maio: 4,
-    junho: 5,
-    julho: 6,
-    agosto: 7,
-    setembro: 8,
-    outubro: 9,
-    novembro: 10,
-    dezembro: 11,
-};
-
-function normalizeText(value: string) {
-    return value
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
-}
-
-// function capitalize(value: string) {
-//     return value.charAt(0).toUpperCase() + value.slice(1);
-// }
 
 export default async function Page({
     params,
@@ -55,7 +22,6 @@ export default async function Page({
     }
     const messages = await getMessages(lang);
     const issueData = getNumbers(issue) as ReturnType<typeof getNumbers>;
-    // console.log("DM:", issueData?.numbers)
 
     if (!issueData) {
         notFound();
