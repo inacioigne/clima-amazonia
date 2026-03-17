@@ -177,10 +177,14 @@
     "january": "January",
     "february": "February",
     "march": "March",
-    "april": "Abril",
-    "may": "Maio",
-    "june": "Junho",
-    "july": "Julho",
-    "august": "Agosto"
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
   }
 }

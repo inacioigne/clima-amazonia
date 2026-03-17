@@ -60,6 +60,8 @@ export default async function Page({
         },
     ];
 
+    // console.log("B:", boletim)
+
     return (
         <div className="space-y-12">
             <section className="bg-linear-to-br from-green-50 to-blue-50 py-12">
