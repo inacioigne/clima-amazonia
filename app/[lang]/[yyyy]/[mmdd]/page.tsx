@@ -60,7 +60,7 @@ export default async function Page({
         },
     ];
 
-    // console.log("B:", boletim)
+    // console.log("B:", boletim.pdf)
 
     return (
         <div className="space-y-12">
