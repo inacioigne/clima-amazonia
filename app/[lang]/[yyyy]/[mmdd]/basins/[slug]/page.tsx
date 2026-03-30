@@ -19,10 +19,14 @@ export default async function Page({
     getMessages(lang),
   ]);
 
+
   const item = boletim.analysis.find((it) => String(it.id) === slug);
   if (!item) {
     notFound();
   }
+  const img_acc = boletim.images.analysis[`${item.id}-acc` as keyof typeof boletim.images.analysis];
+  const img_ano = boletim.images.analysis[`${item.id}-ano` as keyof typeof boletim.images.analysis];
+
 
   return (
     <div className="max-w-7xl py-4 mx-auto px-4">
@@ -33,7 +37,7 @@ export default async function Page({
         <div className="flex flex-col gap-1">
           <h3 className="text-xl font-semibold text-gray-900">
             {messages.bacia.name[item.id as keyof typeof messages.bacia.name]}
-            </h3>
+          </h3>
           <p className="text-sm text-gray-500">
             {messages.bacia.updatedAt} {boletim.meta[`${lang}`].date}
           </p>
@@ -50,8 +54,7 @@ export default async function Page({
             </div>
             <div className="mt-4 h-auto rounded-lg bg-linear-to-br from-emerald-50 via-white to-blue-50">
               <Image
-                // src={`/boletim/${yyyy}/${mmdd}/analysis/${item.id}-acc.png`}
-                src={boletim.images.analysis[`${item.id}-acc` as keyof typeof boletim.images.analysis]}
+                src={img_acc}
                 alt="chart"
                 width={600}
                 height={300}
@@ -59,24 +62,29 @@ export default async function Page({
             </div>
             <p className="mt-3 text-xs text-gray-500">{messages.bacia.accSummary}</p>
           </div>
-          <div className="rounded-xl border border-gray-200 bg-white p-4">
-            <div className="flex items-center justify-between">
-              <p className="text-sm font-semibold text-gray-700">
-                {messages.bacia.anomalyTrend}
-              </p>
-              <span className="text-xs text-gray-400">{messages.bacia.days14to28}</span>
+          {img_ano && (
+            <div className="rounded-xl border border-gray-200 bg-white p-4">
+              <div className="flex items-center justify-between">
+                <p className="text-sm font-semibold text-gray-700">
+                  {messages.bacia.anomalyTrend}
+                </p>
+                <span className="text-xs text-gray-400">{messages.bacia.days14to28}</span>
+              </div>
+              <div className="mt-4 h-auto rounded-lg bg-linear-to-br from-slate-50 via-white to-rose-50">
+
+                <Image
+                  src={img_ano}
+                  alt="chart"
+                  width={600}
+                  height={300}
+                />
+
+              </div>
+              <p className="mt-3 text-xs text-gray-500">{messages.bacia.anomalySummary}</p>
             </div>
-            <div className="mt-4 h-auto rounded-lg bg-linear-to-br from-slate-50 via-white to-rose-50">
-              <Image
-                src={boletim.images.analysis[`${item.id}-ano` as keyof typeof boletim.images.analysis]}
-                alt="chart"
-                width={600}
-                height={300}
-              />
-            </div>
-            <p className="mt-3 text-xs text-gray-500">{messages.bacia.anomalySummary}</p>
-          </div>
+          )}
         </div>
+
         <div className="rounded-xl border border-gray-200 bg-white p-6 text-gray-700">
           <p className="text-sm uppercase tracking-wide text-gray-400">
             {messages.bacia.highlights}

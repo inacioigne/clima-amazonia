@@ -1,1105 +1,1438 @@
 [
-    {
-        "volume": 6,
-        "year": 2026,
-        "img": "/issues/year26.png",
-        "numbers": [
-            {
-                "month": "march",
-                "issues": [
-                     {
-                        "number": 10,
-                        "date": "11 de março de 2026",
-                        "url": "2026/0311",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774533644/0311_wow2a8.jpg"
-                    },
-                    {
-                        "number": 9,
-                        "date": "04 de março de 2026",
-                        "url": "2026/0304",
-                        "img": "/issues/2026/mar/0304.png"
-                    }
-                ]
-            },
-            {
-                "month": "february",
-                "issues": [
-                    {
-                        "number": 8,
-                        "date": "25 de fevereiro de 2026",
-                        "url": "2026/0225",
-                        "img": "/issues/year26.png"
-                    },
-                    {
-                        "number": 7,
-                        "date": "18 de fevereiro de 2026",
-                        "url": "2026/0218",
-                        "img": "/issues/year26.png"
-                    },
-                    {
-                        "number": 6,
-                        "date": "11 de fevereiro de 2026",
-                        "url": "2026/0211",
-                        "img": "/issues/2026/fev/0211.png"
-                    },
-                    {
-                        "number": 5,
-                        "date": "04 de fevereiro de 2026",
-                        "url": "2026/0204",
-                        "img": "/issues/2026/fev/0204.png"
-                    }
-                ]
-            },
-            {
-                "month": "january",
-                "issues": [
-                    {
-                        "number": 4,
-                        "date": "28 de janeiro de 2026",
-                        "url": "2026/0128",
-                        "img": "/issues/2026/jan/0128.png"
-                    },
-                    {
-                        "number": 3,
-                        "date": "21 de janeiro de 2026",
-                        "url": "2026/0121",
-                        "img": "/issues/2026/jan/0121.png"
-                    },
-                    {
-                        "number": 2,
-                        "date": "14 de janeiro de 2026",
-                        "url": "2026/0114",
-                        "img": "/issues/2026/jan/0114.png"
-                    },
-                    {
-                        "number": 1,
-                        "date": "07 de janeiro de 2026",
-                        "url": "2026/0107",
-                        "img": "/issues/2026/jan/0107.png"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "volume": 5,
-        "year": 2025,
-        "img": "/issues/year26.png",
-        "numbers": [
-            {
-                "month": "december",
-                "issues": [
-                    {
-                        "number": "49",
-                        "url": "2025/1203",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685792/49_wmvcpk.png"
-                    },
-                    {
-                        "number": "50",
-                        "url": "2025/1210",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685777/50_c6tnc6.png"
-                    },
-                    {
-                        "number": "51",
-                        "url": "2025/1217",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685794/51_vajdb0.png"
-                    },
-                    {
-                        "number": "52",
-                        "url": "2025/1224",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685793/52_opvaoo.png"
-                    },
-                    {
-                        "number": "53",
-                        "url": "2025/1231",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685795/53_bcrs8p.png"
-                    }
-                ]
-            },
-            {
-                "month": "november",
-                "issues": [
-                    {
-                        "number": "45",
-                        "url": "2025/1105",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773694384/45_nv8sbv.png"
-                    },
-                    {
-                        "number": "46",
-                        "url": "2025/1112",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773694386/46_w29ojt.png"
-                    },
-                    {
-                        "number": "47",
-                        "url": "2025/1119",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685726/47_krl9ba.png"
-                    },
-                    {
-                        "number": "48",
-                        "url": "2025/1126",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685735/48_h12ifp.png"
-                    }
-                ]
-            },
-            {
-                "month": "october",
-                "issues": [
-                    {
-                        "number": "40",
-                        "url": "2025/1001",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693919/40_o7t5lk.png"
-                    },
-                    {
-                        "number": "41",
-                        "url": "2025/1008",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693934/41_mdy29c.png"
-                    },
-                    {
-                        "number": "42",
-                        "url": "2025/1015",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693935/42_jvsbsi.png"
-                    },
-                    {
-                        "number": "43",
-                        "url": "2025/1022",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693972/43_avkdek.png"
-                    },
-                    {
-                        "number": "44",
-                        "url": "2025/1029",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693976/44_rybiro.png"
-                    }
-                ]
-            },
-            {
-                "month": "september",
-                "issues": [
-                    {
-                        "number": "36",
-                        "url": "2025/0903",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685816/36_yvxwbq.png"
-                    },
-                    {
-                        "number": "37",
-                        "url": "2025/0910",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685821/37_dlt03f.png"
-                    },
-                    {
-                        "number": "38",
-                        "url": "2025/0917",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685816/38_xeusut.png"
-                    },
-                    {
-                        "number": "39",
-                        "url": "2025/0924",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693403/39_jptcgk.png"
-                    }
-                ]
-            },
-            {
-                "month": "august",
-                "issues": [
-                    {
-                        "number": "32",
-                        "date": "6 de agosto de 2025",
-                        "url": "2025/0806",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685798/32_qxsk81.png"
-                    },
-                    {
-                        "number": "33",
-                        "date": "13 de agosto de 2025",
-                        "url": "2025/0813",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685820/33_y4er7l.png"
-                    },
-                    {
-                        "number": "34",
-                        "date": "20 de agosto de 2025",
-                        "url": "2025/0820",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685815/34_zyudsa.png"
-                    },
-                    {
-                        "number": "35",
-                        "date": "27 de agosto de 2025",
-                        "url": "2025/0827",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685815/35_suzo2x.png"
-                    }
-                ]
-            },
-            {
-                "month": "july",
-                "issues": [
-                    {
-                        "number": "27",
-                        "date": "2 de julho de 2025",
-                        "url": "2025/0702",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685810/27_bsy7p8.png"
-                    },
-                    {
-                        "number": "28",
-                        "date": "9 de julho de 2025",
-                        "url": "2025/0709",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685820/28_c28kgi.png"
-                    },
-                    {
-                        "number": "29",
-                        "date": "16 de julho de 2025",
-                        "url": "2025/0716",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685809/29_ingpln.png"
-                    },
-                    {
-                        "number": "30",
-                        "date": "23 de julho de 2025",
-                        "url": "2025/0723",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685815/30_rdohgz.png"
-                    },
-                    {
-                        "number": "31",
-                        "date": "30 de julho de 2025",
-                        "url": "2025/0730",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685771/31_tcipfy.png"
-                    }
-                ]
-            },
-            {
-                "month": "june",
-                "issues": [
-                    {
-                        "number": "23",
-                        "date": "4 de junho de 2025",
-                        "url": "2025/0604",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773692311/23_bpzb1m.png"
-                    },
-                    {
-                        "number": "24",
-                        "date": "11 de junho de 2025",
-                        "url": "2025/0611",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685807/24_lyaamw.png"
-                    },
-                    {
-                        "number": "25",
-                        "date": "18 de junho de 2025",
-                        "url": "2025/0618",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685809/25_sua86w.png"
-                    },
-                    {
-                        "number": "26",
-                        "date": "25 de junho de 2025",
-                        "url": "2025/0625",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685748/26_mxw5fd.png"
-                    }
-                ]
-            },
-            {
-                "month": "may",
-                "issues": [
-                    {
-                        "number": "19",
-                        "date": "7 de maio de 2025",
-                        "url": "2025/0507",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685734/19_mhlggi.png"
-                    },
-                    {
-                        "number": "20",
-                        "date": "14 de maio de 2025",
-                        "url": "2025/0514",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685789/20_jzpcrm.png"
-                    },
-                    {
-                        "number": "21",
-                        "date": "21 de maio de 2025",
-                        "url": "2025/0521",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685808/21_ayfq2u.png"
-                    },
-                    {
-                        "number": "22",
-                        "date": "28 de maio de 2025",
-                        "url": "2025/0528",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685737/22_rz8yte.png"
-                    }
-                ]
-            },
-            {
-                "month": "april",
-                "issues": [
-                    {
-                        "number": "14",
-                        "date": "2 de abril de 2025",
-                        "url": "2025/0402",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685820/14_sqp9hy.png"
-                    },
-                    {
-                        "number": "15",
-                        "date": "9 de abril de 2025",
-                        "url": "2025/0409",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685803/15_iofize.png"
-                    },
-                    {
-                        "number": "16",
-                        "date": "16 de abril de 2025",
-                        "url": "2025/0416",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773691819/16_rzn6b5.png"
-                    },
-                    {
-                        "number": "17",
-                        "date": "23 de abril de 2025",
-                        "url": "2025/0423",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685804/17_u4kwxb.png"
-                    },
-                    {
-                        "number": "18",
-                        "date": "30 de abril de 2025",
-                        "url": "2025/0430",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773691955/18_fszhei.png"
-                    }
-                ]
-            },
-            {
-                "month": "march",
-                "issues": [
-                    {
-                        "number": "13",
-                        "date": "26 de março de 2025",
-                        "url": "2025/0326",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773687574/13_hzlic9.png"
-                    },
-                    {
-                        "number": 12,
-                        "date": "19 de março de 2025",
-                        "url": "2025/0319",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773429698/0319_scapha.jpg"
-                    },
-                    {
-                        "number": 11,
-                        "date": "12 de março de 2025",
-                        "url": "2025/0312",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773427370/0312_tlyujq.jpg"
-                    },
-                    {
-                        "number": 10,
-                        "date": "05 de março de 2025",
-                        "url": "2025/0305",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773426816/0305_pohq7u.jpg"
-                    }
-                ]
-            },
-            {
-                "month": "february",
-                "issues": [
-                    {
-                        "number": 9,
-                        "date": "26 de fevereiro de 2025",
-                        "url": "2025/0226",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773348633/0226_dzjuah.png"
-                    },
-                    {
-                        "number": 8,
-                        "date": "19 de fevereiro de 2025",
-                        "url": "2025/0219",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773348385/0219_erv09g.png"
-                    },
-                    {
-                        "number": 7,
-                        "date": "12 de fevereiro de 2025",
-                        "url": "2025/0212",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773347665/0212_caindo.png"
-                    },
-                    {
-                        "number": 6,
-                        "date": "5 de fevereiro de 2025",
-                        "url": "2025/0205",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773346913/0205_kshkpg.png"
-                    }
-                ]
-            },
-            {
-                "month": "january",
-                "issues": [
-                    {
-                        "number": 5,
-                        "date": "29 de janeiro de 2025",
-                        "url": "2025/0129",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773344256/0129_sr5zuz.png"
-                    },
-                    {
-                        "number": 4,
-                        "date": "22 de janeiro de 2025",
-                        "url": "2025/0122",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773339872/0122_sdhnpp.png"
-                    },
-                    {
-                        "number": 3,
-                        "date": "15 de janeiro de 2025",
-                        "url": "2025/0115",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773339248/0115_w5syw9.png"
-                    },
-                    {
-                        "number": 2,
-                        "date": "8 de janeiro de 2025",
-                        "url": "2025/0108",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773337731/0108_pcopr3.png"
-                    },
-                    {
-                        "number": 1,
-                        "date": "1 de janeiro de 2025",
-                        "url": "2025/0101",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685797/1_bs06xa.png"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "volume": 4,
-        "year": 2024,
-        "img": "/issues/year26.png",
-        "numbers": [
-            {
-                "month": "december",
-                "issues": [
-                    {
-                        "number": 49,
-                        "url": "2024/1204",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360787/clima-amazonia/2024/1204/1225.png"
-                    },
-                    {
-                        "number": 50,
-                        "url": "2024/1211",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360788/clima-amazonia/2024/1211/1225.png"
-                    },
-                    {
-                        "number": 51,
-                        "url": "2024/1217",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360789/clima-amazonia/2024/1217/1225.png"
-                    },
-                    {
-                        "number": 52,
-                        "url": "2024/1225",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360791/clima-amazonia/2024/1225/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "november",
-                "issues": [
-                    {
-                        "number": 45,
-                        "url": "2024/1106",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360774/clima-amazonia/2024/1106/1225.png"
-                    },
-                    {
-                        "number": 46,
-                        "url": "2024/1113",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360777/clima-amazonia/2024/1113/1225.png"
-                    },
-                    {
-                        "number": 47,
-                        "url": "2024/1120",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360780/clima-amazonia/2024/1120/1225.png"
-                    },
-                    {
-                        "number": 48,
-                        "url": "2024/1127",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360783/clima-amazonia/2024/1127/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "october",
-                "issues": [
-                    {
-                        "number": 40,
-                        "url": "2024/1002",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360758/clima-amazonia/2024/1002/1225.png"
-                    },
-                    {
-                        "number": 41,
-                        "url": "2024/1009",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360762/clima-amazonia/2024/1009/1225.png"
-                    },
-                    {
-                        "number": 42,
-                        "url": "2024/1016",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360767/clima-amazonia/2024/1016/1225.png"
-                    },
-                    {
-                        "number": 43,
-                        "url": "2024/1023",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360770/clima-amazonia/2024/1023/1225.png"
-                    },
-                    {
-                        "number": 44,
-                        "url": "2024/1030",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360772/clima-amazonia/2024/1030/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "september",
-                "issues": [
-                    {
-                        "number": 36,
-                        "url": "2024/0904",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360745/clima-amazonia/2024/0904/1225.png"
-                    },
-                    {
-                        "number": 37,
-                        "url": "2024/0911",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360748/clima-amazonia/2024/0911/1225.png"
-                    },
-                    {
-                        "number": 38,
-                        "url": "2024/0918",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360754/clima-amazonia/2024/0918/1225.png"
-                    },
-                    {
-                        "number": 39,
-                        "url": "2024/0925",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360756/clima-amazonia/2024/0925/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "august",
-                "issues": [
-                    {
-                        "number": 32,
-                        "url": "2024/0807",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360728/clima-amazonia/2024/0807/1225.png"
-                    },
-                    {
-                        "number": 33,
-                        "url": "2024/0814",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360730/clima-amazonia/2024/0814/1225.png"
-                    },
-                    {
-                        "number": 34,
-                        "url": "2024/0821",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360734/clima-amazonia/2024/0821/1225.png"
-                    },
-                    {
-                        "number": 35,
-                        "url": "2024/0828",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360742/clima-amazonia/2024/0828/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "july",
-                "issues": [
-                    {
-                        "number": 27,
-                        "url": "2024/0703",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360717/clima-amazonia/2024/0703/1225.png"
-                    },
-                    {
-                        "number": 28,
-                        "url": "2024/0710",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360719/clima-amazonia/2024/0710/1225.png"
-                    },
-                    {
-                        "number": 29,
-                        "url": "2024/0717",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360721/clima-amazonia/2024/0717/1225.png"
-                    },
-                    {
-                        "number": 30,
-                        "url": "2024/0724",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360723/clima-amazonia/2024/0724/1225.png"
-                    },
-                    {
-                        "number": 31,
-                        "url": "2024/0731",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360725/clima-amazonia/2024/0731/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "june",
-                "issues": [
-                    {
-                        "number": 23,
-                        "url": "2024/0605",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360709/clima-amazonia/2024/0605/1225.png"
-                    },
-                    {
-                        "number": 24,
-                        "url": "2024/0612",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360711/clima-amazonia/2024/0612/1225.png"
-                    },
-                    {
-                        "number": 25,
-                        "url": "2024/0619",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360713/clima-amazonia/2024/0619/1225.png"
-                    },
-                    {
-                        "number": 26,
-                        "url": "2024/0626",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360715/clima-amazonia/2024/0626/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "may",
-                "issues": [
-                    {
-                        "number": 18,
-                        "url": "2024/0501",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360695/clima-amazonia/2024/0501/1225.png"
-                    },
-                    {
-                        "number": 19,
-                        "url": "2024/0508",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360698/clima-amazonia/2024/0508/1225.png"
-                    },
-                    {
-                        "number": 20,
-                        "url": "2024/0515",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360700/clima-amazonia/2024/0515/1225.png"
-                    },
-                    {
-                        "number": 21,
-                        "url": "2024/0522",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360703/clima-amazonia/2024/0522/1225.png"
-                    },
-                    {
-                        "number": 22,
-                        "url": "2024/0529",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360706/clima-amazonia/2024/0529/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "april",
-                "issues": [
-                    {
-                        "number": 14,
-                        "url": "2024/0403",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360681/clima-amazonia/2024/0403/1225.png"
-                    },
-                    {
-                        "number": 15,
-                        "url": "2024/0410",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360689/clima-amazonia/2024/0410/1225.png"
-                    },
-                    {
-                        "number": 16,
-                        "url": "2024/0417",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360691/clima-amazonia/2024/0417/1225.png"
-                    },
-                    {
-                        "number": 17,
-                        "url": "2024/0424",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360693/clima-amazonia/2024/0424/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "march",
-                "issues": [
-                    {
-                        "number": 10,
-                        "url": "2024/0306",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360665/clima-amazonia/2024/0306/1225.png"
-                    },
-                    {
-                        "number": 11,
-                        "url": "2024/0313",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360669/clima-amazonia/2024/0313/1225.png"
-                    },
-                    {
-                        "number": 12,
-                        "url": "2024/0320",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360673/clima-amazonia/2024/0320/1225.png"
-                    },
-                    {
-                        "number": 13,
-                        "url": "2024/0327",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360677/clima-amazonia/2024/0327/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "february",
-                "issues": [
-                    {
-                        "number": 6,
-                        "url": "2024/0207",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360656/clima-amazonia/2024/0207/1225.png"
-                    },
-                    {
-                        "number": 7,
-                        "url": "2024/0214",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360658/clima-amazonia/2024/0214/1225.png"
-                    },
-                    {
-                        "number": 8,
-                        "url": "2024/0221",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360661/clima-amazonia/2024/0221/1225.png"
-                    },
-                    {
-                        "number": 9,
-                        "url": "2024/0228",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360663/clima-amazonia/2024/0228/1225.png"
-                    }
-                ]
-            },
-            {
-                "month": "january",
-                "issues": [
-                    {
-                        "number": 1,
-                        "url": "2024/0103",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360643/clima-amazonia/2024/0103/1225.png"
-                    },
-                    {
-                        "number": 2,
-                        "url": "2024/0110",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360647/clima-amazonia/2024/0110/1225.png"
-                    },
-                    {
-                        "number": 3,
-                        "url": "2024/0117",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360650/clima-amazonia/2024/0117/1225.png"
-                    },
-                    {
-                        "number": 4,
-                        "url": "2024/0124",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360652/clima-amazonia/2024/0124/1225.png"
-                    },
-                    {
-                        "number": 5,
-                        "url": "2024/0131",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360654/clima-amazonia/2024/0131/1225.png"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "volume": 3,
-        "year": 2023,
-        "img": "/issues/year26.png",
-        "numbers": [
-            {
-                "month": "december",
-                "issues": [
-                    {
-                        "number": 49,
-                        "url": "2024/1206",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530339/clima-amazonia/2023/1206/1206.png"
-                    },
-                    {
-                        "number": 50,
-                        "url": "2023/1213",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530343/clima-amazonia/2023/1213/1213.png"
-                    },
-                    {
-                        "number": 51,
-                        "url": "2023/1220",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530346/clima-amazonia/2023/1220/1220.png"
-                    },
-                    {
-                        "number": 52,
-                        "url": "2023/1227",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530349/clima-amazonia/2023/1227/1227.png"
-                    }
-                ]
-            },
-            {
-                "month": "november",
-                "issues": [
-                    {
-                        "number": 44,
-                        "url": "2024/1101",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530333/clima-amazonia/2023/1101/1101.png"
-                    },
-                    {
-                        "number": 45,
-                        "url": "2023/1108",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530334/clima-amazonia/2023/1108/1108.png"
-                    },
-                    {
-                        "number": 46,
-                        "url": "2023/1115",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530335/clima-amazonia/2023/1115/1115.png"
-                    },
-                    {
-                        "number": 47,
-                        "url": "2023/1122",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530336/clima-amazonia/2023/1122/1122.png"
-                    },
-                    {
-                        "number": 48,
-                        "url": "2023/1129",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530337/clima-amazonia/2023/1129/1129.png"
-                    }
-                ]
-            },
-            {
-                "month": "october",
-                "issues": [
-                    {
-                        "number": 40,
-                        "url": "2024/1004",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530328/clima-amazonia/2023/1004/1004.png"
-                    },
-                    {
-                        "number": 41,
-                        "url": "2023/1011",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530330/clima-amazonia/2023/1011/1011.png"
-                    },
-                    {
-                        "number": 42,
-                        "url": "2023/1018",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530330/clima-amazonia/2023/1018/1018.png"
-                    },
-                    {
-                        "number": 43,
-                        "url": "2023/1025",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530332/clima-amazonia/2023/1025/1025.png"
-                    }
-                ]
-            },
-            {
-                "month": "september",
-                "issues": [
-                    {
-                        "number": 36,
-                        "url": "2024/0907",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530323/clima-amazonia/2023/0907/0907.png"
-                    },
-                    {
-                        "number": 37,
-                        "url": "2023/0914",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530324/clima-amazonia/2023/0914/0914.png"
-                    },
-                    {
-                        "number": 38,
-                        "url": "2023/0921",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530325/clima-amazonia/2023/0921/0921.png"
-                    },
-                    {
-                        "number": 39,
-                        "url": "2023/0927",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530327/clima-amazonia/2023/0927/0927.png"
-                    }
-                ]
-            },
-            {
-                "month": "august",
-                "issues": [
-                    {
-                        "number": 31,
-                        "url": "2024/0803",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530317/clima-amazonia/2023/0803/0803.png"
-                    },
-                    {
-                        "number": 32,
-                        "url": "2023/0810",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530318/clima-amazonia/2023/0810/0810.png"
-                    },
-                    {
-                        "number": 33,
-                        "url": "2023/0817",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530320/clima-amazonia/2023/0817/0817.png"
-                    },
-                    {
-                        "number": 34,
-                        "url": "2023/0824",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530321/clima-amazonia/2023/0824/0824.png"
-                    },
-                    {
-                        "number": 35,
-                        "url": "2023/0831",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530322/clima-amazonia/2023/0831/0831.png"
-                    }
-                ]
-            },
-            {
-                "month": "july",
-                "issues": [
-                    {
-                        "number": 27,
-                        "url": "2024/0706",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530312/clima-amazonia/2023/0706/0706.png"
-                    },
-                    {
-                        "number": 28,
-                        "url": "2023/0713",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530313/clima-amazonia/2023/0713/0713.png"
-                    },
-                    {
-                        "number": 29,
-                        "url": "2023/0720",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530314/clima-amazonia/2023/0720/0720.png"
-                    },
-                    {
-                        "number": 30,
-                        "url": "2023/0727",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530316/clima-amazonia/2023/0727/0727.png"
-                    }
-                ]
-            },
-            {
-                "month": "june",
-                "issues": [
-                    {
-                        "number": 22,
-                        "url": "2024/0601",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530307/clima-amazonia/2023/0601/0601.png"
-                    },
-                    {
-                        "number": 23,
-                        "url": "2023/0608",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530308/clima-amazonia/2023/0608/0608.png"
-                    },
-                    {
-                        "number": 24,
-                        "url": "2023/0615",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530309/clima-amazonia/2023/0615/0615.png"
-                    },
-                    {
-                        "number": 25,
-                        "url": "2023/0622",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530310/clima-amazonia/2023/0622/0622.png"
-                    },
-                    {
-                        "number": 26,
-                        "url": "2023/0629",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530311/clima-amazonia/2023/0629/0629.png"
-                    }
-                ]
-            },
-            {
-                "month": "may",
-                "issues": [
-                    {
-                        "number": 18,
-                        "url": "2024/0504",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530302/clima-amazonia/2023/0504/0504.png"
-                    },
-                    {
-                        "number": 19,
-                        "url": "2023/0511",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530303/clima-amazonia/2023/0511/0511.png"
-                    },
-                    {
-                        "number": 20,
-                        "url": "2023/0518",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530305/clima-amazonia/2023/0518/0518.png"
-                    },
-                    {
-                        "number": 21,
-                        "url": "2023/0525",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530306/clima-amazonia/2023/0525/0525.png"
-                    }
-                ]
-            },
-            {
-                "month": "april",
-                "issues": [
-                    {
-                        "number": 14,
-                        "url": "2024/0406",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530276/clima-amazonia/2023/0406/0406.png"
-                    },
-                    {
-                        "number": 15,
-                        "url": "2023/0413",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530277/clima-amazonia/2023/0413/0413.png"
-                    },
-                    {
-                        "number": 16,
-                        "url": "2023/0420",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530285/clima-amazonia/2023/0420/0420.png"
-                    },
-                    {
-                        "number": 17,
-                        "url": "2023/0427",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530301/clima-amazonia/2023/0427/0427.png"
-                    }
-                ]
-            },
-            {
-                "month": "march",
-                "issues": [
-                    {
-                        "number": 9,
-                        "url": "2024/0302",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530270/clima-amazonia/2023/0302/0302.png"
-                    },
-                    {
-                        "number": 10,
-                        "url": "2023/0309",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530271/clima-amazonia/2023/0309/0309.png"
-                    },
-                    {
-                        "number": 11,
-                        "url": "2023/0316",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530272/clima-amazonia/2023/0316/0316.png"
-                    },
-                    {
-                        "number": 12,
-                        "url": "2023/0323",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530274/clima-amazonia/2023/0323/0323.png"
-                    },
-                    {
-                        "number": 13,
-                        "url": "2023/0330",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530275/clima-amazonia/2023/0330/0330.png"
-                    }
-                ]
-            },
-            {
-                "month": "february",
-                "issues": [
-                    {
-                        "number": 5,
-                        "url": "2024/0202",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530265/clima-amazonia/2023/0202/0202.png"
-                    },
-                    {
-                        "number": 6,
-                        "url": "2023/0209",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530266/clima-amazonia/2023/0209/0209.png"
-                    },
-                    {
-                        "number": 7,
-                        "url": "2023/0216",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530267/clima-amazonia/2023/0216/0216.png"
-                    },
-                    {
-                        "number": 8,
-                        "url": "2023/0223",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530269/clima-amazonia/2023/0223/0223.png"
-                    }
-                ]
-            },
-            {
-                "month": "january",
-                "issues": [
-                    {
-                        "number": 1,
-                        "url": "2024/0105",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530260/clima-amazonia/2023/0105/0105.png"
-                    },
-                    {
-                        "number": 2,
-                        "url": "2023/0112",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530261/clima-amazonia/2023/0112/0112.png"
-                    },
-                    {
-                        "number": 3,
-                        "url": "2023/0119",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530263/clima-amazonia/2023/0119/0119.png"
-                    },
-                    {
-                        "number": 4,
-                        "url": "2023/0126",
-                        "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530264/clima-amazonia/2023/0126/0126.png"
-                    }
-                ]
-            }
-        ]
-    }
+   {
+      "volume": 6,
+      "year": 2026,
+      "img": "/issues/year26.png",
+      "numbers": [
+         {
+            "month": "march",
+            "issues": [
+               {
+                  "number": 11,
+                  "date": "18 de março de 2026",
+                  "url": "2026/0318",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774536405/0318_pmcx6h.jpg"
+               },
+               {
+                  "number": 10,
+                  "date": "11 de março de 2026",
+                  "url": "2026/0311",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774533644/0311_wow2a8.jpg"
+               },
+               {
+                  "number": 9,
+                  "date": "04 de março de 2026",
+                  "url": "2026/0304",
+                  "img": "/issues/2026/mar/0304.png"
+               }
+            ]
+         },
+         {
+            "month": "february",
+            "issues": [
+               {
+                  "number": 8,
+                  "date": "25 de fevereiro de 2026",
+                  "url": "2026/0225",
+                  "img": "/issues/year26.png"
+               },
+               {
+                  "number": 7,
+                  "date": "18 de fevereiro de 2026",
+                  "url": "2026/0218",
+                  "img": "/issues/year26.png"
+               },
+               {
+                  "number": 6,
+                  "date": "11 de fevereiro de 2026",
+                  "url": "2026/0211",
+                  "img": "/issues/2026/fev/0211.png"
+               },
+               {
+                  "number": 5,
+                  "date": "04 de fevereiro de 2026",
+                  "url": "2026/0204",
+                  "img": "/issues/2026/fev/0204.png"
+               }
+            ]
+         },
+         {
+            "month": "january",
+            "issues": [
+               {
+                  "number": 4,
+                  "date": "28 de janeiro de 2026",
+                  "url": "2026/0128",
+                  "img": "/issues/2026/jan/0128.png"
+               },
+               {
+                  "number": 3,
+                  "date": "21 de janeiro de 2026",
+                  "url": "2026/0121",
+                  "img": "/issues/2026/jan/0121.png"
+               },
+               {
+                  "number": 2,
+                  "date": "14 de janeiro de 2026",
+                  "url": "2026/0114",
+                  "img": "/issues/2026/jan/0114.png"
+               },
+               {
+                  "number": 1,
+                  "date": "07 de janeiro de 2026",
+                  "url": "2026/0107",
+                  "img": "/issues/2026/jan/0107.png"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "volume": 5,
+      "year": 2025,
+      "img": "/issues/year26.png",
+      "numbers": [
+         {
+            "month": "december",
+            "issues": [
+               {
+                  "number": "49",
+                  "url": "2025/1203",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685792/49_wmvcpk.png"
+               },
+               {
+                  "number": "50",
+                  "url": "2025/1210",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685777/50_c6tnc6.png"
+               },
+               {
+                  "number": "51",
+                  "url": "2025/1217",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685794/51_vajdb0.png"
+               },
+               {
+                  "number": "52",
+                  "url": "2025/1224",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685793/52_opvaoo.png"
+               },
+               {
+                  "number": "53",
+                  "url": "2025/1231",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685795/53_bcrs8p.png"
+               }
+            ]
+         },
+         {
+            "month": "november",
+            "issues": [
+               {
+                  "number": "45",
+                  "url": "2025/1105",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773694384/45_nv8sbv.png"
+               },
+               {
+                  "number": "46",
+                  "url": "2025/1112",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773694386/46_w29ojt.png"
+               },
+               {
+                  "number": "47",
+                  "url": "2025/1119",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685726/47_krl9ba.png"
+               },
+               {
+                  "number": "48",
+                  "url": "2025/1126",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685735/48_h12ifp.png"
+               }
+            ]
+         },
+         {
+            "month": "october",
+            "issues": [
+               {
+                  "number": "40",
+                  "url": "2025/1001",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693919/40_o7t5lk.png"
+               },
+               {
+                  "number": "41",
+                  "url": "2025/1008",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693934/41_mdy29c.png"
+               },
+               {
+                  "number": "42",
+                  "url": "2025/1015",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693935/42_jvsbsi.png"
+               },
+               {
+                  "number": "43",
+                  "url": "2025/1022",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693972/43_avkdek.png"
+               },
+               {
+                  "number": "44",
+                  "url": "2025/1029",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693976/44_rybiro.png"
+               }
+            ]
+         },
+         {
+            "month": "september",
+            "issues": [
+               {
+                  "number": "36",
+                  "url": "2025/0903",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685816/36_yvxwbq.png"
+               },
+               {
+                  "number": "37",
+                  "url": "2025/0910",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685821/37_dlt03f.png"
+               },
+               {
+                  "number": "38",
+                  "url": "2025/0917",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685816/38_xeusut.png"
+               },
+               {
+                  "number": "39",
+                  "url": "2025/0924",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773693403/39_jptcgk.png"
+               }
+            ]
+         },
+         {
+            "month": "august",
+            "issues": [
+               {
+                  "number": "32",
+                  "date": "6 de agosto de 2025",
+                  "url": "2025/0806",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685798/32_qxsk81.png"
+               },
+               {
+                  "number": "33",
+                  "date": "13 de agosto de 2025",
+                  "url": "2025/0813",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685820/33_y4er7l.png"
+               },
+               {
+                  "number": "34",
+                  "date": "20 de agosto de 2025",
+                  "url": "2025/0820",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685815/34_zyudsa.png"
+               },
+               {
+                  "number": "35",
+                  "date": "27 de agosto de 2025",
+                  "url": "2025/0827",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685815/35_suzo2x.png"
+               }
+            ]
+         },
+         {
+            "month": "july",
+            "issues": [
+               {
+                  "number": "27",
+                  "date": "2 de julho de 2025",
+                  "url": "2025/0702",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685810/27_bsy7p8.png"
+               },
+               {
+                  "number": "28",
+                  "date": "9 de julho de 2025",
+                  "url": "2025/0709",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685820/28_c28kgi.png"
+               },
+               {
+                  "number": "29",
+                  "date": "16 de julho de 2025",
+                  "url": "2025/0716",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685809/29_ingpln.png"
+               },
+               {
+                  "number": "30",
+                  "date": "23 de julho de 2025",
+                  "url": "2025/0723",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685815/30_rdohgz.png"
+               },
+               {
+                  "number": "31",
+                  "date": "30 de julho de 2025",
+                  "url": "2025/0730",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685771/31_tcipfy.png"
+               }
+            ]
+         },
+         {
+            "month": "june",
+            "issues": [
+               {
+                  "number": "23",
+                  "date": "4 de junho de 2025",
+                  "url": "2025/0604",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773692311/23_bpzb1m.png"
+               },
+               {
+                  "number": "24",
+                  "date": "11 de junho de 2025",
+                  "url": "2025/0611",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685807/24_lyaamw.png"
+               },
+               {
+                  "number": "25",
+                  "date": "18 de junho de 2025",
+                  "url": "2025/0618",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685809/25_sua86w.png"
+               },
+               {
+                  "number": "26",
+                  "date": "25 de junho de 2025",
+                  "url": "2025/0625",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685748/26_mxw5fd.png"
+               }
+            ]
+         },
+         {
+            "month": "may",
+            "issues": [
+               {
+                  "number": "19",
+                  "date": "7 de maio de 2025",
+                  "url": "2025/0507",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685734/19_mhlggi.png"
+               },
+               {
+                  "number": "20",
+                  "date": "14 de maio de 2025",
+                  "url": "2025/0514",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685789/20_jzpcrm.png"
+               },
+               {
+                  "number": "21",
+                  "date": "21 de maio de 2025",
+                  "url": "2025/0521",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685808/21_ayfq2u.png"
+               },
+               {
+                  "number": "22",
+                  "date": "28 de maio de 2025",
+                  "url": "2025/0528",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685737/22_rz8yte.png"
+               }
+            ]
+         },
+         {
+            "month": "april",
+            "issues": [
+               {
+                  "number": "14",
+                  "date": "2 de abril de 2025",
+                  "url": "2025/0402",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685820/14_sqp9hy.png"
+               },
+               {
+                  "number": "15",
+                  "date": "9 de abril de 2025",
+                  "url": "2025/0409",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685803/15_iofize.png"
+               },
+               {
+                  "number": "16",
+                  "date": "16 de abril de 2025",
+                  "url": "2025/0416",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773691819/16_rzn6b5.png"
+               },
+               {
+                  "number": "17",
+                  "date": "23 de abril de 2025",
+                  "url": "2025/0423",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685804/17_u4kwxb.png"
+               },
+               {
+                  "number": "18",
+                  "date": "30 de abril de 2025",
+                  "url": "2025/0430",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773691955/18_fszhei.png"
+               }
+            ]
+         },
+         {
+            "month": "march",
+            "issues": [
+               {
+                  "number": "13",
+                  "date": "26 de março de 2025",
+                  "url": "2025/0326",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773687574/13_hzlic9.png"
+               },
+               {
+                  "number": 12,
+                  "date": "19 de março de 2025",
+                  "url": "2025/0319",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773429698/0319_scapha.jpg"
+               },
+               {
+                  "number": 11,
+                  "date": "12 de março de 2025",
+                  "url": "2025/0312",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773427370/0312_tlyujq.jpg"
+               },
+               {
+                  "number": 10,
+                  "date": "05 de março de 2025",
+                  "url": "2025/0305",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773426816/0305_pohq7u.jpg"
+               }
+            ]
+         },
+         {
+            "month": "february",
+            "issues": [
+               {
+                  "number": 9,
+                  "date": "26 de fevereiro de 2025",
+                  "url": "2025/0226",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773348633/0226_dzjuah.png"
+               },
+               {
+                  "number": 8,
+                  "date": "19 de fevereiro de 2025",
+                  "url": "2025/0219",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773348385/0219_erv09g.png"
+               },
+               {
+                  "number": 7,
+                  "date": "12 de fevereiro de 2025",
+                  "url": "2025/0212",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773347665/0212_caindo.png"
+               },
+               {
+                  "number": 6,
+                  "date": "5 de fevereiro de 2025",
+                  "url": "2025/0205",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773346913/0205_kshkpg.png"
+               }
+            ]
+         },
+         {
+            "month": "january",
+            "issues": [
+               {
+                  "number": 5,
+                  "date": "29 de janeiro de 2025",
+                  "url": "2025/0129",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773344256/0129_sr5zuz.png"
+               },
+               {
+                  "number": 4,
+                  "date": "22 de janeiro de 2025",
+                  "url": "2025/0122",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773339872/0122_sdhnpp.png"
+               },
+               {
+                  "number": 3,
+                  "date": "15 de janeiro de 2025",
+                  "url": "2025/0115",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773339248/0115_w5syw9.png"
+               },
+               {
+                  "number": 2,
+                  "date": "8 de janeiro de 2025",
+                  "url": "2025/0108",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773337731/0108_pcopr3.png"
+               },
+               {
+                  "number": 1,
+                  "date": "1 de janeiro de 2025",
+                  "url": "2025/0101",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1773685797/1_bs06xa.png"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "volume": 4,
+      "year": 2024,
+      "img": "/issues/year26.png",
+      "numbers": [
+         {
+            "month": "december",
+            "issues": [
+               {
+                  "number": 49,
+                  "url": "2024/1204",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360787/clima-amazonia/2024/1204/1225.png"
+               },
+               {
+                  "number": 50,
+                  "url": "2024/1211",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360788/clima-amazonia/2024/1211/1225.png"
+               },
+               {
+                  "number": 51,
+                  "url": "2024/1217",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360789/clima-amazonia/2024/1217/1225.png"
+               },
+               {
+                  "number": 52,
+                  "url": "2024/1225",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360791/clima-amazonia/2024/1225/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "november",
+            "issues": [
+               {
+                  "number": 45,
+                  "url": "2024/1106",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360774/clima-amazonia/2024/1106/1225.png"
+               },
+               {
+                  "number": 46,
+                  "url": "2024/1113",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360777/clima-amazonia/2024/1113/1225.png"
+               },
+               {
+                  "number": 47,
+                  "url": "2024/1120",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360780/clima-amazonia/2024/1120/1225.png"
+               },
+               {
+                  "number": 48,
+                  "url": "2024/1127",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360783/clima-amazonia/2024/1127/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "october",
+            "issues": [
+               {
+                  "number": 40,
+                  "url": "2024/1002",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360758/clima-amazonia/2024/1002/1225.png"
+               },
+               {
+                  "number": 41,
+                  "url": "2024/1009",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360762/clima-amazonia/2024/1009/1225.png"
+               },
+               {
+                  "number": 42,
+                  "url": "2024/1016",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360767/clima-amazonia/2024/1016/1225.png"
+               },
+               {
+                  "number": 43,
+                  "url": "2024/1023",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360770/clima-amazonia/2024/1023/1225.png"
+               },
+               {
+                  "number": 44,
+                  "url": "2024/1030",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360772/clima-amazonia/2024/1030/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "september",
+            "issues": [
+               {
+                  "number": 36,
+                  "url": "2024/0904",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360745/clima-amazonia/2024/0904/1225.png"
+               },
+               {
+                  "number": 37,
+                  "url": "2024/0911",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360748/clima-amazonia/2024/0911/1225.png"
+               },
+               {
+                  "number": 38,
+                  "url": "2024/0918",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360754/clima-amazonia/2024/0918/1225.png"
+               },
+               {
+                  "number": 39,
+                  "url": "2024/0925",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360756/clima-amazonia/2024/0925/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "august",
+            "issues": [
+               {
+                  "number": 32,
+                  "url": "2024/0807",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360728/clima-amazonia/2024/0807/1225.png"
+               },
+               {
+                  "number": 33,
+                  "url": "2024/0814",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360730/clima-amazonia/2024/0814/1225.png"
+               },
+               {
+                  "number": 34,
+                  "url": "2024/0821",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360734/clima-amazonia/2024/0821/1225.png"
+               },
+               {
+                  "number": 35,
+                  "url": "2024/0828",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360742/clima-amazonia/2024/0828/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "july",
+            "issues": [
+               {
+                  "number": 27,
+                  "url": "2024/0703",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360717/clima-amazonia/2024/0703/1225.png"
+               },
+               {
+                  "number": 28,
+                  "url": "2024/0710",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360719/clima-amazonia/2024/0710/1225.png"
+               },
+               {
+                  "number": 29,
+                  "url": "2024/0717",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360721/clima-amazonia/2024/0717/1225.png"
+               },
+               {
+                  "number": 30,
+                  "url": "2024/0724",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360723/clima-amazonia/2024/0724/1225.png"
+               },
+               {
+                  "number": 31,
+                  "url": "2024/0731",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360725/clima-amazonia/2024/0731/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "june",
+            "issues": [
+               {
+                  "number": 23,
+                  "url": "2024/0605",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360709/clima-amazonia/2024/0605/1225.png"
+               },
+               {
+                  "number": 24,
+                  "url": "2024/0612",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360711/clima-amazonia/2024/0612/1225.png"
+               },
+               {
+                  "number": 25,
+                  "url": "2024/0619",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360713/clima-amazonia/2024/0619/1225.png"
+               },
+               {
+                  "number": 26,
+                  "url": "2024/0626",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360715/clima-amazonia/2024/0626/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "may",
+            "issues": [
+               {
+                  "number": 18,
+                  "url": "2024/0501",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360695/clima-amazonia/2024/0501/1225.png"
+               },
+               {
+                  "number": 19,
+                  "url": "2024/0508",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360698/clima-amazonia/2024/0508/1225.png"
+               },
+               {
+                  "number": 20,
+                  "url": "2024/0515",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360700/clima-amazonia/2024/0515/1225.png"
+               },
+               {
+                  "number": 21,
+                  "url": "2024/0522",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360703/clima-amazonia/2024/0522/1225.png"
+               },
+               {
+                  "number": 22,
+                  "url": "2024/0529",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360706/clima-amazonia/2024/0529/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "april",
+            "issues": [
+               {
+                  "number": 14,
+                  "url": "2024/0403",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360681/clima-amazonia/2024/0403/1225.png"
+               },
+               {
+                  "number": 15,
+                  "url": "2024/0410",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360689/clima-amazonia/2024/0410/1225.png"
+               },
+               {
+                  "number": 16,
+                  "url": "2024/0417",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360691/clima-amazonia/2024/0417/1225.png"
+               },
+               {
+                  "number": 17,
+                  "url": "2024/0424",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360693/clima-amazonia/2024/0424/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "march",
+            "issues": [
+               {
+                  "number": 10,
+                  "url": "2024/0306",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360665/clima-amazonia/2024/0306/1225.png"
+               },
+               {
+                  "number": 11,
+                  "url": "2024/0313",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360669/clima-amazonia/2024/0313/1225.png"
+               },
+               {
+                  "number": 12,
+                  "url": "2024/0320",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360673/clima-amazonia/2024/0320/1225.png"
+               },
+               {
+                  "number": 13,
+                  "url": "2024/0327",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360677/clima-amazonia/2024/0327/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "february",
+            "issues": [
+               {
+                  "number": 6,
+                  "url": "2024/0207",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360656/clima-amazonia/2024/0207/1225.png"
+               },
+               {
+                  "number": 7,
+                  "url": "2024/0214",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360658/clima-amazonia/2024/0214/1225.png"
+               },
+               {
+                  "number": 8,
+                  "url": "2024/0221",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360661/clima-amazonia/2024/0221/1225.png"
+               },
+               {
+                  "number": 9,
+                  "url": "2024/0228",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360663/clima-amazonia/2024/0228/1225.png"
+               }
+            ]
+         },
+         {
+            "month": "january",
+            "issues": [
+               {
+                  "number": 1,
+                  "url": "2024/0103",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360643/clima-amazonia/2024/0103/1225.png"
+               },
+               {
+                  "number": 2,
+                  "url": "2024/0110",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360647/clima-amazonia/2024/0110/1225.png"
+               },
+               {
+                  "number": 3,
+                  "url": "2024/0117",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360650/clima-amazonia/2024/0117/1225.png"
+               },
+               {
+                  "number": 4,
+                  "url": "2024/0124",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360652/clima-amazonia/2024/0124/1225.png"
+               },
+               {
+                  "number": 5,
+                  "url": "2024/0131",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774360654/clima-amazonia/2024/0131/1225.png"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "volume": 3,
+      "year": 2023,
+      "img": "/issues/year26.png",
+      "numbers": [
+         {
+            "month": "december",
+            "issues": [
+               {
+                  "number": 49,
+                  "url": "2023/1206",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530339/clima-amazonia/2023/1206/1206.png"
+               },
+               {
+                  "number": 50,
+                  "url": "2023/1213",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530343/clima-amazonia/2023/1213/1213.png"
+               },
+               {
+                  "number": 51,
+                  "url": "2023/1220",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530346/clima-amazonia/2023/1220/1220.png"
+               },
+               {
+                  "number": 52,
+                  "url": "2023/1227",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530349/clima-amazonia/2023/1227/1227.png"
+               }
+            ]
+         },
+         {
+            "month": "november",
+            "issues": [
+               {
+                  "number": 44,
+                  "url": "2023/1101",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530333/clima-amazonia/2023/1101/1101.png"
+               },
+               {
+                  "number": 45,
+                  "url": "2023/1108",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530334/clima-amazonia/2023/1108/1108.png"
+               },
+               {
+                  "number": 46,
+                  "url": "2023/1115",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530335/clima-amazonia/2023/1115/1115.png"
+               },
+               {
+                  "number": 47,
+                  "url": "2023/1122",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530336/clima-amazonia/2023/1122/1122.png"
+               },
+               {
+                  "number": 48,
+                  "url": "2023/1129",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530337/clima-amazonia/2023/1129/1129.png"
+               }
+            ]
+         },
+         {
+            "month": "october",
+            "issues": [
+               {
+                  "number": 40,
+                  "url": "2023/1004",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530328/clima-amazonia/2023/1004/1004.png"
+               },
+               {
+                  "number": 41,
+                  "url": "2023/1011",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530330/clima-amazonia/2023/1011/1011.png"
+               },
+               {
+                  "number": 42,
+                  "url": "2023/1018",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530330/clima-amazonia/2023/1018/1018.png"
+               },
+               {
+                  "number": 43,
+                  "url": "2023/1025",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530332/clima-amazonia/2023/1025/1025.png"
+               }
+            ]
+         },
+         {
+            "month": "september",
+            "issues": [
+               {
+                  "number": 36,
+                  "url": "2023/0907",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530323/clima-amazonia/2023/0907/0907.png"
+               },
+               {
+                  "number": 37,
+                  "url": "2023/0914",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530324/clima-amazonia/2023/0914/0914.png"
+               },
+               {
+                  "number": 38,
+                  "url": "2023/0921",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530325/clima-amazonia/2023/0921/0921.png"
+               },
+               {
+                  "number": 39,
+                  "url": "2023/0927",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530327/clima-amazonia/2023/0927/0927.png"
+               }
+            ]
+         },
+         {
+            "month": "august",
+            "issues": [
+               {
+                  "number": 31,
+                  "url": "2023/0803",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530317/clima-amazonia/2023/0803/0803.png"
+               },
+               {
+                  "number": 32,
+                  "url": "2023/0810",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530318/clima-amazonia/2023/0810/0810.png"
+               },
+               {
+                  "number": 33,
+                  "url": "2023/0817",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530320/clima-amazonia/2023/0817/0817.png"
+               },
+               {
+                  "number": 34,
+                  "url": "2023/0824",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530321/clima-amazonia/2023/0824/0824.png"
+               },
+               {
+                  "number": 35,
+                  "url": "2023/0831",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530322/clima-amazonia/2023/0831/0831.png"
+               }
+            ]
+         },
+         {
+            "month": "july",
+            "issues": [
+               {
+                  "number": 27,
+                  "url": "2023/0706",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530312/clima-amazonia/2023/0706/0706.png"
+               },
+               {
+                  "number": 28,
+                  "url": "2023/0713",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530313/clima-amazonia/2023/0713/0713.png"
+               },
+               {
+                  "number": 29,
+                  "url": "2023/0720",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530314/clima-amazonia/2023/0720/0720.png"
+               },
+               {
+                  "number": 30,
+                  "url": "2023/0727",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530316/clima-amazonia/2023/0727/0727.png"
+               }
+            ]
+         },
+         {
+            "month": "june",
+            "issues": [
+               {
+                  "number": 22,
+                  "url": "2023/0601",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530307/clima-amazonia/2023/0601/0601.png"
+               },
+               {
+                  "number": 23,
+                  "url": "2023/0608",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530308/clima-amazonia/2023/0608/0608.png"
+               },
+               {
+                  "number": 24,
+                  "url": "2023/0615",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530309/clima-amazonia/2023/0615/0615.png"
+               },
+               {
+                  "number": 25,
+                  "url": "2023/0622",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530310/clima-amazonia/2023/0622/0622.png"
+               },
+               {
+                  "number": 26,
+                  "url": "2023/0629",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530311/clima-amazonia/2023/0629/0629.png"
+               }
+            ]
+         },
+         {
+            "month": "may",
+            "issues": [
+               {
+                  "number": 18,
+                  "url": "2023/0504",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530302/clima-amazonia/2023/0504/0504.png"
+               },
+               {
+                  "number": 19,
+                  "url": "2023/0511",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530303/clima-amazonia/2023/0511/0511.png"
+               },
+               {
+                  "number": 20,
+                  "url": "2023/0518",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530305/clima-amazonia/2023/0518/0518.png"
+               },
+               {
+                  "number": 21,
+                  "url": "2023/0525",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530306/clima-amazonia/2023/0525/0525.png"
+               }
+            ]
+         },
+         {
+            "month": "april",
+            "issues": [
+               {
+                  "number": 14,
+                  "url": "2023/0406",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530276/clima-amazonia/2023/0406/0406.png"
+               },
+               {
+                  "number": 15,
+                  "url": "2023/0413",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530277/clima-amazonia/2023/0413/0413.png"
+               },
+               {
+                  "number": 16,
+                  "url": "2023/0420",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530285/clima-amazonia/2023/0420/0420.png"
+               },
+               {
+                  "number": 17,
+                  "url": "2023/0427",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530301/clima-amazonia/2023/0427/0427.png"
+               }
+            ]
+         },
+         {
+            "month": "march",
+            "issues": [
+               {
+                  "number": 9,
+                  "url": "2023/0302",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530270/clima-amazonia/2023/0302/0302.png"
+               },
+               {
+                  "number": 10,
+                  "url": "2023/0309",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530271/clima-amazonia/2023/0309/0309.png"
+               },
+               {
+                  "number": 11,
+                  "url": "2023/0316",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530272/clima-amazonia/2023/0316/0316.png"
+               },
+               {
+                  "number": 12,
+                  "url": "2023/0323",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530274/clima-amazonia/2023/0323/0323.png"
+               },
+               {
+                  "number": 13,
+                  "url": "2023/0330",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530275/clima-amazonia/2023/0330/0330.png"
+               }
+            ]
+         },
+         {
+            "month": "february",
+            "issues": [
+               {
+                  "number": 5,
+                  "url": "2023/0202",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530265/clima-amazonia/2023/0202/0202.png"
+               },
+               {
+                  "number": 6,
+                  "url": "2023/0209",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530266/clima-amazonia/2023/0209/0209.png"
+               },
+               {
+                  "number": 7,
+                  "url": "2023/0216",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530267/clima-amazonia/2023/0216/0216.png"
+               },
+               {
+                  "number": 8,
+                  "url": "2023/0223",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530269/clima-amazonia/2023/0223/0223.png"
+               }
+            ]
+         },
+         {
+            "month": "january",
+            "issues": [
+               {
+                  "number": 1,
+                  "url": "2023/0105",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530260/clima-amazonia/2023/0105/0105.png"
+               },
+               {
+                  "number": 2,
+                  "url": "2023/0112",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530261/clima-amazonia/2023/0112/0112.png"
+               },
+               {
+                  "number": 3,
+                  "url": "2023/0119",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530263/clima-amazonia/2023/0119/0119.png"
+               },
+               {
+                  "number": 4,
+                  "url": "2023/0126",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530264/clima-amazonia/2023/0126/0126.png"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "volume": 2,
+      "year": 2022,
+      "img": "/issues/year26.png",
+      "numbers": [
+         {
+            "month": "december",
+            "issues": [
+               {
+                  "number": 48,
+                  "url": "2022/1201",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890686/clima-amazonia/2023/1201/1201.png"
+               },
+               {
+                  "number": 49,
+                  "url": "2022/1208",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890687/clima-amazonia/2023/1208/1208.png"
+               },
+               {
+                  "number": 50,
+                  "url": "2022/1215",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890688/clima-amazonia/2023/1215/1215.png"
+               },
+               {
+                  "number": 51,
+                  "url": "2022/1222",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890689/clima-amazonia/2023/1222/1222.png"
+               },
+               {
+                  "number": 52,
+                  "url": "2022/1229",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890690/clima-amazonia/2023/1229/1229.png"
+               }
+            ]
+         },
+         {
+            "month": "november",
+            "issues": [
+               {
+                  "number": 44,
+                  "url": "2022/1103",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890692/clima-amazonia/2023/1103/1103.png"
+               },
+               {
+                  "number": 45,
+                  "url": "2022/1110",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890693/clima-amazonia/2023/1110/1110.png"
+               },
+               {
+                  "number": 46,
+                  "url": "2022/1117",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890694/clima-amazonia/2023/1117/1117.png"
+               },
+               {
+                  "number": 47,
+                  "url": "2022/1124",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890695/clima-amazonia/2023/1124/1124.png"
+               }
+            ]
+         },
+         {
+            "month": "october",
+            "issues": [
+               {
+                  "number": 40,
+                  "url": "2022/1006",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890696/clima-amazonia/2023/1006/1006.png"
+               },
+               {
+                  "number": 41,
+                  "url": "2022/1013",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890697/clima-amazonia/2023/1013/1013.png"
+               },
+               {
+                  "number": 42,
+                  "url": "2022/1020",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890698/clima-amazonia/2023/1020/1020.png"
+               },
+               {
+                  "number": 43,
+                  "url": "2022/1027",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890699/clima-amazonia/2023/1027/1027.png"
+               }
+            ]
+         },
+         {
+            "month": "september",
+            "issues": [
+               {
+                  "number": 35,
+                  "url": "2022/0901",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890701/clima-amazonia/2023/0901/0901.png"
+               },
+               {
+                  "number": 36,
+                  "url": "2022/0908",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890702/clima-amazonia/2023/0908/0908.png"
+               },
+               {
+                  "number": 37,
+                  "url": "2022/0915",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890703/clima-amazonia/2023/0915/0915.png"
+               },
+               {
+                  "number": 38,
+                  "url": "2022/0922",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890704/clima-amazonia/2023/0922/0922.png"
+               },
+               {
+                  "number": 39,
+                  "url": "2022/0929",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890705/clima-amazonia/2023/0929/0929.png"
+               }
+            ]
+         },
+         {
+            "month": "august",
+            "issues": [
+               {
+                  "number": 31,
+                  "url": "2022/0804",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890707/clima-amazonia/2023/0804/0804.png"
+               },
+               {
+                  "number": 32,
+                  "url": "2022/0811",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890708/clima-amazonia/2023/0811/0811.png"
+               },
+               {
+                  "number": 33,
+                  "url": "2022/0818",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890710/clima-amazonia/2023/0818/0818.png"
+               },
+               {
+                  "number": 34,
+                  "url": "2022/0825",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890711/clima-amazonia/2023/0825/0825.png"
+               }
+            ]
+         },
+         {
+            "month": "july",
+            "issues": [
+               {
+                  "number": 27,
+                  "url": "2022/0707",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890713/clima-amazonia/2023/0707/0707.png"
+               },
+               {
+                  "number": 28,
+                  "url": "2022/0714",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890713/clima-amazonia/2023/0714/0714.png"
+               },
+               {
+                  "number": 29,
+                  "url": "2022/0721",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890714/clima-amazonia/2023/0721/0721.png"
+               },
+               {
+                  "number": 30,
+                  "url": "2022/0728",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890715/clima-amazonia/2023/0728/0728.png"
+               }
+            ]
+         },
+         {
+            "month": "june",
+            "issues": [
+               {
+                  "number": 22,
+                  "url": "2022/0602",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890716/clima-amazonia/2023/0602/0602.png"
+               },
+               {
+                  "number": 23,
+                  "url": "2022/0609",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890718/clima-amazonia/2023/0609/0609.png"
+               },
+               {
+                  "number": 24,
+                  "url": "2022/0616",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890719/clima-amazonia/2023/0616/0616.png"
+               },
+               {
+                  "number": 25,
+                  "url": "2022/0623",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890720/clima-amazonia/2023/0623/0623.png"
+               },
+               {
+                  "number": 26,
+                  "url": "2022/0630",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890721/clima-amazonia/2023/0630/0630.png"
+               }
+            ]
+         },
+         {
+            "month": "may",
+            "issues": [
+               {
+                  "number": 18,
+                  "url": "2022/0505",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890722/clima-amazonia/2023/0505/0505.png"
+               },
+               {
+                  "number": 19,
+                  "url": "2022/0512",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890723/clima-amazonia/2023/0512/0512.png"
+               },
+               {
+                  "number": 20,
+                  "url": "2022/0519",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890724/clima-amazonia/2023/0519/0519.png"
+               },
+               {
+                  "number": 21,
+                  "url": "2022/0526",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890725/clima-amazonia/2023/0526/0526.png"
+               }
+            ]
+         },
+         {
+            "month": "april",
+            "issues": [
+               {
+                  "number": 14,
+                  "url": "2022/0407",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890726/clima-amazonia/2023/0407/0407.png"
+               },
+               {
+                  "number": 15,
+                  "url": "2022/0414",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890727/clima-amazonia/2023/0414/0414.png"
+               },
+               {
+                  "number": 16,
+                  "url": "2022/0421",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890729/clima-amazonia/2023/0421/0421.png"
+               },
+               {
+                  "number": 17,
+                  "url": "2022/0428",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890730/clima-amazonia/2023/0428/0428.png"
+               }
+            ]
+         },
+         {
+            "month": "march",
+            "issues": [
+               {
+                  "number": 9,
+                  "url": "2022/0303",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890731/clima-amazonia/2023/0303/0303.png"
+               },
+               {
+                  "number": 10,
+                  "url": "2022/0310",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890732/clima-amazonia/2023/0310/0310.png"
+               },
+               {
+                  "number": 11,
+                  "url": "2022/0317",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890734/clima-amazonia/2023/0317/0317.png"
+               },
+               {
+                  "number": 12,
+                  "url": "2022/0324",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890735/clima-amazonia/2023/0324/0324.png"
+               },
+               {
+                  "number": 13,
+                  "url": "2022/0331",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890736/clima-amazonia/2023/0331/0331.png"
+               }
+            ]
+         },
+         {
+            "month": "february",
+            "issues": [
+               {
+                  "number": 5,
+                  "url": "2022/0203",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890737/clima-amazonia/2023/0203/0203.png"
+               },
+               {
+                  "number": 6,
+                  "url": "2022/0210",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890738/clima-amazonia/2023/0210/0210.png"
+               },
+               {
+                  "number": 7,
+                  "url": "2022/0217",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890739/clima-amazonia/2023/0217/0217.png"
+               },
+               {
+                  "number": 8,
+                  "url": "2022/0224",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890740/clima-amazonia/2023/0224/0224.png"
+               }
+            ]
+         },
+         {
+            "month": "january",
+            "issues": [
+               {
+                  "number": 1,
+                  "url": "2022/0106",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890742/clima-amazonia/2023/0106/0106.png"
+               },
+               {
+                  "number": 2,
+                  "url": "2022/0113",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890743/clima-amazonia/2023/0113/0113.png"
+               },
+               {
+                  "number": 3,
+                  "url": "2022/0120",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890744/clima-amazonia/2023/0120/0120.png"
+               },
+               {
+                  "number": 4,
+                  "url": "2022/0127",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774890745/clima-amazonia/2023/0127/0127.png"
+               }
+            ]
+         }
+      ]
+   }
 ]

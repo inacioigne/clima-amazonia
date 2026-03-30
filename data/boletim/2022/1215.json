@@ -1,0 +1,589 @@
+{
+   "meta": {
+      "pt": {
+         "issn": "2965-0291",
+         "volume": "02",
+         "date": "15 de dezembro de  2022"
+      },
+      "number": "50"
+   },
+   "current_conditions": {
+      "pt": "Mapas das condições observadas de precipitação, gráficos individuais por bacias são produzidos a partir dosdados MERGE/GPM gerados pelo INPE/CPTEC, considerando como climatologia o período de 2000 a 2021.Entre os dias 16 de novembro e 15 de dezembro de 2022, o comportamento das chuvas sobre a BaciaAmazônica apresentou deficit (laranja) de precipitação caracterizando o curso principal do RioAmazonas em território peruano, bacias do rios Aripuanã, Beni, Guaporé, Içá, Japurá, Javari, Juruá,Juruena, Jutaí,  Mamoré, Marañon, bacias da margem esquerda do Amazonas no nordeste doAmazonas, Napo, curso principal do Solimões e bacias do Teles Pires e Ucayali. Áreas de anomaliaspositivas (azul) de precipitação predominaram sobre as bacias do rios Branco, Coari, Curuá Una, Iriri,bacias da margem esquerda do Amazonas no nordeste e noroeste do Pará, Negro, Tefé e Xingu.Bacias dos rios Abacaxis, Ji-Paraná, Madeira, Purus e Tapajós e curso principal do Amazonas emterritório brasileiro considerado em condições de normalidade em relação a climatologia do período."
+   },
+   "analysis": [
+      {
+         "name": "Bacia do Rio Branco",
+         "id": "bacia-do-rio-branco",
+         "min": "68",
+         "max": "86",
+         "observados": "154 mm",
+         "anomalia": "2.0",
+         "i18n": {
+            "pt": {
+               "classification": "muito chuvoso",
+               "trend": "manutenção",
+               "prognostico": "muito chuvoso ou tendência a muito chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Negro",
+         "id": "bacia-do-rio-negro",
+         "min": "159",
+         "max": "183",
+         "observados": "233 mm",
+         "anomalia": "1.1",
+         "i18n": {
+            "pt": {
+               "classification": "chuvoso",
+               "trend": "elevação",
+               "prognostico": "tendência a chuvoso ou chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Marañon",
+         "id": "bacia-do-rio-maranon",
+         "min": "146",
+         "max": "166",
+         "observados": "108 mm",
+         "anomalia": "-1.8",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a muito seco",
+               "trend": "elevação",
+               "prognostico": "muito seco ou tendência a muito seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Ucayali",
+         "id": "bacia-do-rio-ucayali",
+         "min": "151",
+         "max": "170",
+         "observados": "82 mm",
+         "anomalia": "-2.6",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a extremamente seco",
+               "trend": "elevação",
+               "prognostico": "muito seco ou tendência a extremamente seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Napo",
+         "id": "bacia-do-rio-napo",
+         "min": "207",
+         "max": "230",
+         "observados": "183 mm",
+         "anomalia": "-1.1",
+         "i18n": {
+            "pt": {
+               "classification": "seco",
+               "trend": "elevação",
+               "prognostico": "seco ou tendência a muito seco"
+            }
+         }
+      },
+      {
+         "name": "Curso principal do Rio Amazonas (Peru)",
+         "id": "curso-principal-do-rio-amazonas-peru",
+         "min": "243",
+         "max": "270",
+         "observados": "222 mm",
+         "anomalia": "-1.0",
+         "i18n": {
+            "pt": {
+               "classification": "seco",
+               "trend": "manutenção",
+               "prognostico": "seco ou tendência a seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Javari",
+         "id": "bacia-do-rio-javari",
+         "min": "241",
+         "max": "265",
+         "observados": "198 mm",
+         "anomalia": "-1.5",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a muito seco",
+               "trend": "elevação",
+               "prognostico": "tendência a muito seco ou seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Içá",
+         "id": "bacia-do-rio-ica",
+         "min": "221",
+         "max": "243",
+         "observados": "189 mm",
+         "anomalia": "-1.4",
+         "i18n": {
+            "pt": {
+               "classification": "seco",
+               "trend": "elevação",
+               "prognostico": "seco ou tendência a muito seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Jutaí",
+         "id": "bacia-do-rio-jutai",
+         "min": "253",
+         "max": "264",
+         "observados": "176 mm",
+         "anomalia": "-1.9",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a muito seco",
+               "trend": "elevação",
+               "prognostico": "muito seco ou tendência a muito seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Juruá",
+         "id": "bacia-do-rio-jurua",
+         "min": "219",
+         "max": "243",
+         "observados": "185 mm",
+         "anomalia": "-1.2",
+         "i18n": {
+            "pt": {
+               "classification": "seco",
+               "trend": "elevação",
+               "prognostico": "tendência a seco ou seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Japurá",
+         "id": "bacia-do-rio-japura",
+         "min": "191",
+         "max": "211",
+         "observados": "140 mm",
+         "anomalia": "-2.0",
+         "i18n": {
+            "pt": {
+               "classification": "muito seco",
+               "trend": "redução",
+               "prognostico": "muito seco ou tendência a muito seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Tefé",
+         "id": "bacia-do-rio-tefe",
+         "min": "192",
+         "max": "219",
+         "observados": "239 mm",
+         "anomalia": "0.8",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a chuvoso",
+               "trend": "elevação",
+               "prognostico": "tendência a chuvoso ou chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Coari",
+         "id": "bacia-do-rio-coari",
+         "min": "198",
+         "max": "222",
+         "observados": "296 mm",
+         "anomalia": "2.1",
+         "i18n": {
+            "pt": {
+               "classification": "muito chuvoso",
+               "trend": "elevação",
+               "prognostico": "muito chuvoso ou tendência a muito chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Purus",
+         "id": "bacia-do-rio-purus",
+         "min": "207",
+         "max": "230",
+         "observados": "221 mm",
+         "anomalia": "0.0",
+         "i18n": {
+            "pt": {
+               "classification": "normalidade",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade ou tendência a chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Curso principal do Rio Solimões",
+         "id": "curso-principal-do-rio-solimoes",
+         "min": "206",
+         "max": "234",
+         "observados": "200 mm",
+         "anomalia": "-0.6",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a seco",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade ou tendência a seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Beni",
+         "id": "bacia-do-rio-beni",
+         "min": "180",
+         "max": "204",
+         "observados": "171 mm",
+         "anomalia": "-0.7",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a seco",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade ou tendência a seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Mamoré",
+         "id": "bacia-do-rio-mamore",
+         "min": "174",
+         "max": "198",
+         "observados": "141 mm",
+         "anomalia": "-1.2",
+         "i18n": {
+            "pt": {
+               "classification": "seco",
+               "trend": "elevação",
+               "prognostico": "seco ou tendência a seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Guaporé",
+         "id": "bacia-do-rio-guapore",
+         "min": "170",
+         "max": "195",
+         "observados": "114 mm",
+         "anomalia": "-1.9",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a muito seco",
+               "trend": "elevação",
+               "prognostico": "seco ou tendência a muito seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Ji-Paraná",
+         "id": "bacia-do-rio-ji-parana",
+         "min": "185",
+         "max": "210",
+         "observados": "197 mm",
+         "anomalia": "-0.1",
+         "i18n": {
+            "pt": {
+               "classification": "normalidade",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Aripuanã",
+         "id": "bacia-do-rio-aripuana",
+         "min": "197",
+         "max": "230",
+         "observados": "178 mm",
+         "anomalia": "-1.0",
+         "i18n": {
+            "pt": {
+               "classification": "seco",
+               "trend": "elevação",
+               "prognostico": "seco ou tendência a seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Madeira",
+         "id": "bacia-do-rio-madeira",
+         "min": "185",
+         "max": "211",
+         "observados": "218 mm",
+         "anomalia": "0.4",
+         "i18n": {
+            "pt": {
+               "classification": "normalidade",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade ou tendência a chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacias da margem esquerda do Rio Amazonas (Amazonas)",
+         "id": "bacias-da-margem-esquerda-do-rio-amazonas-amazonas",
+         "min": "102",
+         "max": "126",
+         "observados": "101 mm",
+         "anomalia": "-0.5",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a seco",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade ou tendência a seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Abacaxis",
+         "id": "bacia-do-rio-abacaxis",
+         "min": "152",
+         "max": "187",
+         "observados": "188 mm",
+         "anomalia": "0.4",
+         "i18n": {
+            "pt": {
+               "classification": "normalidade",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade ou tendência a chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Juruena",
+         "id": "bacia-do-rio-juruena",
+         "min": "217",
+         "max": "246",
+         "observados": "157 mm",
+         "anomalia": "-1.8",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a muito seco",
+               "trend": "elevação",
+               "prognostico": "seco ou tendência a muito seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Teles Pires",
+         "id": "bacia-do-rio-teles-pires",
+         "min": "229",
+         "max": "258",
+         "observados": "200 mm",
+         "anomalia": "-1.0",
+         "i18n": {
+            "pt": {
+               "classification": "seco",
+               "trend": "elevação",
+               "prognostico": "seco ou tendência a seco"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Tapajós",
+         "id": "bacia-do-rio-tapajos",
+         "min": "152",
+         "max": "183",
+         "observados": "178 mm",
+         "anomalia": "0.1",
+         "i18n": {
+            "pt": {
+               "classification": "normalidade",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade ou tendência a chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacias da margem esquerda do Rio Amazonas (noroeste do Pará)",
+         "id": "bacias-da-margem-esquerda-do-rio-amazonas-noroeste-do-para",
+         "min": "63",
+         "max": "90",
+         "observados": "136 mm",
+         "anomalia": "1.2",
+         "i18n": {
+            "pt": {
+               "classification": "chuvoso",
+               "trend": "elevação",
+               "prognostico": "chuvoso ou tendência a chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Curuá Una",
+         "id": "bacia-do-rio-curua-una",
+         "min": "66",
+         "max": "91",
+         "observados": "127 mm",
+         "anomalia": "0.9",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a chuvoso",
+               "trend": "manutenção",
+               "prognostico": "chuvoso ou tendência a chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacias da margem esquerda do Rio Amazonas (nordeste do PA)",
+         "id": "bacias-da-margem-esquerda-do-rio-amazonas-nordeste-do-pa",
+         "min": "50",
+         "max": "71",
+         "observados": "98 mm",
+         "anomalia": "0.9",
+         "i18n": {
+            "pt": {
+               "classification": "tendência a chuvoso",
+               "trend": "elevação",
+               "prognostico": "chuvoso ou tendência a chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Iriri",
+         "id": "bacia-do-rio-iriri",
+         "min": "167",
+         "max": "194",
+         "observados": "246 mm",
+         "anomalia": "1.3",
+         "i18n": {
+            "pt": {
+               "classification": "chuvoso",
+               "trend": "elevação",
+               "prognostico": "chuvoso ou tendência a muito chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Bacia do Rio Xingu",
+         "id": "bacia-do-rio-xingu",
+         "min": "173",
+         "max": "201",
+         "observados": "235 mm",
+         "anomalia": "1.0",
+         "i18n": {
+            "pt": {
+               "classification": "chuvoso",
+               "trend": "elevação",
+               "prognostico": "chuvoso ou tendência a muito chuvoso"
+            }
+         }
+      },
+      {
+         "name": "Curso principal do Rio Amazonas (Brasil)",
+         "id": "curso-principal-do-rio-amazonas-brasil",
+         "min": "76",
+         "max": "103",
+         "observados": "98 mm",
+         "anomalia": "0.1",
+         "i18n": {
+            "pt": {
+               "classification": "normalidade",
+               "trend": "elevação",
+               "prognostico": "próximo da normalidade ou tendência a chuvoso"
+            }
+         }
+      }
+   ],
+   "multimodel": {
+      "pt": {
+         "seven_days": "A Figura a direita, apresenta o prognóstico para o intervalo de 14 dias entre 14/12/2022 e 27/12/2022, com previsão de chuvas acima (azul) dos valores climatológicos do período ao sul e ao leste da área monitorada sobre o curso principal do Amazonas em território brasileiro, bacias dos rios Abacaxis, Curuá Una, Guaporé, Iriri, Juruena, Mamoré, margem esquerda do Amazonas no nordeste do Pará e bacias do Tapajós, Teles Pires e Xingu. Previsão de deficit de precipitação (laranja) ao norte e noroeste da região, sobre o curso principal do Amazonas em território Peruano, bacias do Branco, Coari, Içá, Japurá, Juruá, Jutaí, Madeira, Marañon, margem esquerda do amazonas no nordeste do amazonas e nordeste do Pará, bacias do Napo, Negro, Purus, Tefé, Ucayali e curso principal do Solimões,  demais bacias com previsão de chuvas próximas (branco) a climatologia do período",
+         "fourteen_days": "A Figura a direita, apresenta o prognóstico para o intervalo de 14 dias entre 14/12/2022 e 27/12/2022, com previsão de chuvas acima (azul) dos valores climatológicos do período ao sul e ao leste da área monitorada sobre o curso principal do Amazonas em território brasileiro, bacias dos rios Abacaxis, Curuá Una, Guaporé, Iriri, Juruena, Mamoré, margem esquerda do Amazonas no nordeste do Pará e bacias do Tapajós, Teles Pires e Xingu. Previsão de deficit de precipitação (laranja) ao norte e noroeste da região, sobre o curso principal do Amazonas em território Peruano, bacias do Branco, Coari, Içá, Japurá, Juruá, Jutaí, Madeira, Marañon, margem esquerda do amazonas no nordeste do amazonas e nordeste do Pará, bacias do Napo, Negro, Purus, Tefé, Ucayali e curso principal do Solimões,  demais bacias com previsão de chuvas próximas (branco) a climatologia do período."
+      }
+   },
+   "images": {
+      "current_conditions": {
+         "table_current_conditions": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649314/clima-amazonia/2022/1215/current_conditions/table_current_conditions.png",
+         "map_current_conditions": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649316/clima-amazonia/2022/1215/current_conditions/map_current_conditions.jpg"
+      },
+      "analysis": {
+         "bacia-do-rio-abacaxis-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649317/clima-amazonia/2022/1215/analysis/bacia-do-rio-abacaxis-acc.png",
+         "bacia-do-rio-javari-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649318/clima-amazonia/2022/1215/analysis/bacia-do-rio-javari-acc.png",
+         "bacia-do-rio-ica-putumayo-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649319/clima-amazonia/2022/1215/analysis/bacia-do-rio-ica-putumayo-acc.png",
+         "bacia-dos-rios-beni-e-madre-de-dios-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649320/clima-amazonia/2022/1215/analysis/bacia-dos-rios-beni-e-madre-de-dios-acc.png",
+         "curso-principal-do-rio-amazonas-brasil-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649321/clima-amazonia/2022/1215/analysis/curso-principal-do-rio-amazonas-brasil-acc.png",
+         "bacia-do-rio-juruena-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649322/clima-amazonia/2022/1215/analysis/bacia-do-rio-juruena-acc.png",
+         "curso-principal-do-rio-solimoes-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649323/clima-amazonia/2022/1215/analysis/curso-principal-do-rio-solimoes-acc.png",
+         "bacia-do-rio-aripuana-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649324/clima-amazonia/2022/1215/analysis/bacia-do-rio-aripuana-acc.png",
+         "bacia-do-rio-japura-caqueta-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649325/clima-amazonia/2022/1215/analysis/bacia-do-rio-japura-caqueta-acc.png",
+         "bacia-do-rio-xingu-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649326/clima-amazonia/2022/1215/analysis/bacia-do-rio-xingu-acc.png",
+         "bacia-do-rio-ucayali-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649327/clima-amazonia/2022/1215/analysis/bacia-do-rio-ucayali-acc.png",
+         "bacia-do-rio-mamore-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649328/clima-amazonia/2022/1215/analysis/bacia-do-rio-mamore-acc.png",
+         "bacia-do-rio-napo-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649329/clima-amazonia/2022/1215/analysis/bacia-do-rio-napo-acc.png",
+         "bacias-da-margem-esquerda-do-rio-amazonas-amazonas-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649330/clima-amazonia/2022/1215/analysis/bacias-da-margem-esquerda-do-rio-amazonas-amazonas-acc.png",
+         "bacia-do-rio-madeira-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649332/clima-amazonia/2022/1215/analysis/bacia-do-rio-madeira-acc.png",
+         "bacia-do-rio-branco-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649332/clima-amazonia/2022/1215/analysis/bacia-do-rio-branco-acc.png",
+         "bacia-do-rio-teles-pires-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649333/clima-amazonia/2022/1215/analysis/bacia-do-rio-teles-pires-acc.png",
+         "bacia-do-rio-jurua-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649334/clima-amazonia/2022/1215/analysis/bacia-do-rio-jurua-acc.png",
+         "bacia-do-rio-jutai-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649335/clima-amazonia/2022/1215/analysis/bacia-do-rio-jutai-acc.png",
+         "bacia-do-rio-iriri-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649336/clima-amazonia/2022/1215/analysis/bacia-do-rio-iriri-acc.png",
+         "bacia-do-rio-coari-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649337/clima-amazonia/2022/1215/analysis/bacia-do-rio-coari-acc.png",
+         "bacia-do-rio-purus-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649337/clima-amazonia/2022/1215/analysis/bacia-do-rio-purus-acc.png",
+         "bacia-do-rio-curua-una-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649338/clima-amazonia/2022/1215/analysis/bacia-do-rio-curua-una-acc.png",
+         "bacia-do-rio-maranon-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649339/clima-amazonia/2022/1215/analysis/bacia-do-rio-maranon-acc.png",
+         "bacia-do-rio-tapajos-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649340/clima-amazonia/2022/1215/analysis/bacia-do-rio-tapajos-acc.png",
+         "curso-principal-do-rio-amazonas-peru-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649340/clima-amazonia/2022/1215/analysis/curso-principal-do-rio-amazonas-peru-acc.png",
+         "bacias-da-margem-esquerda-do-rio-amazonas-noroeste-do-para-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649341/clima-amazonia/2022/1215/analysis/bacias-da-margem-esquerda-do-rio-amazonas-noroeste-do-para-acc.png",
+         "bacia-do-rio-negro-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649342/clima-amazonia/2022/1215/analysis/bacia-do-rio-negro-acc.png",
+         "bacia-do-rio-tefe-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649343/clima-amazonia/2022/1215/analysis/bacia-do-rio-tefe-acc.png",
+         "bacias-da-margem-esquerda-do-rio-amazonas-nordeste-do-pa-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649344/clima-amazonia/2022/1215/analysis/bacias-da-margem-esquerda-do-rio-amazonas-nordeste-do-pa-acc.png",
+         "bacia-do-rio-guapore-itenez-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649345/clima-amazonia/2022/1215/analysis/bacia-do-rio-guapore-itenez-acc.png",
+         "bacia-do-rio-ji-parana-acc": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649346/clima-amazonia/2022/1215/analysis/bacia-do-rio-ji-parana-acc.png"
+      },
+      "anomaly": {
+         "bacia_1": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649347/clima-amazonia/2022/1215/anomaly/bacia_1.png",
+         "bacia_24": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649348/clima-amazonia/2022/1215/anomaly/bacia_24.png",
+         "bacia_2": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649349/clima-amazonia/2022/1215/anomaly/bacia_2.png",
+         "bacia_29": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649350/clima-amazonia/2022/1215/anomaly/bacia_29.png",
+         "bacia_16": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649350/clima-amazonia/2022/1215/anomaly/bacia_16.png",
+         "bacia_23": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649352/clima-amazonia/2022/1215/anomaly/bacia_23.png",
+         "bacia_27": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649353/clima-amazonia/2022/1215/anomaly/bacia_27.png",
+         "bacia_9": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649354/clima-amazonia/2022/1215/anomaly/bacia_9.png",
+         "bacia_3": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649354/clima-amazonia/2022/1215/anomaly/bacia_3.png",
+         "bacia_19": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649355/clima-amazonia/2022/1215/anomaly/bacia_19.png",
+         "bacia_20": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649357/clima-amazonia/2022/1215/anomaly/bacia_20.png",
+         "bacia_30": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649358/clima-amazonia/2022/1215/anomaly/bacia_30.png",
+         "bacia_6": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649358/clima-amazonia/2022/1215/anomaly/bacia_6.png",
+         "bacia_25": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649359/clima-amazonia/2022/1215/anomaly/bacia_25.png",
+         "bacia_7": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649360/clima-amazonia/2022/1215/anomaly/bacia_7.png",
+         "bacia_13": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649361/clima-amazonia/2022/1215/anomaly/bacia_13.png",
+         "bacia_28": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649362/clima-amazonia/2022/1215/anomaly/bacia_28.png",
+         "bacia_17": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649362/clima-amazonia/2022/1215/anomaly/bacia_17.png",
+         "bacia_11": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649363/clima-amazonia/2022/1215/anomaly/bacia_11.png",
+         "bacia_21": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649364/clima-amazonia/2022/1215/anomaly/bacia_21.png",
+         "bacia_33": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649365/clima-amazonia/2022/1215/anomaly/bacia_33.png",
+         "bacia_12": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649365/clima-amazonia/2022/1215/anomaly/bacia_12.png",
+         "bacia_32": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649366/clima-amazonia/2022/1215/anomaly/bacia_32.png",
+         "bacia_22": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649368/clima-amazonia/2022/1215/anomaly/bacia_22.png",
+         "bacia_10": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649368/clima-amazonia/2022/1215/anomaly/bacia_10.png",
+         "bacia_8": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649369/clima-amazonia/2022/1215/anomaly/bacia_8.png",
+         "bacia_15": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649370/clima-amazonia/2022/1215/anomaly/bacia_15.png",
+         "bacia_4": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649371/clima-amazonia/2022/1215/anomaly/bacia_4.png",
+         "bacia_18": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649372/clima-amazonia/2022/1215/anomaly/bacia_18.png",
+         "bacia_31": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649374/clima-amazonia/2022/1215/anomaly/bacia_31.png",
+         "bacia_14": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649374/clima-amazonia/2022/1215/anomaly/bacia_14.png",
+         "bacia_26": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649375/clima-amazonia/2022/1215/anomaly/bacia_26.png",
+         "bacia_5": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649376/clima-amazonia/2022/1215/anomaly/bacia_5.png"
+      },
+      "reference": {
+         "reference_table": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649378/clima-amazonia/2022/1215/reference/reference_table.png"
+      },
+      "multimodel": {
+         "fourteen_days": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649379/clima-amazonia/2022/1215/multimodel/fourteen_days.jpg",
+         "seven_days": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649380/clima-amazonia/2022/1215/multimodel/seven_days.jpg"
+      },
+      "categorization": {
+         "table": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649381/clima-amazonia/2022/1215/categorization/table.png"
+      }
+   },
+   "pdf": {
+      "pt": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774649385/clima-amazonia/2022/1215/BHA_20221215.pdf"
+   }
+}
