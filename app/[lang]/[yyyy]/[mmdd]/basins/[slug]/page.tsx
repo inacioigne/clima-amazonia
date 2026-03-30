@@ -60,6 +60,7 @@ export default async function Page({
                 alt="chart"
                 width={600}
                 height={300}
+                unoptimized 
               />
             </div>
             <p className="mt-3 text-xs text-gray-500">{messages.bacia.accSummary}</p>
@@ -79,6 +80,7 @@ export default async function Page({
                   alt="chart"
                   width={600}
                   height={300}
+                  unoptimized 
                 />
 
               </div>
