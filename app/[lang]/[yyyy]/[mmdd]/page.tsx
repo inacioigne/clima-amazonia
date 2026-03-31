@@ -60,7 +60,6 @@ export default async function Page({
         },
     ];
 
-    // console.log("B:", boletim.pdf)
 
     return (
         <div className="space-y-12">
@@ -111,6 +110,7 @@ export default async function Page({
                                     alt={messages.home.altMapCurrent}
                                     width={800}
                                     height={400}
+                                    unoptimized
                                 />
                             </div>
                             <div className="w-full">
@@ -119,6 +119,7 @@ export default async function Page({
                                     alt={messages.home.altLegend}
                                     width={800}
                                     height={300}
+                                    unoptimized
                                 />
                             </div>
                         </div>
