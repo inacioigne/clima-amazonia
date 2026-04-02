@@ -5,7 +5,6 @@ import Link from "next/link";
 import { FiCalendar, FiChevronDown, FiBookOpen, FiChevronRight } from "react-icons/fi";
 import Image from "next/image";
 
-// type Issue = (typeof issues)[number];
 function getNumbers(issue: string) {
     return issues.find((item) => item.volume === parseInt(issue, 10)) || null;
 }
@@ -26,20 +25,6 @@ export default async function Page({
     if (!issueData) {
         notFound();
     }
-
-    // const months = Object.entries(issueData.numbers ?? {}).sort(([a], [b]) => {
-    //     const monthA = MONTH_INDEX[normalizeText(a)];
-    //     const monthB = MONTH_INDEX[normalizeText(b)];
-    //     if (monthA === undefined || monthB === undefined) return a.localeCompare(b);
-    //     return monthA - monthB;
-    // });
-
-    // const locale = toDisplayLocale(lang);
-    // const currentMonth = normalizeText(
-    //     new Intl.DateTimeFormat(locale, { month: "long" }).format(new Date())
-    // );
-    // const currentMonthIndex = months.findIndex(([month]) => normalizeText(month) === currentMonth);
-    // const defaultOpenIndex = currentMonthIndex >= 0 ? currentMonthIndex : 0;
 
     return (
         <main className="mx-auto max-w-7xl px-4 py-6">
@@ -96,7 +81,7 @@ export default async function Page({
                                     {number.issues.map((item, index) => (
                                         <Link
                                             key={index}
-                                            href={`/${lang}/${item.url}`}
+                                            href={item.url.includes('https') ? item.url : `/${lang}/${item.url}`}
                                             className="group rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                                         >
                                             <div className="flex items-start justify-between gap-4">

@@ -1440,5 +1440,112 @@
             ]
          }
       ]
+   },
+   {
+      "volume": 1,
+      "year": 2021,
+      "img": "/issues/year26.png",
+      "numbers": [
+         {
+            "month": "december",
+            "issues": [
+               {
+                  "number": "1229",
+                  "url": "https://drive.google.com/file/d/115vyhIDxzod_UjLd1hJr4muvqnNbkjk9/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158540/clima-amazonia/2021/1229.png"
+               },
+               {
+                  "number": "1222",
+                  "url": "https://drive.google.com/file/d/1a4ws2XgKo0-58a-CtO8gSVEt8dznFdUV/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158536/clima-amazonia/2021/1222.png"
+               },
+               {
+                  "number": "1216",
+                  "url": "https://drive.google.com/file/d/15z0moO06nELCbbqTKDeLfCPdSECZORig/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158531/clima-amazonia/2021/1216.png"
+               },
+               {
+                  "number": "1209",
+                  "url": "https://drive.google.com/file/d/1daJvs7cMUoEK68mcXEWIsgF_twvq_Tln/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158543/clima-amazonia/2021/1209.png"
+               },
+               {
+                  "number": "1202",
+                  "url": "https://drive.google.com/file/d/1djAVd7TbHLxeMW06jKG9YrDdDVFGotdt/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158530/clima-amazonia/2021/1202.png"
+               }
+            ]
+         },
+         {
+            "month": "november",
+            "issues": [
+               {
+                  "number": "1125",
+                  "url": "https://drive.google.com/file/d/1t5PcTWTVLNCmQ0YEfhqT-hxLSWSN-bmN/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158544/clima-amazonia/2021/1125.png"
+               },
+               {
+                  "number": "1118",
+                  "url": "https://drive.google.com/file/d/1jk1xCpRBj5TcPy3-DU5AKPgqCN0l9F7e/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158537/clima-amazonia/2021/1118.png"
+               },
+               {
+                  "number": "1111",
+                  "url": "https://drive.google.com/file/d/1seAr6a4L_lPLIsFP_B9hZISOEU2TkBy1/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158533/clima-amazonia/2021/1111.png"
+               },
+               {
+                  "number": "1104",
+                  "url": "https://drive.google.com/file/d/1KrwCOOicKu16mhH8YN_XBeMTOPa_5smw/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158529/clima-amazonia/2021/1104.png"
+               }
+            ]
+         },
+         {
+            "month": "october",
+            "issues": [
+               {
+                  "number": "1028",
+                  "url": "https://drive.google.com/file/d/1Ar5E28k-yQIcngv0GlnRgjaBP3g-hB3h/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158528/clima-amazonia/2021/1028.png"
+               },
+               {
+                  "number": "1021",
+                  "url": "https://drive.google.com/file/d/1C-mhFX534e4vR1h-RvnSnMCm-Lz-ui1h/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158537/clima-amazonia/2021/1021.png"
+               },
+               {
+                  "number": "1014",
+                  "url": "https://drive.google.com/file/d/1iPsF2ufvFtHtTtKHG3tCzsLCeu4g4wCs/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158539/clima-amazonia/2021/1014.png"
+               },
+               {
+                  "number": "1007",
+                  "url": "https://drive.google.com/file/d/1L4b3wGbGt-04QECIQxUpsmAksllHeU5D/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158527/clima-amazonia/2021/1007.png"
+               }
+            ]
+         },
+         {
+            "month": "september",
+            "issues": [
+               {
+                  "number": "0902",
+                  "url": "https://drive.google.com/file/d/1I73hdN_fxs0AbIvr_-NmNMLwvD-xPwEe/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158535/clima-amazonia/2021/0902.png"
+               },
+               {
+                  "number": "0919",
+                  "url": "https://drive.google.com/file/d/1jBhCXT2ACTI9HNLco7ADou-HVzrHsvHR/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158541/clima-amazonia/2021/0919.png"
+               },
+               {
+                  "number": "0930",
+                  "url": "https://drive.google.com/file/d/16WH1A9p-gdpLt7pplTFGve9yaNE59sh6/view?usp=drive_link",
+                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1775158534/clima-amazonia/2021/0930.png"
+               }
+            ]
+         }
+      ]
    }
 ]
