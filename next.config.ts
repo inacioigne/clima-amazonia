@@ -11,6 +11,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/dveg6vhbi/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'libris.shop',
+        port: '',
+        // pathname: '/dveg6vhbi/**',
+      },
     ],
   },
 };
