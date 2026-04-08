@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'libris.shop',
+        hostname: 'climamazonia.shop',
         port: '',
         // pathname: '/dveg6vhbi/**',
       },
