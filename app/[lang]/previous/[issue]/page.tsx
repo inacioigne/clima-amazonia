@@ -111,64 +111,6 @@ export default async function Page({
                         ))
                     }
 
-                    {/* {months.map(([month, monthIssues], index) => (
-                        <details
-                            key={month}
-                            open={index === defaultOpenIndex}
-                            className="group overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm"
-                        >
-                            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 hover:bg-gray-50">
-                                <div className="flex items-center gap-3">
-                                    <span className="inline-flex rounded-lg bg-green-50 p-2 text-green-700">
-                                        <FiCalendar className="size-4" aria-hidden="true" />
-                                    </span>
-                                    <div>
-                                        <h2 className="text-lg font-semibold text-gray-900">
-                                            {messages.months[month as keyof typeof messages.months]}
-                                        </h2>
-                                    </div>
-                                </div>
-                                <FiChevronDown
-                                    className="size-5 text-gray-500 transition-transform duration-200 group-open:rotate-180"
-                                    aria-hidden="true"
-                                />
-                            </summary>
-                            <div className="grid grid-cols-1 gap-5 md:grid-cols-3 xl:grid-cols-4 p-5">
-                                {monthIssues.map((
-                                    item: {
-                                        number: number; url: any; img: string | StaticImport;
-                                    }
-                                ) => (
-                                    <Link
-                                        key={item.number}
-                                        href={`/${lang}/${item.url}`}
-                                        className="group rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
-                                    >
-                                        <div className="flex items-start justify-between gap-4">
-                                            <div>
-                                                <p className="text-sm font-medium text-blue-700">{messages.previous.volume}  {issue} - {messages.previous.number} {item.number}</p>
-                                            </div>
-                                            <span className="inline-flex rounded-xl bg-blue-50 p-2 text-blue-700">
-                                                <FiBookOpen className="size-5" aria-hidden="true" />
-                                            </span>
-                                        </div>
-                                        <Image
-                                            src={item.img}
-                                            alt={`Capa do volume ${item.number}`}
-                                            width={200} height={300}
-                                            className="mt-4 h-auto w-full rounded-lg object-cover" />
-                                        <div className="mt-5 flex items-center justify-between border-t border-gray-100 pt-4">
-                                            <span className="inline-flex items-center gap-1 text-sm font-semibold text-blue-700">
-                                                {messages.previous.edition}
-                                                <FiChevronRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
-                                            </span>
-                                        </div>
-                                    </Link>
-
-                                ))}
-                            </div>
-                        </details>
-                    ))} */}
                 </div>
             </section>
         </main>
