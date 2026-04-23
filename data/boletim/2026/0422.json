@@ -18,7 +18,7 @@
          "volume": "04",
          "date": "22 de abril de 2026"
       },
-      "number": "15"
+      "number": "16"
    },
    "current_conditions": {
       "pt": "Mapas das condições observadas de precipitação e gráficos individuais por bacias são produzidos a partir dos dados MERGE/GPM gerados pelo INPE/CPTEC, considerando como climatologia para período de 2000 a 2025. Entre os dias 24 de março e 22 de abril de 2026, chuvas abaixo da climatologia caracterizaram com déficit de precipitação o curso principal do Rio Amazonas em territórios brasileiro e peruano, bacias hidrográficas dos rios Coari, Curuá Una, Içá, Iriri, Japurá, Javari, Juruá, Juruena, Jutaí, bacias da margem esquerda do Rio Amazonas no nordeste do Estado do Amazonas e no nordeste e no noroeste do Estado do Pará, Napo, Negro, Purus, Tapajós, Tefé, Teles Pires, Xingu e o curso principal do Rio Solimões; chuvas acima da climatologia registradas sobre as bacias hidrográficas dos rios Aripuanã, Guaporé, Ji-Paraná e Ucayali; chuvas próximas da normalidade registradas sobre as bacias hidrográficas dos rios Abacaxis, Beni, Branco, Madeira, Mamoré e Marañon. O multimodelo indica, para o período de 22/04/2026 a 28/04/2026, previsão de chuvas abaixo da climatologia sobre o curso principal do Rio Amazonas em territórios brasileiro e peruano, bacia do Rio Juruena, bacias da margem esquerda do Rio Amazonas no nordeste e no noroeste do Estado do Pará, Napo, Teles Pires e Ucayali; previsão de chuvas acima da climatologia sobre as bacias dos rios Beni, Branco, Juruá, Marañon e Ucayali.",
@@ -958,7 +958,7 @@
       }
    },
     "pdf": {
-        "pt": "https://drive.google.com/file/d/1p_OpGHXZnYbk1Z6nEQYsJd-PdhoBOhIJ/view?usp=sharing",
+        "pt": "https://drive.google.com/file/d/1zzw14GcQgsBHq50uox2b7MeB0wW5gyHy/view?usp=sharing",
         "en": "https://drive.google.com/file/d/1lSOomg51NwEBBjhYIQBxd1Mo4dzLWdvx/view?usp=sharing",
         "es": "https://drive.google.com/file/d/1a0YvrnbscSQcOt752b1pAFWikectuzWr/view?usp=sharing"
     }
