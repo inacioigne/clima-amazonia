@@ -8,6 +8,24 @@
             "month": "april",
             "issues": [
                {
+                  "number": 16,
+                  "date": "22 de abril de 2026",
+                  "url": "2026/0422",
+                  "img": "https://climamazonia.shop/2026/0422.webp"
+               },
+               {
+                  "number": 15,
+                  "date": "15 de abril de 2026",
+                  "url": "2026/0418",
+                  "img": "https://climamazonia.shop/2026/0418.webp"
+               },
+               {
+                  "number": 14,
+                  "date": "08 de abril de 2026",
+                  "url": "2026/0408",
+                  "img": "https://climamazonia.shop/2026/0408.webp"
+               },
+               {
                   "number": 13,
                   "date": "01 de abril de 2026",
                   "url": "2026/0401",
