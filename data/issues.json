@@ -494,355 +494,28 @@
       "year": 2024,
       "img": "/issues/year26.png",
       "numbers": [
-   {
-      "month": "december",
-      "issues": [
-         {
-            "number": 49,
-            "url": "2024/1204",
-            "img": "https://climamazonia.shop/2024/1204.webp"
-         },
-         {
-            "number": 50,
-            "url": "2024/1211",
-            "img": "https://climamazonia.shop/2024/1211.webp"
-         },
-         {
-            "number": 51,
-            "url": "2024/1217",
-            "img": "https://climamazonia.shop/2024/1217.webp"
-         },
-         {
-            "number": 52,
-            "url": "2024/1225",
-            "img": "https://climamazonia.shop/2024/1225.webp"
-         }
-      ]
-   },
-   {
-      "month": "november",
-      "issues": [
-         {
-            "number": 45,
-            "url": "2024/1106",
-            "img": "https://climamazonia.shop/2024/1106.webp"
-         },
-         {
-            "number": 46,
-            "url": "2024/1113",
-            "img": "https://climamazonia.shop/2024/1113.webp"
-         },
-         {
-            "number": 47,
-            "url": "2024/1120",
-            "img": "https://climamazonia.shop/2024/1120.webp"
-         },
-         {
-            "number": 48,
-            "url": "2024/1127",
-            "img": "https://climamazonia.shop/2024/1127.webp"
-         }
-      ]
-   },
-   {
-      "month": "october",
-      "issues": [
-         {
-            "number": 40,
-            "url": "2024/1002",
-            "img": "https://climamazonia.shop/2024/1002.webp"
-         },
-         {
-            "number": 41,
-            "url": "2024/1009",
-            "img": "https://climamazonia.shop/2024/1009.webp"
-         },
-         {
-            "number": 42,
-            "url": "2024/1016",
-            "img": "https://climamazonia.shop/2024/1016.webp"
-         },
-         {
-            "number": 43,
-            "url": "2024/1023",
-            "img": "https://climamazonia.shop/2024/1023.webp"
-         },
-         {
-            "number": 44,
-            "url": "2024/1030",
-            "img": "https://climamazonia.shop/2024/1030.webp"
-         }
-      ]
-   },
-   {
-      "month": "september",
-      "issues": [
-         {
-            "number": 36,
-            "url": "2024/0904",
-            "img": "https://climamazonia.shop/2024/0904.webp"
-         },
-         {
-            "number": 37,
-            "url": "2024/0911",
-            "img": "https://climamazonia.shop/2024/0911.webp"
-         },
-         {
-            "number": 38,
-            "url": "2024/0918",
-            "img": "https://climamazonia.shop/2024/0918.webp"
-         },
-         {
-            "number": 39,
-            "url": "2024/0925",
-            "img": "https://climamazonia.shop/2024/0925.webp"
-         }
-      ]
-   },
-   {
-      "month": "august",
-      "issues": [
-         {
-            "number": 32,
-            "url": "2024/0807",
-            "img": "https://climamazonia.shop/2024/0807.webp"
-         },
-         {
-            "number": 33,
-            "url": "2024/0814",
-            "img": "https://climamazonia.shop/2024/0814.webp"
-         },
-         {
-            "number": 34,
-            "url": "2024/0821",
-            "img": "https://climamazonia.shop/2024/0821.webp"
-         },
-         {
-            "number": 35,
-            "url": "2024/0828",
-            "img": "https://climamazonia.shop/2024/0828.webp"
-         }
-      ]
-   },
-   {
-      "month": "july",
-      "issues": [
-         {
-            "number": 27,
-            "url": "2024/0703",
-            "img": "https://climamazonia.shop/2024/0703.webp"
-         },
-         {
-            "number": 28,
-            "url": "2024/0710",
-            "img": "https://climamazonia.shop/2024/0710.webp"
-         },
-         {
-            "number": 29,
-            "url": "2024/0717",
-            "img": "https://climamazonia.shop/2024/0717.webp"
-         },
-         {
-            "number": 30,
-            "url": "2024/0724",
-            "img": "https://climamazonia.shop/2024/0724.webp"
-         },
-         {
-            "number": 31,
-            "url": "2024/0731",
-            "img": "https://climamazonia.shop/2024/0731.webp"
-         }
-      ]
-   },
-   {
-      "month": "june",
-      "issues": [
-         {
-            "number": 23,
-            "url": "2024/0605",
-            "img": "https://climamazonia.shop/2024/0605.webp"
-         },
-         {
-            "number": 24,
-            "url": "2024/0612",
-            "img": "https://climamazonia.shop/2024/0612.webp"
-         },
-         {
-            "number": 25,
-            "url": "2024/0619",
-            "img": "https://climamazonia.shop/2024/0619.webp"
-         },
-         {
-            "number": 26,
-            "url": "2024/0626",
-            "img": "https://climamazonia.shop/2024/0626.webp"
-         }
-      ]
-   },
-   {
-      "month": "may",
-      "issues": [
-         {
-            "number": 18,
-            "url": "2024/0501",
-            "img": "https://climamazonia.shop/2024/0501.webp"
-         },
-         {
-            "number": 19,
-            "url": "2024/0508",
-            "img": "https://climamazonia.shop/2024/0508.webp"
-         },
-         {
-            "number": 20,
-            "url": "2024/0515",
-            "img": "https://climamazonia.shop/2024/0515.webp"
-         },
-         {
-            "number": 21,
-            "url": "2024/0522",
-            "img": "https://climamazonia.shop/2024/0522.webp"
-         },
-         {
-            "number": 22,
-            "url": "2024/0529",
-            "img": "https://climamazonia.shop/2024/0529.webp"
-         }
-      ]
-   },
-   {
-      "month": "april",
-      "issues": [
-         {
-            "number": 14,
-            "url": "2024/0403",
-            "img": "https://climamazonia.shop/2024/0403.webp"
-         },
-         {
-            "number": 15,
-            "url": "2024/0410",
-            "img": "https://climamazonia.shop/2024/0410.webp"
-         },
-         {
-            "number": 16,
-            "url": "2024/0417",
-            "img": "https://climamazonia.shop/2024/0417.webp"
-         },
-         {
-            "number": 17,
-            "url": "2024/0424",
-            "img": "https://climamazonia.shop/2024/0424.webp"
-         }
-      ]
-   },
-   {
-      "month": "march",
-      "issues": [
-         {
-            "number": 10,
-            "url": "2024/0306",
-            "img": "https://climamazonia.shop/2024/0306.webp"
-         },
-         {
-            "number": 11,
-            "url": "2024/0313",
-            "img": "https://climamazonia.shop/2024/0313.webp"
-         },
-         {
-            "number": 12,
-            "url": "2024/0320",
-            "img": "https://climamazonia.shop/2024/0320.webp"
-         },
-         {
-            "number": 13,
-            "url": "2024/0327",
-            "img": "https://climamazonia.shop/2024/0327.webp"
-         }
-      ]
-   },
-   {
-      "month": "february",
-      "issues": [
-         {
-            "number": 6,
-            "url": "2024/0207",
-            "img": "https://climamazonia.shop/2024/0207.webp"
-         },
-         {
-            "number": 7,
-            "url": "2024/0214",
-            "img": "https://climamazonia.shop/2024/0214.webp"
-         },
-         {
-            "number": 8,
-            "url": "2024/0221",
-            "img": "https://climamazonia.shop/2024/0221.webp"
-         },
-         {
-            "number": 9,
-            "url": "2024/0228",
-            "img": "https://climamazonia.shop/2024/0228.webp"
-         }
-      ]
-   },
-   {
-      "month": "january",
-      "issues": [
-         {
-            "number": 1,
-            "url": "2024/0103",
-            "img": "https://climamazonia.shop/2024/0103.webp"
-         },
-         {
-            "number": 2,
-            "url": "2024/0110",
-            "img": "https://climamazonia.shop/2024/0110.webp"
-         },
-         {
-            "number": 3,
-            "url": "2024/0117",
-            "img": "https://climamazonia.shop/2024/0117.webp"
-         },
-         {
-            "number": 4,
-            "url": "2024/0124",
-            "img": "https://climamazonia.shop/2024/0124.webp"
-         },
-         {
-            "number": 5,
-            "url": "2024/0131",
-            "img": "https://climamazonia.shop/2024/0131.webp"
-         }
-      ]
-   }
-]
-   },
-   {
-      "volume": 3,
-      "year": 2023,
-      "img": "/issues/year26.png",
-      "numbers": [
          {
             "month": "december",
             "issues": [
                {
                   "number": 49,
-                  "url": "2023/1206",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530339/clima-amazonia/2023/1206/1206.png"
+                  "url": "2024/1204",
+                  "img": "https://climamazonia.shop/2024/1204.webp"
                },
                {
                   "number": 50,
-                  "url": "2023/1213",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530343/clima-amazonia/2023/1213/1213.png"
+                  "url": "2024/1211",
+                  "img": "https://climamazonia.shop/2024/1211.webp"
                },
                {
                   "number": 51,
-                  "url": "2023/1220",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530346/clima-amazonia/2023/1220/1220.png"
+                  "url": "2024/1217",
+                  "img": "https://climamazonia.shop/2024/1217.webp"
                },
                {
                   "number": 52,
-                  "url": "2023/1227",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530349/clima-amazonia/2023/1227/1227.png"
+                  "url": "2024/1225",
+                  "img": "https://climamazonia.shop/2024/1225.webp"
                }
             ]
          },
@@ -850,29 +523,24 @@
             "month": "november",
             "issues": [
                {
-                  "number": 44,
-                  "url": "2023/1101",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530333/clima-amazonia/2023/1101/1101.png"
-               },
-               {
                   "number": 45,
-                  "url": "2023/1108",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530334/clima-amazonia/2023/1108/1108.png"
+                  "url": "2024/1106",
+                  "img": "https://climamazonia.shop/2024/1106.webp"
                },
                {
                   "number": 46,
-                  "url": "2023/1115",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530335/clima-amazonia/2023/1115/1115.png"
+                  "url": "2024/1113",
+                  "img": "https://climamazonia.shop/2024/1113.webp"
                },
                {
                   "number": 47,
-                  "url": "2023/1122",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530336/clima-amazonia/2023/1122/1122.png"
+                  "url": "2024/1120",
+                  "img": "https://climamazonia.shop/2024/1120.webp"
                },
                {
                   "number": 48,
-                  "url": "2023/1129",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530337/clima-amazonia/2023/1129/1129.png"
+                  "url": "2024/1127",
+                  "img": "https://climamazonia.shop/2024/1127.webp"
                }
             ]
          },
@@ -881,23 +549,28 @@
             "issues": [
                {
                   "number": 40,
-                  "url": "2023/1004",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530328/clima-amazonia/2023/1004/1004.png"
+                  "url": "2024/1002",
+                  "img": "https://climamazonia.shop/2024/1002.webp"
                },
                {
                   "number": 41,
-                  "url": "2023/1011",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530330/clima-amazonia/2023/1011/1011.png"
+                  "url": "2024/1009",
+                  "img": "https://climamazonia.shop/2024/1009.webp"
                },
                {
                   "number": 42,
-                  "url": "2023/1018",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530330/clima-amazonia/2023/1018/1018.png"
+                  "url": "2024/1016",
+                  "img": "https://climamazonia.shop/2024/1016.webp"
                },
                {
                   "number": 43,
-                  "url": "2023/1025",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530332/clima-amazonia/2023/1025/1025.png"
+                  "url": "2024/1023",
+                  "img": "https://climamazonia.shop/2024/1023.webp"
+               },
+               {
+                  "number": 44,
+                  "url": "2024/1030",
+                  "img": "https://climamazonia.shop/2024/1030.webp"
                }
             ]
          },
@@ -906,23 +579,23 @@
             "issues": [
                {
                   "number": 36,
-                  "url": "2023/0907",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530323/clima-amazonia/2023/0907/0907.png"
+                  "url": "2024/0904",
+                  "img": "https://climamazonia.shop/2024/0904.webp"
                },
                {
                   "number": 37,
-                  "url": "2023/0914",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530324/clima-amazonia/2023/0914/0914.png"
+                  "url": "2024/0911",
+                  "img": "https://climamazonia.shop/2024/0911.webp"
                },
                {
                   "number": 38,
-                  "url": "2023/0921",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530325/clima-amazonia/2023/0921/0921.png"
+                  "url": "2024/0918",
+                  "img": "https://climamazonia.shop/2024/0918.webp"
                },
                {
                   "number": 39,
-                  "url": "2023/0927",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530327/clima-amazonia/2023/0927/0927.png"
+                  "url": "2024/0925",
+                  "img": "https://climamazonia.shop/2024/0925.webp"
                }
             ]
          },
@@ -930,29 +603,24 @@
             "month": "august",
             "issues": [
                {
-                  "number": 31,
-                  "url": "2023/0803",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530317/clima-amazonia/2023/0803/0803.png"
-               },
-               {
                   "number": 32,
-                  "url": "2023/0810",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530318/clima-amazonia/2023/0810/0810.png"
+                  "url": "2024/0807",
+                  "img": "https://climamazonia.shop/2024/0807.webp"
                },
                {
                   "number": 33,
-                  "url": "2023/0817",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530320/clima-amazonia/2023/0817/0817.png"
+                  "url": "2024/0814",
+                  "img": "https://climamazonia.shop/2024/0814.webp"
                },
                {
                   "number": 34,
-                  "url": "2023/0824",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530321/clima-amazonia/2023/0824/0824.png"
+                  "url": "2024/0821",
+                  "img": "https://climamazonia.shop/2024/0821.webp"
                },
                {
                   "number": 35,
-                  "url": "2023/0831",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530322/clima-amazonia/2023/0831/0831.png"
+                  "url": "2024/0828",
+                  "img": "https://climamazonia.shop/2024/0828.webp"
                }
             ]
          },
@@ -961,23 +629,28 @@
             "issues": [
                {
                   "number": 27,
-                  "url": "2023/0706",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530312/clima-amazonia/2023/0706/0706.png"
+                  "url": "2024/0703",
+                  "img": "https://climamazonia.shop/2024/0703.webp"
                },
                {
                   "number": 28,
-                  "url": "2023/0713",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530313/clima-amazonia/2023/0713/0713.png"
+                  "url": "2024/0710",
+                  "img": "https://climamazonia.shop/2024/0710.webp"
                },
                {
                   "number": 29,
-                  "url": "2023/0720",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530314/clima-amazonia/2023/0720/0720.png"
+                  "url": "2024/0717",
+                  "img": "https://climamazonia.shop/2024/0717.webp"
                },
                {
                   "number": 30,
-                  "url": "2023/0727",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530316/clima-amazonia/2023/0727/0727.png"
+                  "url": "2024/0724",
+                  "img": "https://climamazonia.shop/2024/0724.webp"
+               },
+               {
+                  "number": 31,
+                  "url": "2024/0731",
+                  "img": "https://climamazonia.shop/2024/0731.webp"
                }
             ]
          },
@@ -985,29 +658,24 @@
             "month": "june",
             "issues": [
                {
-                  "number": 22,
-                  "url": "2023/0601",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530307/clima-amazonia/2023/0601/0601.png"
-               },
-               {
                   "number": 23,
-                  "url": "2023/0608",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530308/clima-amazonia/2023/0608/0608.png"
+                  "url": "2024/0605",
+                  "img": "https://climamazonia.shop/2024/0605.webp"
                },
                {
                   "number": 24,
-                  "url": "2023/0615",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530309/clima-amazonia/2023/0615/0615.png"
+                  "url": "2024/0612",
+                  "img": "https://climamazonia.shop/2024/0612.webp"
                },
                {
                   "number": 25,
-                  "url": "2023/0622",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530310/clima-amazonia/2023/0622/0622.png"
+                  "url": "2024/0619",
+                  "img": "https://climamazonia.shop/2024/0619.webp"
                },
                {
                   "number": 26,
-                  "url": "2023/0629",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530311/clima-amazonia/2023/0629/0629.png"
+                  "url": "2024/0626",
+                  "img": "https://climamazonia.shop/2024/0626.webp"
                }
             ]
          },
@@ -1016,23 +684,28 @@
             "issues": [
                {
                   "number": 18,
-                  "url": "2023/0504",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530302/clima-amazonia/2023/0504/0504.png"
+                  "url": "2024/0501",
+                  "img": "https://climamazonia.shop/2024/0501.webp"
                },
                {
                   "number": 19,
-                  "url": "2023/0511",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530303/clima-amazonia/2023/0511/0511.png"
+                  "url": "2024/0508",
+                  "img": "https://climamazonia.shop/2024/0508.webp"
                },
                {
                   "number": 20,
-                  "url": "2023/0518",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530305/clima-amazonia/2023/0518/0518.png"
+                  "url": "2024/0515",
+                  "img": "https://climamazonia.shop/2024/0515.webp"
                },
                {
                   "number": 21,
-                  "url": "2023/0525",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530306/clima-amazonia/2023/0525/0525.png"
+                  "url": "2024/0522",
+                  "img": "https://climamazonia.shop/2024/0522.webp"
+               },
+               {
+                  "number": 22,
+                  "url": "2024/0529",
+                  "img": "https://climamazonia.shop/2024/0529.webp"
                }
             ]
          },
@@ -1041,23 +714,23 @@
             "issues": [
                {
                   "number": 14,
-                  "url": "2023/0406",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530276/clima-amazonia/2023/0406/0406.png"
+                  "url": "2024/0403",
+                  "img": "https://climamazonia.shop/2024/0403.webp"
                },
                {
                   "number": 15,
-                  "url": "2023/0413",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530277/clima-amazonia/2023/0413/0413.png"
+                  "url": "2024/0410",
+                  "img": "https://climamazonia.shop/2024/0410.webp"
                },
                {
                   "number": 16,
-                  "url": "2023/0420",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530285/clima-amazonia/2023/0420/0420.png"
+                  "url": "2024/0417",
+                  "img": "https://climamazonia.shop/2024/0417.webp"
                },
                {
                   "number": 17,
-                  "url": "2023/0427",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530301/clima-amazonia/2023/0427/0427.png"
+                  "url": "2024/0424",
+                  "img": "https://climamazonia.shop/2024/0424.webp"
                }
             ]
          },
@@ -1065,29 +738,24 @@
             "month": "march",
             "issues": [
                {
-                  "number": 9,
-                  "url": "2023/0302",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530270/clima-amazonia/2023/0302/0302.png"
-               },
-               {
                   "number": 10,
-                  "url": "2023/0309",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530271/clima-amazonia/2023/0309/0309.png"
+                  "url": "2024/0306",
+                  "img": "https://climamazonia.shop/2024/0306.webp"
                },
                {
                   "number": 11,
-                  "url": "2023/0316",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530272/clima-amazonia/2023/0316/0316.png"
+                  "url": "2024/0313",
+                  "img": "https://climamazonia.shop/2024/0313.webp"
                },
                {
                   "number": 12,
-                  "url": "2023/0323",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530274/clima-amazonia/2023/0323/0323.png"
+                  "url": "2024/0320",
+                  "img": "https://climamazonia.shop/2024/0320.webp"
                },
                {
                   "number": 13,
-                  "url": "2023/0330",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530275/clima-amazonia/2023/0330/0330.png"
+                  "url": "2024/0327",
+                  "img": "https://climamazonia.shop/2024/0327.webp"
                }
             ]
          },
@@ -1095,24 +763,24 @@
             "month": "february",
             "issues": [
                {
-                  "number": 5,
-                  "url": "2023/0202",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530265/clima-amazonia/2023/0202/0202.png"
-               },
-               {
                   "number": 6,
-                  "url": "2023/0209",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530266/clima-amazonia/2023/0209/0209.png"
+                  "url": "2024/0207",
+                  "img": "https://climamazonia.shop/2024/0207.webp"
                },
                {
                   "number": 7,
-                  "url": "2023/0216",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530267/clima-amazonia/2023/0216/0216.png"
+                  "url": "2024/0214",
+                  "img": "https://climamazonia.shop/2024/0214.webp"
                },
                {
                   "number": 8,
-                  "url": "2023/0223",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530269/clima-amazonia/2023/0223/0223.png"
+                  "url": "2024/0221",
+                  "img": "https://climamazonia.shop/2024/0221.webp"
+               },
+               {
+                  "number": 9,
+                  "url": "2024/0228",
+                  "img": "https://climamazonia.shop/2024/0228.webp"
                }
             ]
          },
@@ -1121,27 +789,359 @@
             "issues": [
                {
                   "number": 1,
-                  "url": "2023/0105",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530260/clima-amazonia/2023/0105/0105.png"
+                  "url": "2024/0103",
+                  "img": "https://climamazonia.shop/2024/0103.webp"
                },
                {
                   "number": 2,
-                  "url": "2023/0112",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530261/clima-amazonia/2023/0112/0112.png"
+                  "url": "2024/0110",
+                  "img": "https://climamazonia.shop/2024/0110.webp"
                },
                {
                   "number": 3,
-                  "url": "2023/0119",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530263/clima-amazonia/2023/0119/0119.png"
+                  "url": "2024/0117",
+                  "img": "https://climamazonia.shop/2024/0117.webp"
                },
                {
                   "number": 4,
-                  "url": "2023/0126",
-                  "img": "https://res.cloudinary.com/dveg6vhbi/image/upload/v1774530264/clima-amazonia/2023/0126/0126.png"
+                  "url": "2024/0124",
+                  "img": "https://climamazonia.shop/2024/0124.webp"
+               },
+               {
+                  "number": 5,
+                  "url": "2024/0131",
+                  "img": "https://climamazonia.shop/2024/0131.webp"
                }
             ]
          }
       ]
+   },
+   {
+      "volume": 3,
+      "year": 2023,
+      "img": "/issues/year26.png",
+       "numbers": [
+        {
+            "month": "december",
+            "issues": [
+                {
+                    "number": 49,
+                    "url": "2023/1206",
+                    "img": "https://climamazonia.shop/2023/1206.webp"
+                },
+                {
+                    "number": 50,
+                    "url": "2023/1213",
+                    "img": "https://climamazonia.shop/2023/1213.webp"
+                },
+                {
+                    "number": 51,
+                    "url": "2023/1220",
+                    "img": "https://climamazonia.shop/2023/1220.webp"
+                },
+                {
+                    "number": 52,
+                    "url": "2023/1227",
+                    "img": "https://climamazonia.shop/2023/1227.webp"
+                }
+            ]
+        },
+        {
+            "month": "november",
+            "issues": [
+                {
+                    "number": 44,
+                    "url": "2023/1101",
+                    "img": "https://climamazonia.shop/2023/1101.webp"
+                },
+                {
+                    "number": 45,
+                    "url": "2023/1108",
+                    "img": "https://climamazonia.shop/2023/1108.webp"
+                },
+                {
+                    "number": 46,
+                    "url": "2023/1115",
+                    "img": "https://climamazonia.shop/2023/1115.webp"
+                },
+                {
+                    "number": 47,
+                    "url": "2023/1122",
+                    "img": "https://climamazonia.shop/2023/1122.webp"
+                },
+                {
+                    "number": 48,
+                    "url": "2023/1129",
+                    "img": "https://climamazonia.shop/2023/1129.webp"
+                }
+            ]
+        },
+        {
+            "month": "october",
+            "issues": [
+                {
+                    "number": 40,
+                    "url": "2023/1004",
+                    "img": "https://climamazonia.shop/2023/1004.webp"
+                },
+                {
+                    "number": 41,
+                    "url": "2023/1011",
+                    "img": "https://climamazonia.shop/2023/1011.webp"
+                },
+                {
+                    "number": 42,
+                    "url": "2023/1018",
+                    "img": "https://climamazonia.shop/2023/1018.webp"
+                },
+                {
+                    "number": 43,
+                    "url": "2023/1025",
+                    "img": "https://climamazonia.shop/2023/1025.webp"
+                }
+            ]
+        },
+        {
+            "month": "september",
+            "issues": [
+                {
+                    "number": 36,
+                    "url": "2023/0907",
+                    "img": "https://climamazonia.shop/2023/0907.webp"
+                },
+                {
+                    "number": 37,
+                    "url": "2023/0914",
+                    "img": "https://climamazonia.shop/2023/0914.webp"
+                },
+                {
+                    "number": 38,
+                    "url": "2023/0921",
+                    "img": "https://climamazonia.shop/2023/0921.webp"
+                },
+                {
+                    "number": 39,
+                    "url": "2023/0927",
+                    "img": "https://climamazonia.shop/2023/0927.webp"
+                }
+            ]
+        },
+        {
+            "month": "august",
+            "issues": [
+                {
+                    "number": 31,
+                    "url": "2023/0803",
+                    "img": "https://climamazonia.shop/2023/0803.webp"
+                },
+                {
+                    "number": 32,
+                    "url": "2023/0810",
+                    "img": "https://climamazonia.shop/2023/0810.webp"
+                },
+                {
+                    "number": 33,
+                    "url": "2023/0817",
+                    "img": "https://climamazonia.shop/2023/0817.webp"
+                },
+                {
+                    "number": 34,
+                    "url": "2023/0824",
+                    "img": "https://climamazonia.shop/2023/0824.webp"
+                },
+                {
+                    "number": 35,
+                    "url": "2023/0831",
+                    "img": "https://climamazonia.shop/2023/0831.webp"
+                }
+            ]
+        },
+        {
+            "month": "july",
+            "issues": [
+                {
+                    "number": 27,
+                    "url": "2023/0706",
+                    "img": "https://climamazonia.shop/2023/0706.webp"
+                },
+                {
+                    "number": 28,
+                    "url": "2023/0713",
+                    "img": "https://climamazonia.shop/2023/0713.webp"
+                },
+                {
+                    "number": 29,
+                    "url": "2023/0720",
+                    "img": "https://climamazonia.shop/2023/0720.webp"
+                },
+                {
+                    "number": 30,
+                    "url": "2023/0727",
+                    "img": "https://climamazonia.shop/2023/0727.webp"
+                }
+            ]
+        },
+        {
+            "month": "june",
+            "issues": [
+                {
+                    "number": 22,
+                    "url": "2023/0601",
+                    "img": "https://climamazonia.shop/2023/0601.webp"
+                },
+                {
+                    "number": 23,
+                    "url": "2023/0608",
+                    "img": "https://climamazonia.shop/2023/0608.webp"
+                },
+                {
+                    "number": 24,
+                    "url": "2023/0615",
+                    "img": "https://climamazonia.shop/2023/0615.webp"
+                },
+                {
+                    "number": 25,
+                    "url": "2023/0622",
+                    "img": "https://climamazonia.shop/2023/0622.webp"
+                },
+                {
+                    "number": 26,
+                    "url": "2023/0629",
+                    "img": "https://climamazonia.shop/2023/0629.webp"
+                }
+            ]
+        },
+        {
+            "month": "may",
+            "issues": [
+                {
+                    "number": 18,
+                    "url": "2023/0504",
+                    "img": "https://climamazonia.shop/2023/0504.webp"
+                },
+                {
+                    "number": 19,
+                    "url": "2023/0511",
+                    "img": "https://climamazonia.shop/2023/0511.webp"
+                },
+                {
+                    "number": 20,
+                    "url": "2023/0518",
+                    "img": "https://climamazonia.shop/2023/0518.webp"
+                },
+                {
+                    "number": 21,
+                    "url": "2023/0525",
+                    "img": "https://climamazonia.shop/2023/0525.webp"
+                }
+            ]
+        },
+        {
+            "month": "april",
+            "issues": [
+                {
+                    "number": 14,
+                    "url": "2023/0406",
+                    "img": "https://climamazonia.shop/2023/0406.webp"
+                },
+                {
+                    "number": 15,
+                    "url": "2023/0413",
+                    "img": "https://climamazonia.shop/2023/0413.webp"
+                },
+                {
+                    "number": 16,
+                    "url": "2023/0420",
+                    "img": "https://climamazonia.shop/2023/0420.webp"
+                },
+                {
+                    "number": 17,
+                    "url": "2023/0427",
+                    "img": "https://climamazonia.shop/2023/0427.webp"
+                }
+            ]
+        },
+        {
+            "month": "march",
+            "issues": [
+                {
+                    "number": 9,
+                    "url": "2023/0302",
+                    "img": "https://climamazonia.shop/2023/0302.webp"
+                },
+                {
+                    "number": 10,
+                    "url": "2023/0309",
+                    "img": "https://climamazonia.shop/2023/0309.webp"
+                },
+                {
+                    "number": 11,
+                    "url": "2023/0316",
+                    "img": "https://climamazonia.shop/2023/0316.webp"
+                },
+                {
+                    "number": 12,
+                    "url": "2023/0323",
+                    "img": "https://climamazonia.shop/2023/0323.webp"
+                },
+                {
+                    "number": 13,
+                    "url": "2023/0330",
+                    "img": "https://climamazonia.shop/2023/0330.webp"
+                }
+            ]
+        },
+        {
+            "month": "february",
+            "issues": [
+                {
+                    "number": 5,
+                    "url": "2023/0202",
+                    "img": "https://climamazonia.shop/2023/0202.webp"
+                },
+                {
+                    "number": 6,
+                    "url": "2023/0209",
+                    "img": "https://climamazonia.shop/2023/0209.webp"
+                },
+                {
+                    "number": 7,
+                    "url": "2023/0216",
+                    "img": "https://climamazonia.shop/2023/0216.webp"
+                },
+                {
+                    "number": 8,
+                    "url": "2023/0223",
+                    "img": "https://climamazonia.shop/2023/0223.webp"
+                }
+            ]
+        },
+        {
+            "month": "january",
+            "issues": [
+                {
+                    "number": 1,
+                    "url": "2023/0105",
+                    "img": "https://climamazonia.shop/2023/0105.webp"
+                },
+                {
+                    "number": 2,
+                    "url": "2023/0112",
+                    "img": "https://climamazonia.shop/2023/0112.webp"
+                },
+                {
+                    "number": 3,
+                    "url": "2023/0119",
+                    "img": "https://climamazonia.shop/2023/0119.webp"
+                },
+                {
+                    "number": 4,
+                    "url": "2023/0126",
+                    "img": "https://climamazonia.shop/2023/0126.webp"
+                }
+            ]
+        }
+    ]      
    },
    {
       "volume": 2,
