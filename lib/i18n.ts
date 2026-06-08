@@ -1,12 +1,19 @@
 import type boletim from "@/data/boletim/2026/0603.json";
+import type anomaly from "@/data/boletim/2026/0513.json";
 import type messages from "@/data/i18n/pt.json"
 
 export const locales = ["pt", "en", "es"] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "pt";
 type Boletim = typeof boletim;
+type Anomaly = typeof anomaly.images.anomaly;
 type Messages = typeof messages
 
+type FullBoletim = Boletim &{
+  images: {
+    anomaly: Anomaly | null;
+  };
+};
 
 
 export function isLocale(value: string): value is Locale {
@@ -34,7 +41,7 @@ export function detectLocaleFromHeader(acceptLanguage?: string | null): Locale {
   return defaultLocale;
 }
 
-export async function getBoletim(yyyy: string, mmdd: string): Promise<Boletim> {
+export async function getBoletim(yyyy: string, mmdd: string): Promise<FullBoletim> {
   return (await import(`@/data/boletim/${yyyy}/${mmdd}.json`)).default;
 }
 

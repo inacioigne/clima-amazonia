@@ -23,6 +23,12 @@ export default async function Page({
         getMessages(lang),
     ]);
 
+    if (!boletim.images.anomaly) {
+        notFound();
+    }
+
+
+
     const bacias = Object.entries(boletim.images.anomaly);
 
     return (
