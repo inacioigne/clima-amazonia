@@ -6,7 +6,7 @@ import { MdOutlineAutoGraph } from "react-icons/md";
 import { FcDataSheet, FcComboChart, FcTreeStructure, FcDownload } from "react-icons/fc";
 import { BiSolidCategoryAlt } from "react-icons/bi"
 import Link from "next/link";
-import { title } from "process";
+// import { title } from "process";
 
 export async function generateStaticParams() {
     return locales.map((lang) => ({ lang }));
@@ -54,11 +54,11 @@ export default async function Page({
         //     href: `/${yyyy}/${mmdd}/anomaly`,
         //     icon: FcComboChart,
         // },
-        {
-            title: messages.home["unifilar"],
-            href: `/${yyyy}/${mmdd}/unifilar`,
-            icon: FcTreeStructure,
-        },
+        // {
+        //     title: messages.home["unifilar"],
+        //     href: `/${yyyy}/${mmdd}/unifilar`,
+        //     icon: FcTreeStructure,
+        // },
     ];
 
 
@@ -157,16 +157,29 @@ export default async function Page({
                     {
                         boletim.images.anomaly && (
                             <Link href={`/${lang}/${yyyy}/${mmdd}/anomaly`}>
-                            <div className="cursor-pointer border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl flex gap-3 items-center p-4">
-                                <div className="p-1 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
-                                    <FcComboChart aria-hidden="true" className="size-8 text-blue-600" />
+                                <div className="cursor-pointer border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl flex gap-3 items-center p-4">
+                                    <div className="p-1 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
+                                        <FcComboChart aria-hidden="true" className="size-8 text-blue-600" />
+                                    </div>
+                                    <h3 className="text-base">{messages.home["anomalies"]}</h3>
                                 </div>
-                                <h3 className="text-base">{messages.home["anomalies"]}</h3>
-                            </div>
-                        </Link>)
+                            </Link>)
 
                     }
-                     
+                    {
+                        boletim.images.unifilar && (
+                            <Link href={`/${lang}/${yyyy}/${mmdd}/unifilar`}>
+                                <div className="cursor-pointer border border-gray-200 bg-white shadow-sm transition hover:shadow-md rounded-2xl flex gap-3 items-center p-4">
+                                    <div className="p-1 bg-blue-50 rounded-lg group-hover:bg-blue-100 transition-colors">
+                                        <FcComboChart aria-hidden="true" className="size-8 text-blue-600" />
+                                    </div>
+                                    <h3 className="text-base">{messages.home["unifilar"]}</h3>
+                                </div>
+                            </Link>
+                        )
+
+                    }
+
                 </div>
             </section>
         </div>

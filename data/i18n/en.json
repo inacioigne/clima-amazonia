@@ -148,7 +148,9 @@
     "text": "The following graphs illustrate the behavior of the precipitation anomaly index in recent weeks, red lines show the behavior for periods of 30 days and blue lines the behavior for periods of 7 days, updated weekly."
   },
   "unifilar": {
-    "title": "Single-line diagram of the basins represented"
+    "title": "Single-line diagram of the basins represented",
+    "text": "The diagram below shows the distribution and classification of river basins according to precipitation anomaly categories, based on the proposed methodology, for the period from",
+    "text2": "to"
   },
   "footer": {
     "basin": "Amazon Basin",

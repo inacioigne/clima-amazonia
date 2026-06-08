@@ -148,7 +148,9 @@
     "text": "Los siguientes gráficos ilustran el comportamiento del índice de anomalía de precipitación en las últimas semanas, las líneas rojas muestran el comportamiento para periodos de 30 días y las líneas azules el comportamiento para periodos de 7 días, actualizados semanalmente."
   },
   "unifilar": {
-    "title": "Diagrama unifilar de las cuencas representadas"
+    "title": "Diagrama unifilar de las cuencas representadas",
+    "text": "El siguiente diagrama muestra la distribución y clasificación de las cuencas fluviales según las categorías de anomalías de precipitación, con base en la metodología propuesta, para el período comprendido entre el",
+    "text2": "y el"
   },
   "footer": {
     "basin": "Bacia Amazônica",

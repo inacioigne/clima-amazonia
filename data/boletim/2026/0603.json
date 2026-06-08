@@ -912,40 +912,6 @@
          "bacia-do-rio-jurua-ano": "https://climamazonia.shop/2026/0603/analysis/bacia-do-rio-jurua-ano.webp",
          "bacias-da-margem-esquerda-do-rio-amazonas-amazonas-ano": "https://climamazonia.shop/2026/0603/analysis/bacias-da-margem-esquerda-do-rio-amazonas-amazonas-ano.webp"
       },
-      "anomaly": {
-         "bacia_1": "https://climamazonia.shop/2026/0603/anomaly/bacia_1.webp",
-         "bacia_24": "https://climamazonia.shop/2026/0603/anomaly/bacia_24.webp",
-         "bacia_2": "https://climamazonia.shop/2026/0603/anomaly/bacia_2.webp",
-         "bacia_29": "https://climamazonia.shop/2026/0603/anomaly/bacia_29.webp",
-         "bacia_16": "https://climamazonia.shop/2026/0603/anomaly/bacia_16.webp",
-         "bacia_23": "https://climamazonia.shop/2026/0603/anomaly/bacia_23.webp",
-         "bacia_27": "https://climamazonia.shop/2026/0603/anomaly/bacia_27.webp",
-         "bacia_9": "https://climamazonia.shop/2026/0603/anomaly/bacia_9.webp",
-         "bacia_3": "https://climamazonia.shop/2026/0603/anomaly/bacia_3.webp",
-         "bacia_19": "https://climamazonia.shop/2026/0603/anomaly/bacia_19.webp",
-         "bacia_20": "https://climamazonia.shop/2026/0603/anomaly/bacia_20.webp",
-         "bacia_30": "https://climamazonia.shop/2026/0603/anomaly/bacia_30.webp",
-         "bacia_6": "https://climamazonia.shop/2026/0603/anomaly/bacia_6.webp",
-         "bacia_25": "https://climamazonia.shop/2026/0603/anomaly/bacia_25.webp",
-         "bacia_7": "https://climamazonia.shop/2026/0603/anomaly/bacia_7.webp",
-         "bacia_13": "https://climamazonia.shop/2026/0603/anomaly/bacia_13.webp",
-         "bacia_28": "https://climamazonia.shop/2026/0603/anomaly/bacia_28.webp",
-         "bacia_17": "https://climamazonia.shop/2026/0603/anomaly/bacia_17.webp",
-         "bacia_11": "https://climamazonia.shop/2026/0603/anomaly/bacia_11.webp",
-         "bacia_21": "https://climamazonia.shop/2026/0603/anomaly/bacia_21.webp",
-         "bacia_12": "https://climamazonia.shop/2026/0603/anomaly/bacia_12.webp",
-         "bacia_32": "https://climamazonia.shop/2026/0603/anomaly/bacia_32.webp",
-         "bacia_22": "https://climamazonia.shop/2026/0603/anomaly/bacia_22.webp",
-         "bacia_10": "https://climamazonia.shop/2026/0603/anomaly/bacia_10.webp",
-         "bacia_8": "https://climamazonia.shop/2026/0603/anomaly/bacia_8.webp",
-         "bacia_15": "https://climamazonia.shop/2026/0603/anomaly/bacia_15.webp",
-         "bacia_4": "https://climamazonia.shop/2026/0603/anomaly/bacia_4.webp",
-         "bacia_18": "https://climamazonia.shop/2026/0603/anomaly/bacia_18.webp",
-         "bacia_31": "https://climamazonia.shop/2026/0603/anomaly/bacia_31.webp",
-         "bacia_14": "https://climamazonia.shop/2026/0603/anomaly/bacia_14.webp",
-         "bacia_26": "https://climamazonia.shop/2026/0603/anomaly/bacia_26.webp",
-         "bacia_5": "https://climamazonia.shop/2026/0603/anomaly/bacia_5.webp"
-      },
       "reference": {
          "reference_table": "https://climamazonia.shop/2026/0603/reference/reference_table.webp"
       },
@@ -955,6 +921,9 @@
       },
       "categorization": {
          "table": "https://climamazonia.shop/2026/0603/categorization/table.webp"
+      },
+       "unifilar": {
+         "diagrama": "https://climamazonia.shop/2026/0603/unifilar/diagrama.webp"
       }
    },
    "pdf": {

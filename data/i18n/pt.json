@@ -148,7 +148,9 @@
     "text": "Os gráficos a seguir ilustram o comportamento do índice das anomalias de precipitação nas últimas semanas, linhas vermelhas mostram o comportamento de períodos de 30 dias e linhas em azul o comportamento em relação a períodos de 7 dias, atualizados semanalmente."
   },
   "unifilar": {
-    "title": "Diagrama unifilar das bacias representadas"
+    "title": "Diagrama unifilar das bacias representadas",
+    "text": "O diagrama abaixo representa a distribuição e o ordenamento das bacias hidrográficas conforme a categorização das anomalias de precipitação, pela metodologia proposta entre os dias",
+    "text2": "e"
   },
   "footer": {
     "basin": "Bacia Amazônica",
