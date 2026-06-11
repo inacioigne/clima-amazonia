@@ -7,6 +7,11 @@
          {
             "month": "june",
             "issues": [
+               {
+                  "number": 23,
+                  "url": "2026/0610",
+                  "img": "https://climamazonia.shop/2026/0610.webp"
+               },
                 {
                   "number": 22,
                   "url": "2026/0603",
