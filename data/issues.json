@@ -5,6 +5,16 @@
       "img": "/issues/year26.png",
       "numbers": [
          {
+            "month": "july",
+            "issues": [
+                {
+                  "number": 26,
+                  "url": "2026/0701",
+                  "img": "https://climamazonia.shop/2026/0701.webp"
+               }
+            ]
+         },
+         {
             "month": "june",
             "issues": [
                 {
