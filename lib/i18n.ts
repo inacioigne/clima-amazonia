@@ -1,4 +1,4 @@
-import type boletim from "@/data/boletim/2026/0603.json";
+import type boletim from "@/data/boletim/2026/0708.json";
 import type anomaly from "@/data/boletim/2026/0513.json";
 import type messages from "@/data/i18n/pt.json"
 
