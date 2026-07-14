@@ -150,7 +150,8 @@
   "unifilar": {
     "title": "Single-line diagram of the basins represented",
     "text": "The diagram below shows the distribution and classification of river basins according to precipitation anomaly categories, based on the proposed methodology, for the period from",
-    "text2": "to"
+    "text2": "to",
+    "titleAnalisis": "Analysis of the Single-Line Diagram of the Shown Basins"
   },
   "footer": {
     "basin": "Amazon Basin",

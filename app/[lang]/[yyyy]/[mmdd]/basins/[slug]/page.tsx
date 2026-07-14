@@ -25,6 +25,7 @@ export default async function Page({
     notFound();
   }
   const img_acc = boletim.images.analysis[`${item.id}-acc` as keyof typeof boletim.images.analysis];
+  console.log("img_acc", img_acc);
   const img_ano = boletim.images.analysis[`${item.id}-ano` as keyof typeof boletim.images.analysis];
 
 

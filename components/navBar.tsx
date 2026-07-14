@@ -31,7 +31,7 @@ export default function NavBar({
   const navigation = useMemo(
     () => [
       { name: messages.home, href: `/${lang}` },
-      { name: messages.previous, href: `/${lang}/previous` },
+      // { name: messages.previous, href: `/${lang}/previous` },
       { name: messages.about, href: `/${lang}/about` },
       { name: messages.team, href: `/${lang}/team` },
     ],

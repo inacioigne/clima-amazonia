@@ -150,7 +150,8 @@
   "unifilar": {
     "title": "Diagrama unifilar das bacias representadas",
     "text": "O diagrama abaixo representa a distribuição e o ordenamento das bacias hidrográficas conforme a categorização das anomalias de precipitação, pela metodologia proposta entre os dias",
-    "text2": "e"
+    "text2": "e",
+    "titleAnalisis": "Análise do Diagrama unifilar das bacias representadas"
   },
   "footer": {
     "basin": "Bacia Amazônica",

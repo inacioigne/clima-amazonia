@@ -121,7 +121,6 @@ export default async function TeamsPage({
           </article>
         ))}
          <article
-            // key={member.name}
             className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:shadow-md"
           >
             <div className="relative mx-auto h-36 w-36 overflow-hidden rounded-full border border-gray-200">

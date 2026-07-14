@@ -1,16 +1,7 @@
-import Link from "next/link";
+// import Link from "next/link";
 import { getBoletim, getMessages, isLocale } from "@/lib/i18n";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-
-// function subtrairQuatroSemanas(dataInput: string | number | Date) {
-//   const data = new Date(dataInput); 
-//   const diasParaSubtrair = 29;
-
-//   data.setDate(data.getDate() - diasParaSubtrair);
-
-//   return data;
-// }
 
 function subtrairQuatroSemanas(dataInput: string | number | Date) {
     const data = new Date(dataInput);
@@ -69,6 +60,12 @@ export default async function Page({
                     unoptimized
                 />
             </div>
+             <p className="text-lg font-semibold uppercase tracking-wide text-green-700">
+                {messages.unifilar.titleAnalisis}
+            </p>
+            <p className="text-gray-700 leading-relaxed text-wrap mt-3">
+                   {boletim.unifilar[`${lang}`]}
+                </p>
         </div >
     )
 }

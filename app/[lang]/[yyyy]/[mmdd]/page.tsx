@@ -3,10 +3,9 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { GiRiver } from "react-icons/gi";
 import { MdOutlineAutoGraph } from "react-icons/md";
-import { FcDataSheet, FcComboChart, FcTreeStructure, FcDownload } from "react-icons/fc";
+import { FcDataSheet, FcComboChart, FcDownload } from "react-icons/fc";
 import { BiSolidCategoryAlt } from "react-icons/bi"
 import Link from "next/link";
-// import { title } from "process";
 
 export async function generateStaticParams() {
     return locales.map((lang) => ({ lang }));
@@ -49,16 +48,6 @@ export default async function Page({
             href: `/${yyyy}/${mmdd}/categorization`,
             icon: BiSolidCategoryAlt,
         },
-        // {
-        //     title: messages.home["anomalies"],
-        //     href: `/${yyyy}/${mmdd}/anomaly`,
-        //     icon: FcComboChart,
-        // },
-        // {
-        //     title: messages.home["unifilar"],
-        //     href: `/${yyyy}/${mmdd}/unifilar`,
-        //     icon: FcTreeStructure,
-        // },
     ];
 
 
@@ -104,23 +93,25 @@ export default async function Page({
                             </Link>
 
                         </div>
-                        <div className="flex flex-col gap-4 col-span-2">
-                            <div className="w-full">
+                        <div className="flex flex-row gap-4 col-span-2">
+                            <div className="w-3/4">
                                 <Image
-                                    src={boletim.images.current_conditions.map_current_conditions}
+                                    src={boletim.images.current_conditions[lang].map_current_conditions}
                                     alt={messages.home.altMapCurrent}
                                     width={800}
                                     height={400}
                                     unoptimized
+                                    className="w-full h-auto"
                                 />
                             </div>
-                            <div className="w-full">
+                            <div className="w-1/4">
                                 <Image
                                     src={boletim.images.current_conditions.table_current_conditions}
                                     alt={messages.home.altLegend}
-                                    width={800}
-                                    height={300}
+                                    width={200}
+                                    height={500}
                                     unoptimized
+                                    className="w-full h-auto"
                                 />
                             </div>
                         </div>

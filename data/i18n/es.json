@@ -150,7 +150,8 @@
   "unifilar": {
     "title": "Diagrama unifilar de las cuencas representadas",
     "text": "El siguiente diagrama muestra la distribución y clasificación de las cuencas fluviales según las categorías de anomalías de precipitación, con base en la metodología propuesta, para el período comprendido entre el",
-    "text2": "y el"
+    "text2": "y el",
+    "titleAnalisis": "Análisis del diagrama unifilar de las cuencas mostradas"
   },
   "footer": {
     "basin": "Bacia Amazônica",
