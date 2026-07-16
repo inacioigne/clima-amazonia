@@ -7,7 +7,12 @@
          {
             "month": "july",
             "issues": [
-                {
+               {
+                  "number": 27,
+                  "url": "2026/0715",
+                  "img": "/boletim/2026/0715/cover/0715.webp"
+               },
+               {
                   "number": 26,
                   "url": "2026/0701",
                   "img": "https://climamazonia.shop/2026/0701.webp"
@@ -17,12 +22,12 @@
          {
             "month": "june",
             "issues": [
-                {
+               {
                   "number": 25,
                   "url": "2026/0624",
                   "img": "https://climamazonia.shop/2026/0624.webp"
                },
-                {
+               {
                   "number": 24,
                   "url": "2026/0617",
                   "img": "https://climamazonia.shop/2026/0617.webp"
@@ -32,7 +37,7 @@
                   "url": "2026/0610",
                   "img": "https://climamazonia.shop/2026/0610.webp"
                },
-                {
+               {
                   "number": 22,
                   "url": "2026/0603",
                   "img": "https://climamazonia.shop/2026/0603.webp"
@@ -42,12 +47,12 @@
          {
             "month": "may",
             "issues": [
-                {
+               {
                   "number": 21,
                   "url": "2026/0527",
                   "img": "https://climamazonia.shop/2026/0527.webp"
                },
-                {
+               {
                   "number": 20,
                   "url": "2026/0520",
                   "img": "https://climamazonia.shop/2026/0520.webp"
