@@ -27,6 +27,27 @@ export default async function Page({
         getMessages(lang),
     ]);
 
+    const currentConditionsImages = boletim.images?.current_conditions as Record<string, any> | undefined;
+    const mapCurrentConditionsSrc =
+        currentConditionsImages?.[lang]?.map_current_conditions ??
+        currentConditionsImages?.map_current_conditions ??
+        (yyyy && mmdd
+            ? `/boletim/${yyyy}/${mmdd}/current_conditions/${lang === "en"
+                ? "map_current_conditions_en.webp"
+                : lang === "es"
+                    ? "map_current_conditions_es.webp"
+                    : "map_current_conditions_pt.webp"}`
+            : undefined);
+
+    const tableCurrentConditionsSrc =
+        currentConditionsImages?.table_current_conditions ??
+        currentConditionsImages?.[lang]?.table_current_conditions ??
+        (yyyy && mmdd
+            ? `/boletim/${yyyy}/${mmdd}/current_conditions/table_current_conditions.webp`
+            : undefined);
+
+    const isVerticalLayout = mmdd <= "0701";
+
     const sections = [
         {
             title: messages.home["individual-analysis"],
@@ -49,6 +70,8 @@ export default async function Page({
             icon: BiSolidCategoryAlt,
         },
     ];
+
+
 
 
     return (
@@ -93,10 +116,10 @@ export default async function Page({
                             </Link>
 
                         </div>
-                        <div className="flex flex-row gap-4 col-span-2">
-                            <div className="w-3/4">
+                        <div className={`flex gap-4 col-span-2 ${isVerticalLayout ? "flex-col" : "flex-row"}`}>
+                            <div className={isVerticalLayout ? "w-full" : "w-3/4"}>
                                 <Image
-                                    src={boletim.images.current_conditions[lang].map_current_conditions}
+                                    src={mapCurrentConditionsSrc}
                                     alt={messages.home.altMapCurrent}
                                     width={800}
                                     height={400}
@@ -104,9 +127,9 @@ export default async function Page({
                                     className="w-full h-auto"
                                 />
                             </div>
-                            <div className="w-1/4">
+                            <div className={isVerticalLayout ? "w-full" : "w-1/4"}>
                                 <Image
-                                    src={boletim.images.current_conditions.table_current_conditions}
+                                    src={tableCurrentConditionsSrc}
                                     alt={messages.home.altLegend}
                                     width={200}
                                     height={500}
