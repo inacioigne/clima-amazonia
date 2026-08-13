@@ -8,6 +8,11 @@
             "month": "august",
             "issues": [
                {
+                  "number": 31,
+                  "url": "2026/0812",
+                  "img": "/boletim/2026/0812/cover/0812.webp"
+               },
+               {
                   "number": 30,
                   "url": "2026/0805",
                   "img": "/boletim/2026/0805/cover/0805.webp"
