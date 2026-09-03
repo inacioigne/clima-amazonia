@@ -5,6 +5,16 @@
       "img": "/issues/year26.png",
       "numbers": [
          {
+            "month": "september",
+            "issues": [
+                 {
+                  "number": 34,
+                  "url": "2026/0902",
+                  "img": "/boletim/2026/0902/cover/0902.webp"
+               }
+            ]
+         },
+         {
             "month": "august",
             "issues": [
                  {
