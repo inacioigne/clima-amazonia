@@ -8,6 +8,11 @@
             "month": "september",
             "issues": [
                 {
+                  "number": 38,
+                  "url": "2026/0923",
+                  "img": "/boletim/2026/0923/cover/0923.webp"
+               },
+                {
                   "number": 37,
                   "url": "2026/0916",
                   "img": "/boletim/2026/0916/cover/0916.webp"
@@ -69,6 +74,11 @@
                },
                {
                   "number": 27,
+                  "url": "2026/0708",
+                  "img": "/boletim/2026/0708/cover/0708.webp"
+               },
+               {
+                  "number": 26,
                   "url": "2026/0701",
                   "img": "https://climamazonia.shop/2026/0701.webp"
                }
