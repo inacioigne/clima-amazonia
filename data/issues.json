@@ -8,6 +8,11 @@
             "month": "november",
             "issues": [
                {
+                  "number": 45,
+                  "url": "2026/1111",
+                  "img": "/boletim/2026/1111/cover/1111.webp"
+               } ,
+               {
                   "number": 44,
                   "url": "2026/1104",
                   "img": "/boletim/2026/1104/cover/1104.webp"
