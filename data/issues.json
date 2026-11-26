@@ -7,6 +7,16 @@
          {
             "month": "november",
             "issues": [
+                {
+                  "number": 47,
+                  "url": "2026/1125",
+                  "img": "/boletim/2026/1125/cover/1125.webp"
+               } ,
+               {
+                  "number": 46,
+                  "url": "2026/1118",
+                  "img": "/boletim/2026/1118/cover/1118.webp"
+               } ,
                {
                   "number": 45,
                   "url": "2026/1111",
